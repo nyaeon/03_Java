@@ -4,7 +4,9 @@ public class Application2 {
 
     public static void main(String[] args) {
 
-        float row = 12.5, high = 36.4;
+        double row = 12.5, high = 36.4;
+        System.out.println("면적 : " + (row * high));
+        System.out.println("둘레 : " + ((row + high) * 2));
         
         /* 사각형의 넓이와 둘레를 구하는 문제이다.
          * 너비 12.5 높이 36.4를 변수에 저장하고
