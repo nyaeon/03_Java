@@ -15,5 +15,8 @@ public class Application1 {
          * 홀수
          * */
 
+        int rNum = 39;
+        System.out.println((rNum % 2 == 0) ? "짝수다" : "홀수다");
+
     }
 }
