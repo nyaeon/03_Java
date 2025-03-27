@@ -11,5 +11,11 @@ public class Application2 {
          * 총점 : 201
          * 평균 : 67
          *  */
+        double ko = 80.5;
+        double mt = 50.6;
+        double en = 70.8;
+
+        System.out.println("총점 : " + (int)(ko + mt + en));
+        System.out.println("평균 : " + (int)(ko + mt + en)/3);
     }
 }

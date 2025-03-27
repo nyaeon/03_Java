@@ -13,6 +13,8 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 남자입니다.
          * */
-
+        char J = 'M';
+        String result1 = (J == 77) ? "남자입니다" : (J == 70) ? "여자입니다" : "성별이 없습니다.";
+        System.out.println(result1);
     }
 }
