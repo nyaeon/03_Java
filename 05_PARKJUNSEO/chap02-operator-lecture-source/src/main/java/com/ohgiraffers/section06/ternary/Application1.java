@@ -15,7 +15,7 @@ public class Application1 {
         System.out.println("result2 = " + result2);
 
 
-        /* 중접 사용도 가능하다. */
+        /* 중첩 사용도 가능하다. */
         int num3 = 5;
         int num4 = 0;
         int num5 = -5;
