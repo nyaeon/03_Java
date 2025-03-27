@@ -14,5 +14,7 @@ public class Application3 {
          * 남자입니다.
          * */
 
+        char gen = 'M';
+        System.out.println((gen == 'M') ? "남자입니다." : ((gen == 'F') ? "여자입니다." : "오류"));
     }
 }

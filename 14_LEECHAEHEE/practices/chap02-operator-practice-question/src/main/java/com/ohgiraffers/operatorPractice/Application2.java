@@ -14,5 +14,8 @@ public class Application2 {
          * 청소년
          * */
 
+        int age = 19;
+        System.out.println(age <= 13 ? "어린이" : ((age <= 19) ? "청소년" : "성인"));
+
     }
 }
