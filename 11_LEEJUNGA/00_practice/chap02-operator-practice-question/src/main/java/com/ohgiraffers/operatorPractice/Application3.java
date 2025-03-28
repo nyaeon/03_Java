@@ -14,5 +14,9 @@ public class Application3 {
          * 남자입니다.
          * */
 
+        char a = 'M';
+        String result = (a == 'M') ? "남자" : (a == 'F') ? "여자" : "???";
+        System.out.println(result);
+
     }
 }
