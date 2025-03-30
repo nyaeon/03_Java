@@ -14,6 +14,9 @@ public class Application {
 
         C_ifElseIf c = new C_ifElseIf();
 //        c.testSimleIfElseIfStatement();
-        c.testNestedIfElseIfStatement();
+//        c.testNestedIfElseIfStatement();
+
+        D_switch.testSimpleSwitchStatement();
+
     }
 }
