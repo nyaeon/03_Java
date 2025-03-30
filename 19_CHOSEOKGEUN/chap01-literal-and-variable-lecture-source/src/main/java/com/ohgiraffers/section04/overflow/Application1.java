@@ -1,7 +1,9 @@
 package com.ohgiraffers.section04.overflow;
 
 public class Application1 {
+
     public static void main(String[] args) {
+
         System.out.println("byte 값의 범위 : " + Byte.MIN_VALUE + " ~ " + Byte.MAX_VALUE);
         System.out.println("char 값의 범위 : " + (int)Character.MIN_VALUE + " ~ " + (int)Character.MAX_VALUE);
         System.out.println("short 값의 범위 : " + Short.MIN_VALUE + " ~ " + Short.MAX_VALUE);
@@ -10,19 +12,40 @@ public class Application1 {
         System.out.println("float 값의 범위 : " + Float.MIN_VALUE + " ~ " + Float.MAX_VALUE);
         System.out.println("double 값의 범위 : " + Double.MIN_VALUE + " ~ " + Double.MAX_VALUE);
 
-        /*
-        byte 값의 범위 : -128 ~ 127
-        char 값의 범위 : 0 ~ 65535
-        short 값의 범위 : -32768 ~ 32767
-        int 값의 범위 : -2147483648 ~ 2147483647
-        long 값의 범위 : -9223372036854775808 ~ 9223372036854775807
-        float 값의 범위 : 1.4E-45 ~ 3.4028235E38
-        double 값의 범위 : 4.9E-324 ~ 1.7976931348623157E308
-         */
-        byte num1 = 127;
-        System.out.println("num1 : " + num1);						      //127 : byte의 최대 저장 범위
+        System.out.println("=================================================================");
 
-        num1++;														                    //1 증가
-        System.out.println("num1 overflow : " + num1);				//-128 : byte의 최소 저장 범위
+        byte num1 = 126;
+
+        num1++;    // 후위증감연산자  : 기존의 num1변수에 있던 값에 1을 더해 다시 대입
+
+        System.out.println("num1 = " + num1);
+
+        num1++;
+        System.out.println("num1 = " + num1);
+
+        num1++;
+        System.out.println("num1 = " + num1);
+
+        // 언더플로우
+        // 오버플로우와 반대 개념으로 최소 범위보다 작은 수를 발생시키는 경우 발생하는 현상
+        num1--;
+        System.out.println("num1 = " + num1);
+        num1--;
+        System.out.println("num1 = " + num1);
+        num1--;
+        System.out.println("num1 = " + num1);
+
+        int firstNum = 1000000;
+        int secondNum = 700000;
+
+        int multi = firstNum * secondNum;  // 7천억
+        System.out.println("multi = " + multi);
+
+        long longMulti = firstNum * secondNum;
+        System.out.println("longMulti = " + longMulti);
+
+        //강제형변환
+        long reuslt = (long) firstNum * secondNum; // 작은자료형은 큰 자료형을 따라간다.
+        System.out.println("reuslt = " + reuslt);
     }
 }
