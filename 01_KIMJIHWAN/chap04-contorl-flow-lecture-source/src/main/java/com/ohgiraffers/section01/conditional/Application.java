@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional;
 
+import com.ohgiraffers.section02.looping.A_nestedFor;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class Application {
 //        c.testSimpleIfElseIfStatemnet();
 
         D_switch d = new D_switch();
-        d.testSimpleSwitchStatement();
+//        d.testSimpleSwitchStatement();
 
 
     }

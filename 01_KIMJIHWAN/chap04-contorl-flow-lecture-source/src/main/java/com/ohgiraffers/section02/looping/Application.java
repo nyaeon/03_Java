@@ -4,18 +4,21 @@ public class Application {
 
     public static void main(String[] args) {
         A_for a = new A_for();
-        a.testSimpleForstatement();
+//        a.testSimpleForstatement();
+//        a.test1();
+//        a.test2();
+//        a.test3();
 
-        A_nestedFor b = new A_nestedFor();
-//        b.printGugudanFromTowToNine();
+        A_nestedFor a2 = new A_nestedFor();
+//        a2.printGugudanFromTowToNine();
 
-//        b.printStarInputRowTimes();
+//        a2.printStarInputRowTimes();
 
-//        b.printStr
+//        a2.printStriangleStars();
 
-        B_while c = new B_while();
-//        c.testSimpplewhileStatement();
-//        c.testWhileExample();
+        B_while b = new B_while();
+//        b.testSimpplewhileStatement();
+//        b.testWhileExample();
 
         D_doWhile d = new D_doWhile();
 //        d.testSimpleDowhileStatement();

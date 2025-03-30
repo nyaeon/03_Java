@@ -45,7 +45,7 @@ public class C_ifElseIf {
         * */
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("학생으 ㅣ이름 : ");
+        System.out.println("학생의 이름 : ");
         String name = sc.nextLine();
         System.out.println(name + "학생의 성적: ");
         int point = sc.nextInt();

@@ -32,7 +32,7 @@ public class A_nestedFor {
 
         for (int i = 1; i <= row; i++) {
 
-            for (int j = i; j < 6; j++) {
+            for (int j = i; j <= 6; j++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -52,7 +52,7 @@ public class A_nestedFor {
         for(int i = 1; i <= row; i++) { // 행
 
             // 열
-            for (int j = 1; j < i; j++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
