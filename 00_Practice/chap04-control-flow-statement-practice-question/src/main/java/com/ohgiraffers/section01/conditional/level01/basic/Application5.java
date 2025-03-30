@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level01.basic;
 
+import java.util.Scanner;
+
 public class Application5 {
 
     public static void main(String[] args) {
@@ -14,5 +16,18 @@ public class Application5 {
         * 1인당 사탕 개수 : 3
         * 남는 사탕 개수 : 13
         * */
+        Scanner in = new Scanner(System.in);
+        System.out.println("사탕 다 같이 나눠먹자");
+        System.out.println("인원 수 : ");
+        int people = in.nextInt();
+
+        System.out.println("사탕 개수 : ");
+        int num = in.nextInt();
+
+        int result = num / people;
+        int remainder = num - (result * people);
+
+        System.out.println("1인당 사탕 개수 : " + result);
+        System.out.println("남는 사탕 개수 : " + remainder);
     }
 }

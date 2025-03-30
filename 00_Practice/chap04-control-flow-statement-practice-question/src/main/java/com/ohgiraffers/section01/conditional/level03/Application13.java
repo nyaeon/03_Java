@@ -27,9 +27,30 @@ public class Application13 {
         *       1234567 x 8 + 7 = 9876543
         *      12345678 x 8 + 8 = 98765432
         *     123456789 x 8 + 9 = 987654321
-        * 정수하나를 입력하세요 : 9
+        * 정수 하나를 입력하세요 : 9
         * */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("정수 하나를 입력하세요 : ");
+        int n = sc.nextInt();
 
+        for (int i = 1; i <= n; i++) {
+            // 공백 출력 (숫자 오른쪽 정렬을 위해)
+            for (int j = 0; j < n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // 왼쪽 숫자 만들기 (1, 12, 123, ...)
+            long leftNum = 0;
+            for (int j = 1; j <= i; j++) {
+                leftNum = leftNum * 10 + j;
+            }
+
+            // 계산 및 출력
+            long result = leftNum * 8 + i;
+            System.out.println(leftNum + " x 8 + " + i + " = " + result);
+        }
+
+        sc.close();
     }
 
 }
