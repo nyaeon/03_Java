@@ -1,0 +1,40 @@
+package com.ohgiraffers.section01.level01.normal;
+
+public class RandomMaker {
+
+    /*
+     * static 메소드로 생성
+     * 반환형 : String
+     * 메소드명 : rockPaperScissors
+     *
+     * 가위,바위,보 중에 하나를 출력
+     * (가위,바위,보 는 난수를 이용하여 구현)
+     *
+     * -- 출력 --
+     * 가위
+     * */
+//   explain: Math.random으로 1~3의 3개 난수 생성, int로 반환, String으로 반환하기 위해 return 값에 String 출력 연산
+//    그리고, static은 프로그램 종료까지 남기에 Application에서 new연산자 생성 없이 바로 호출
+    static String rockPaperScissors() {
+        int a = (int) ((Math.random() * 3) + 1);
+        return (a == 1) ? "가위":((a == 2) ? "바위":"보");
+    }
+
+    /*
+     * static 메소드로 생성
+     * 반환형 : String
+     * 메소드명 : tossCoin
+     *
+     * 동전 앞/뒤 중에 하나를 출력
+     * (앞면,뒷면은 난수를 이용하여 구현)
+     *
+     * -- 출력 --
+     * 앞면
+     *
+     * */
+    static String tossCoin() {
+        int a = (int) ((Math.random() * 2) + 1);
+        return (a == 1) ? "앞면":"뒷면";
+    }
+
+}
