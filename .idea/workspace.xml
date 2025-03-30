@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b30fee-278b-4cec-958f-1bc8a07bf96f" name="Changes" comment="" />
+    <list default="true" id="98b30fee-278b-4cec-958f-1bc8a07bf96f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/00.Practice/Level02/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/00.Practice/Level02/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/00.Practice/OperatorPractice/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/00.Practice/OperatorPractice/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/00.Practice/OperatorPractice/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/04-control-flow-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/04-control-flow-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/04-control-flow-lecture-source/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/04-control-flow-lecture-source/.idea/material_theme_project_new.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -21,8 +33,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "B:/Development/Backend-study/03_JAVA",
+    "last_opened_file_path": "B:/Development/Backend-study/03_JAVA/02_KYEONGBIN/00.Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -32,6 +46,17 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="03_JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="03_JAVA" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="03_JAVA" />
       <method v="2">
@@ -62,6 +87,8 @@
       <updated>1743038029366</updated>
       <workItem from="1743038030311" duration="592000" />
       <workItem from="1743038654074" duration="301000" />
+      <workItem from="1743374463941" duration="124000" />
+      <workItem from="1743374596647" duration="1866000" />
     </task>
     <servers />
   </component>
