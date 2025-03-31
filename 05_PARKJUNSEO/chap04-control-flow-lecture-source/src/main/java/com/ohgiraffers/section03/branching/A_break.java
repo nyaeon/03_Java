@@ -20,7 +20,7 @@ public class A_break {
         /* label:
         for ( ; ; ) {           // 무한반복
             for (int i = 0; i < 10; i++) {
-                System.out.printle(i);
+                System.out.println(i);
                 if (i==3) {
                     break label;
                 }
