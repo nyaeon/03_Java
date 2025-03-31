@@ -11,14 +11,5 @@ public class Application2 {
          * 총점 : 201
          * 평균 : 67
          *  */
-
-        double korean = 80.5;
-        double math = 50.6;
-        double English = 70.8;
-
-        System.out.println("Score summary: " + (int) (korean + math + English));
-        System.out.println("Score Average: " + ((int) (korean + math + English) /3) );
-
-
     }
 }

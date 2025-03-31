@@ -14,7 +14,5 @@ public class Application2 {
          * 청소년
          * */
 
-
-
     }
 }

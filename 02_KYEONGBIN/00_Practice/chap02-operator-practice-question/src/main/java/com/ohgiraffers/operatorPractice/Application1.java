@@ -15,12 +15,5 @@ public class Application1 {
          * 홀수
          * */
 
-        int i = 9;
-        if(i % 2 == 0) {
-            System.out.println("i is even");
-        } else {
-            System.out.println("i is odd");
-        }
-
     }
 }
