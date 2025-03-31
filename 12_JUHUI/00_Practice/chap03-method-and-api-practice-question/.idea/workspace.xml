@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9c311ca-5839-41d0-8d16-38bba36130a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap03-method-and-api-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap03-method-and-api-lecture-source/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b9c311ca-5839-41d0-8d16-38bba36130a3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,29 +16,31 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Juhuiya"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Juhuiya&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Juhuiya/03_Java.git",
-    "accountId": "dc9438fd-7139-443a-9d0d-0069fa5bd280"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Juhuiya/03_Java.git&quot;,
+    &quot;accountId&quot;: &quot;dc9438fd-7139-443a-9d0d-0069fa5bd280&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2v2Dz6Mo5uJHtcf7mRhNIb4WLYo" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.chap03-method-and-api-practice-question [:com.ohgiraffers.section01.level01.basic.Application1.main()].executor": "Run",
+    "Gradle.chap03-method-and-api-practice-question [:com.ohgiraffers.section01.level01.normal.Application.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -53,6 +49,40 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.level01.normal.Application" />
+      <module name="chap03-method-and-api-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.level01.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.level01.basic.Application1" />
+      <module name="chap03-method-and-api-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.level01.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743334534768</updated>
       <workItem from="1743334535972" duration="108000" />
+      <workItem from="1743412642181" duration="221000" />
     </task>
     <servers />
   </component>
