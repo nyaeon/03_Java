@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Application1 {
 
     public static void main(String[] args) {
+
         int num1 = 10;
         int num2 = 20;
         int num3 = 30;
@@ -21,25 +22,29 @@ public class Application1 {
 
         System.out.println("sum = " + sum);
 
-        int[] arr = new int[5]; // 배열엔 무조건 값을 채워줘야함 [0][0][0][0][0]
+        int[] arr = new int[5];  // [0][0][0][0][0]
         System.out.println(arr);
         System.out.println(Arrays.toString(arr));
 
-        //배열 초기화 (값은 보이지 않음)
-        for(int i = 0; i < 5; i++)  {
+        
+        // 배열 초기화
+        for(int i = 0; i < 5; i++) {
             arr[i] = (i + 1) * 10;
         }
 
-        //반복문을 활용해서 초기화된 값 확인
-        for(int i = 0; i < 5; i++)  {
+        // 반복문을 활용해서 초기화 된 값 확인
+        for(int i = 0; i < 5; i++){
             System.out.println(arr[i]);
         }
         System.out.println(Arrays.toString(arr));
 
         int sum2 = 0;
-        for(int i = 0; i < 5; i++)  {
-            sum2  += arr[i];
+
+        for(int i = 0; i < 5; i++) {
+            sum2 += arr[i];
         }
+
         System.out.println("sum2 = " + sum2);
+        
     }
 }
