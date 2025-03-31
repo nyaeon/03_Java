@@ -1,9 +1,19 @@
 package com.ohgiraffers.section01.level01.basic;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
+        String[] sArr = {"strowberry", "banana", "pitch", "kiwi", "apple"};
+        System.out.println("0부터 4까지의 정수를 입력하세요 :");
+        int num = sc.nextInt();
+        if (num >= 0 && num <= 4){
+            System.out.println(sArr[num]);
+        }else {
+            System.out.println("준비된 과일이 없습니다.");
+        }
         /* 길이가 5인 String 배열을 선언하고
          * "딸기", "바나나", "복숭아", "키위", "사과" 로 초기화를 하고
          * 스캐너로 0부터 4까지의 정수를 입력 받아

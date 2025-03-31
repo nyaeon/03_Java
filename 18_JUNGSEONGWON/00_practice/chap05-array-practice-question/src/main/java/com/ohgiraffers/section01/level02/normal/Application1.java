@@ -1,8 +1,20 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] sArr = {"hello world"};
+        System.out.println(Arrays.toString(sArr));
+        char charAt = sArr[0].charAt(0);
+
+        for (int i = 0; i < sArr[0].length(); i++) {
+
+        }
+
 
         /* 문자열을 하나 입력받아 문자 자료형 배열로 바꾼 뒤
          * 검색할 문자를 하나 입력 받아
