@@ -12,7 +12,8 @@ public class Monster {
     public void setInfo2(int info2) {
         this.hp = info2;
     }
-    public String getInfo() {
-        return this.name + "이고 " + this.hp  + "입니다.";
+
+    public String getInfo(){
+        return this.name + "이고 " + this.hp + "입니다.";
     }
 }
