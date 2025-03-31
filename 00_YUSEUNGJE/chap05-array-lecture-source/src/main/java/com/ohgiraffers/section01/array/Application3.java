@@ -49,6 +49,22 @@ public class Application3 {
         System.out.println(Arrays.toString(sArr2));
 
         // 3. for-each(향상된 for문)
+        // jdk 1.5부터 추가
+        for(String str: sArr2){
+            System.out.println(str);
+        }
+
+        for(int i : iArr2){
+            System.out.println(i);
+        }
+
+        // 주의 : 향상된 for문은 배열에 인덱스에 차례로 접근할 때는
+        //        편하게 사용할 수 있지만 값을 변경할 수는 없다.
+        for(int i : iArr2) {
+            i += 10;
+        }
+
+        System.out.println(Arrays.toString(iArr2));
     }
 
     public static void test(int[] iArr) {}
