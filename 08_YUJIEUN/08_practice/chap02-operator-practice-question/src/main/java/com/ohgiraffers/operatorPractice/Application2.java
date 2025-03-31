@@ -1,5 +1,7 @@
 package com.ohgiraffers.operatorPractice;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -14,7 +16,15 @@ public class Application2 {
          * 청소년
          * */
 
-        ina a;
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a >19) {
+            System.out.println("성인");
+        }else if(a>13 && a<=19){
+            System.out.println("청소년");
+        }else if (a<=13){
+            System.out.println("어린이");
+        }
 
     }
 }
