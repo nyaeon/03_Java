@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD:.idea/misc.xml
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="17" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+>>>>>>> fc59ff8998672c2b0427d60ced9dd8fae2d833e3:19_CHOSEOKGEUN/00_practice/.idea/misc.xml
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
