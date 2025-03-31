@@ -1,5 +1,7 @@
 package com.ohgiraffers.operatorPractice;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -14,6 +16,15 @@ public class Application1 {
          *
          * 홀수
          * */
+
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if ( a %2 ==0){
+            System.out.println("짝수다");
+        } else {
+            System.out.println("홀수다");
+        }
 
     }
 }

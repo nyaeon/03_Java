@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level01.basic;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -23,5 +25,17 @@ public class Application2 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+
+        String[] a;
+        a = new String[]{"딸기", "바나나", "복숭아", "키위", "사과" };
+        Scanner sc = new Scanner(System.in);
+
+        int b = sc.nextInt();
+        if(b>=0 && b<=4) {
+            System.out.println("a["+b+"] = " + a[b]);
+        } else {
+            System.out.println("준비된 과일이 없습니다.");
+        }
+
     }
 }

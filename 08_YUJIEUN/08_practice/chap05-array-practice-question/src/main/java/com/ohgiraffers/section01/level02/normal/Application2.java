@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -13,6 +15,14 @@ public class Application2 {
          * -- 출력 예시 --
          * 990101-1******
          */
+
+        int a;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+
+
+
+        System.out.println();
 
     }
 }
