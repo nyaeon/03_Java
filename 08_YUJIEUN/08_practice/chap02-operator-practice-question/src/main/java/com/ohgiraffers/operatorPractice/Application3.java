@@ -16,11 +16,15 @@ public class Application3 {
          * 남자입니다.
          * */
 
+        char c= 'M';
 
-        Scanner sc = new Scanner(System.in);
-        char c = sc.next().charAt(0);
+        String result = (c=='M')?"남자입니다.": "여성입니다";
+        System.out.println(result);
 
-        (c ="F" || c ="M" )?"여성입니다": "남성입니다."
+
+
+
+
 
 
     }
