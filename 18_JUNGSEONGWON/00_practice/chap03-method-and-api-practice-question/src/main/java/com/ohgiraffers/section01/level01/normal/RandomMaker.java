@@ -2,6 +2,10 @@ package com.ohgiraffers.section01.level01.normal;
 
 public class RandomMaker {
 
+    public void makeRandom(){
+
+    }
+
     /*
      * static 메소드로 생성
      * 반환형 : String

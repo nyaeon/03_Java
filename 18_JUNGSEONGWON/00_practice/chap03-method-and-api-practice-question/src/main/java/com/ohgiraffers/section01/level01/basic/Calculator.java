@@ -1,6 +1,15 @@
 package com.ohgiraffers.section01.level01.basic;
 
 public class Calculator {
+    public static void checkMethod(){
+        Calculator.checkMethod();
+        checkMethod();
+    }
+
+    public int sumTwoNumber(int first, int second){
+            return first + second;
+    }
+
 
     // 반환값 : x
     // 메소드명 : checkMethod
