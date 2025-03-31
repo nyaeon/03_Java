@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -20,5 +22,25 @@ public class Application2 {
          * -- 출력 예시 --
          * 바나나의 가격은 3000원 입니다.
          * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("과일 이름(사과, 바나나, 복숭아, 키위)을 입력하세요 : ");
+
+        String fruit = sc.nextLine();
+
+        if (fruit.equals("사과")) {
+            int apple = 1000;
+            System.out.println("사과의 가격은 " + apple + "원 입니다.");
+        } else if (fruit.equals("바나나")) {
+            int banana = 3000;
+            System.out.println("바나나의 가격은 " + banana + "원 입니다.");
+        } else if (fruit.equals("복숭아")) {
+            int peach = 2000;
+            System.out.println("복숭아의 가격은 " + peach + "원 입니다.");
+        } else if (fruit.equals("키위")) {
+            int kiwi = 5000;
+            System.out.println("키위의 가격은 " + kiwi + "원 입니다.");
+        } else {
+            System.out.println("준비된 상품이 없습니다.");
+        }
     }
 }
