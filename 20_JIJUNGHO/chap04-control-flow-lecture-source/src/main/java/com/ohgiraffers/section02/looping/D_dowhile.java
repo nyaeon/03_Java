@@ -34,8 +34,6 @@ public class D_dowhile {
 
         } while (choice < 3);
         System.out.println("휴~~~~~~ 나왔다.");
-        
-        
     }
 
 }
