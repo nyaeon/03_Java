@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class User {
 
+    // 멤버 변수
     private String id;
     private String pwd;
     private String name;
@@ -55,6 +56,7 @@ public class User {
     //public User((){}); //동일한 이름의 생성자 혹은 메소드를 한 클래스 안에서 작ㅈ성하는 것은 불가능하다 (complie error)
 
 
+    // id, pwd, name 초기화를 담당할 생성자
     public User(Date enrollDate, String id, String name, String pwd) {
         this.enrollDate = enrollDate;
         this.id = id;
@@ -64,8 +66,7 @@ public class User {
     }
 
     // 모든 필드를 초기화하는 생성자
-
-    public User(String id, String name, String pwd) {
+    public User(String id, String pwd, String name, Date enrollDate) {
         /*this.id = id;
         this.pwd = pwd;
         this.name = name;*/
@@ -77,8 +78,8 @@ public class User {
         System.out.println("User 클래스의 모든 필드를 초기화하는 생성자 호출됨....");
     }
 
-    public String information() {
+    public String information() { // getter가 없어 getter와 비슷한 걸 기능의 메소드를 만들은 것임.
         return "id: " + this.id + "pwd " + this.pwd + " name " + this.name + " enrollDate " + this.enrollDate;
-    }
+    } // 문자열 출력 메소드
 
 }
