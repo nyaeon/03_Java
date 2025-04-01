@@ -24,9 +24,13 @@ public class Application2 {
 
         String[] array = {"딸기", "바나나", "복숭아", "키위", "사과"};
         System.out.print("0부터 4까지의 정수를 입력하세요 : ");
+
         Scanner sc = new Scanner(System.in);
+
         int s = Integer.parseInt(sc.nextLine());
+
         if (s >= 0 && s < array.length) {
+
         System.out.println(array[s]);
         } else {
             System.out.println("준비된 과일이 없습니다.");
