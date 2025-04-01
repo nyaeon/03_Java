@@ -31,5 +31,10 @@ public class Application {
         UserDTO user2 = new UserDTO("user02", "pass02", "홍길동", new Date());
         System.out.println(user2);
 
+        RequestClass r = new RequestClass();
+        r.requestMethod(user2);
+
+        r.requestMethod2(user2);
+        System.out.println(user2);
     }
 }
