@@ -12,7 +12,6 @@ public class StudentVO {
     public StudentVO() {
     }
 
-    private Scanner sc = new Scanner(System.in);
 
     public StudentVO(int grade, int classroom, String name, double height, char gender) {
         this.grade = grade;
@@ -23,58 +22,48 @@ public class StudentVO {
     }
 
     public int getGrade() {
-        grade = sc.nextInt();
         return grade;
     }
 
     public int getClassroom() {
-        classroom = sc.nextInt();
         return classroom;
     }
 
     public String getName() {
-        name = sc.next();
         return name;
     }
 
     public double getHeight() {
-        height = sc.nextDouble();
         return height;
     }
 
     public char getGender() {
-        gender = sc.next().charAt(0);
         return gender;
     }
 
     public void setGrade(int grade) {
         this.grade = grade;
-        System.out.println("학년 :" + grade);
     }
 
     public void setClassroom(int classroom) {
         this.classroom = classroom;
-        System.out.println("반 : " + classroom);
     }
 
     public void setName(String name) {
         this.name = name;
-        System.out.println("이름 : "+ name);
     }
 
     public void setHeight(double height) {
         this.height = height;
-        System.out.println("키 : " + height );
     }
 
     public void setGender(char gender) {
         this.gender = gender;
-        System.out.println("성별 : " + gender);
     }
 
     public void printInformation(){
         System.out.println(" 학년 :" + this.grade
-                            + " 반 : " + this.classroom
+                            + " 반 : " + this. classroom
                             + " 이름 : "+ this.name
                             + " 키 : " + this.height
                             + " 성별 : " + this.gender);
