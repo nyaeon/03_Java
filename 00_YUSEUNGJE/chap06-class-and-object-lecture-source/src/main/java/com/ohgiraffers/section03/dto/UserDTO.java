@@ -2,7 +2,7 @@ package com.ohgiraffers.section03.dto;
 
 import java.util.Date;
 
-public class UserDTO extends Object{  // UserDto
+public class UserDTO{  // UserDto
     /*
      *  자바빈(Java Bean)이란?
      *   JSP에서 사용되는 표준 액션 태그로 접근할 수 있게 만든 자바 클래스형태이다.
