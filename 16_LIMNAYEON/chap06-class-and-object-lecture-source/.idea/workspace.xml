@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3de8f6-1d05-49e2-99f6-05241447a2b6" name="변경" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/vcs.xml" afterDir="false" />
@@ -561,6 +562,39 @@
       <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_dowhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_dowhile.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/user_type/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/user_type/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/problem2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/problem2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/resolved/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/resolved/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section02/dimensional/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application2.java" beforeDir="false" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -582,6 +616,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -597,6 +632,23 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
+=======
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nyaeon"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/backend20250319/03_Java.git",
+    "accountId": "70b9324a-8ab8-4e3a-a38e-dbb278574fdf"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
   <component name="ProjectId" id="2v4OrLcoQe8k7L87aYVHy0Op6rs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -609,6 +661,7 @@
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.encapsulation.problem1.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.resolved.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.abstraction.Application.main()].executor": "Run",
+<<<<<<< HEAD
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.constructor.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.subproject.coffee.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section04.parameter.Application.main()].executor": "Run",
@@ -619,6 +672,11 @@
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.user_type.Application.main()].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main 병합 중",
+=======
+    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.user_type.Application.main()].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/dev/03_Java/00_Practice/chap05-array-practice-question",
     "node.js.detected.package.eslint": "true",
@@ -629,6 +687,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ohgiraffers.section05.statickeyword" />
@@ -641,6 +700,15 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.section04.parameter.*" />
+=======
+  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.section03.abstraction.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.user_type.Application" />
+      <module name="chap06-class-and-object-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.user_type.*" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -648,12 +716,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="com.ohgiraffers.section05.singleton.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section05.singleton.Application" />
       <module name="chap06-class-and-object-lecture-source.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.section05.singleton.*" />
+=======
+    <configuration name="com.ohgiraffers.section02.encapsulation.problem1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.encapsulation.problem1.Application" />
+      <module name="chap06-class-and-object-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.encapsulation.problem1.*" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -661,12 +738,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="com.ohgiraffers.section05.statickeyword.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section05.statickeyword.Application" />
       <module name="chap06-class-and-object-lecture-source.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.section05.statickeyword.*" />
+=======
+    <configuration name="com.ohgiraffers.section02.resolved.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.resolved.Application" />
+      <module name="chap06-class-and-object-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.resolved.*" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -674,6 +760,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="com.ohgiraffers.section06.initblock.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section06.initblock.Application" />
       <module name="chap06-class-and-object-lecture-source.main" />
@@ -693,6 +780,14 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.section07.object_array.*" />
+=======
+    <configuration name="com.ohgiraffers.section03.abstraction.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.abstraction.Application" />
+      <module name="chap06-class-and-object-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.abstraction.*" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -702,10 +797,16 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="애플리케이션.com.ohgiraffers.section07.object_array.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section06.initblock.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section05.singleton.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section05.statickeyword.Application" />
+=======
+        <item itemvalue="애플리케이션.com.ohgiraffers.section03.abstraction.Application" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.section02.resolved.Application" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.section02.encapsulation.problem1.Application" />
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
         <item itemvalue="애플리케이션.Application" />
       </list>
     </recent_temporary>
@@ -727,7 +828,10 @@
       <option name="presentableId" value="Default" />
       <updated>1743401081205</updated>
       <workItem from="1743401082319" duration="8539000" />
+<<<<<<< HEAD
       <workItem from="1743465657809" duration="27935000" />
+=======
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
     </task>
     <servers />
   </component>

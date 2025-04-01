@@ -1,5 +1,10 @@
 package com.ohgiraffers.section01.level02.normal;
 
+<<<<<<< HEAD
+=======
+import java.util.Scanner;
+
+>>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
 public class Application2 {
 
     public static void main(String[] args) {
