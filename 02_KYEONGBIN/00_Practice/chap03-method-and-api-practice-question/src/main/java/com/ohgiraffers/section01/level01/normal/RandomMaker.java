@@ -1,20 +1,17 @@
 package com.ohgiraffers.section01.level01.normal;
 
+import java.util.Random;
+
 public class RandomMaker {
 
-    public static void rockPaperScissors(String[] args) {
+    public static String rockPaperScissors() {
 
-        int randomInt = (int) (Math.random() * 2);
-        String str[randomInt] = {"가위", "바위", "보"};
-        if (randomInt = 0) {
-            
-        }
-
-        
-
-        
+        int ranNum = new Random().nextInt(3);
+        String result = (ranNum == 0) 
 
     }
+
+}
 
     /*
      * static 메소드로 생성
@@ -41,4 +38,4 @@ public class RandomMaker {
      *
      * */
 
-}
+

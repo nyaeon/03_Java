@@ -64,7 +64,7 @@ public class User {
 
     // 모든 필드를 초기화하는 생성자
     public User(String id, String pwd, String name, Date enrollDate) {
-//        this.id = id;
+//        this.id = id; // this. 인스턴스변수
 //        this.pwd = pwd;
 //        this.name = name;
         // this()를 통해서 다른 생성자를 활용하여 코드를 줄 일수있다.
