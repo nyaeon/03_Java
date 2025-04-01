@@ -7,6 +7,7 @@ public class Car {
 
     // 시동을 걸어라, 앞으로 가라, 멈춰라, 시동을 꺼라
     public void starUp(){
+
         if(this.isOn){ // isOn의 값은 true
             System.out.println("이미 시동이 걸려 있습니다.");
         } else {

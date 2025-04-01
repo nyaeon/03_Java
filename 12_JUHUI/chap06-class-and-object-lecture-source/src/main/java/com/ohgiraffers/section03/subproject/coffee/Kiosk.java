@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 public class Kiosk {
 
-    public kisok();
+    public Kiosk() {
+
+    }
 
     private Scanner sc = new Scanner(System.in);
     private Barista barista = new Barista();
@@ -26,7 +28,6 @@ public class Kiosk {
             String choice = sc.nextLine();
 
             Order order = null; // 변수 선언만 해놓은 상태
-
 
             switch (choice) {
                 case "1":
@@ -56,7 +57,7 @@ public class Kiosk {
     }
 
     private Order createOrder(String menuName) {
-        Stirng option = inputOption();
+        String option = inputOption();
         int count = inputCount();
 
         // 주문 생성

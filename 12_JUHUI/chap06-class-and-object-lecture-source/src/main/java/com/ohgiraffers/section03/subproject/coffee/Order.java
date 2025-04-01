@@ -6,7 +6,7 @@ public class Order {
     private final String option;
     private final int count;
 
-    public Order(String name, Stirng option, int count) {
+    public Order(String name, String option, int count) {
         this.name = name;
         this.option = option;
         this.count = count;
