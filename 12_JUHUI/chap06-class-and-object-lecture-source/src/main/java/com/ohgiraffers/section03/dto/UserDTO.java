@@ -1,5 +1,7 @@
 package com.ohgiraffers.section03.dto;
 
+import java.util.Date;
+
 public class UserDTO { // UserDto 표현 명칭의 차이일 뿐 같음.
     /*
      *  자바빈(Java Bean)이란?
@@ -26,11 +28,13 @@ public class UserDTO { // UserDto 표현 명칭의 차이일 뿐 같음.
 
     // 2. 생성자(기본 생성자 필수로 명시적 작성)
     public UserDTO() {    }
-    public UserDTO(String id, String pwd, String name, java.util.Date enrollDate) {
-    this.id = id;
-    this.pwd = pwd;
-    this.name = name;
-    this.enrollDate = enrollDate;
+    public UserDTO(String id, String pwd, String name, Date enrollDate) {
+        this.id = id;
+        this.pwd = pwd;
+        this.name = name;
+        this.enrollDate = enrollDate;
+    }
+
 /*
  *  설정자(setter)/접근자(getter)의 경우 실무에서 암묵적으로 통용되는 작성 규칙이 존재한다.
  *  설정자(setter) 작성 규칙
@@ -60,5 +64,5 @@ public class UserDTO { // UserDto 표현 명칭의 차이일 뿐 같음.
  *      return this.name;
  *  }
  * */
-}
+
 }

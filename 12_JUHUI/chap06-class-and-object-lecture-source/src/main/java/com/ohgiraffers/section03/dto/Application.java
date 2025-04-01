@@ -25,8 +25,8 @@ public class Application {
 
         UserDTO user1 = new UserDTO();
         System.out.println(user1.toString());
-        user1.setId("user01");
-        System.out.println(user1.getId());
+//        user1.setId("user01");
+//        System.out.println(user1.getId());
         System.out.println(user1);
 
         UserDTO user2 = new UserDTO("user02","pass02","홍길동",new Date());

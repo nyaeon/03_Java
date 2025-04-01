@@ -1,6 +1,6 @@
 package com.ohgiraffers.section03.constructor;
 
-import java.sql.Date;
+import java.util.Date;
 import java.sql.SQLOutput;
 
 public class Application {

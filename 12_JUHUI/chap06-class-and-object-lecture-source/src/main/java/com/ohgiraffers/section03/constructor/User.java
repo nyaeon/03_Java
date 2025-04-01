@@ -57,12 +57,11 @@ public class User {
 
 
     // id, pwd, name 초기화를 담당할 생성자
-    public User(Date enrollDate, String id, String name, String pwd) {
-        this.enrollDate = enrollDate;
+    public User(String id, String pwd, String name) {
         this.id = id;
         this.pwd = pwd;
         this.name = name;
-        System.out.println("User 클래스의 id, pwd, name을 초기화하는 생성자");
+        System.out.println("User 클래스의 id, pwd, name을 초기화하는 생성자 호출됨....");
     }
 
     // 모든 필드를 초기화하는 생성자
