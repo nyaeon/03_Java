@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -23,5 +25,7 @@ public class Application1 {
          * W H J X
          * W S S J
          * */
+
+
     }
 }
