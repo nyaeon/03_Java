@@ -66,4 +66,14 @@ public class MemberDTO {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String toString() {
+        return "id : " + id + '\n' +
+               "pwd : " + pwd + '\n'+
+               "name : " + name + '\n'+
+               "age : " + age + '\n' +
+               "gender : " + gender + '\n' +
+               "phone : " + phone + '\n' +
+               "email : " + email;
+    }
 }

@@ -7,6 +7,21 @@ public class BookDTO {
     private int price;
     private double discountRate;
 
+    public BookDTO() {}
+    public BookDTO(String title, String publisher, String author) {
+        this.title = title;
+        this.publisher = publisher;
+        this.author = author;
+    }
+
+    public BookDTO(String title, String publisher, String author, int price, double discountRate) {
+        this.title = title;
+        this.publisher = publisher;
+        this.author = author;
+        this.price = price;
+        this.discountRate = discountRate;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -45,5 +60,9 @@ public class BookDTO {
 
     public void setDiscountRate(double discountRate) {
         this.discountRate = discountRate;
+    }
+
+    public String toString() {
+        return title + "," + publisher + "," + author + "," + price + "," + discountRate;
     }
 }
