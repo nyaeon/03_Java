@@ -5,29 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc5529ab-9e45-4db8-bb4b-3d6ba9e3c400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Application7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Applicaton6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/method/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/package_and_import/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/package_and_import/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/package_and_import/test/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/math/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/math/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/scanner/Application1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-operator-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap01-literal-and-variable-practice-question/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap01-literal-and-variable-practice-question/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap01-literal-and-variable-practice-question/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap01-literal-and-variable-practice-question/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap02-operator-practice-question/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap02-operator-practice-question/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap02-operator-practice-question/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_practice/chap02-operator-practice-question/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap03-method-and-api-lecture-source" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,9 +61,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Juhuiya"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Juhuiya/03_Java.git",
+    "accountId": "dc9438fd-7139-443a-9d0d-0069fa5bd280"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uvGMb0t7cFxOR1HHljJd5WhE2G" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,6 +97,8 @@
     "Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section03.math.Application1.main()].executor": "Run",
     "Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section03.math.Application2.main()].executor": "Run",
     "Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section04.scanner.Application1.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -187,6 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743121595293</updated>
       <workItem from="1743121595295" duration="15204000" />
+      <workItem from="1743326322643" duration="2414000" />
     </task>
     <servers />
   </component>
