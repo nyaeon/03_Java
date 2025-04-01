@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bed9fb4-a500-4c2d-b168-881a12324d60" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap05-array-practice-question/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/CarRacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Barista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Kiosk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/test/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section03/math/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section03/math/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section04/scanner/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/A_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/B_IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/C_IfElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/A_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/A_nestedFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/B_while.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_doWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/A_break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/B_continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section02/dimensional/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/useer_type/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/useer_type/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section01/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section01/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section02/variable/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section02/variable/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section03/constant/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section03/constant/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section04/overflow/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section05/typecasting/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap01-literal-and-variable-lecture-source/src/main/java/com/ohgiraffers/section05/typecasting/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section01/arthmatic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section02/assignment/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section03/increment/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section04/comparsion/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section05/logical/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section05/logical/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section06/termary/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Application7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section02/package_and_import/test/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section03/math/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section03/math/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section04/scanner/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/A_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/B_ifElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/C_ifElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/A_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/A_nestedFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/B_while.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_doWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/brancng/A_break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/brancng/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/brancng/B_continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section02/dimensional/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_YUJIEUN/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/RequestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/overloading/OverloadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/ParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/finalkeyword/FinalFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/DeptmentStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/DeptmentStorePurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/StaticFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/kindsOfvariable/KindsOfVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level01/basic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level02/normal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section02/level03/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section01/user_type/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section01/user_type/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/A_break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section03/branching/B_continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section02/dimensional/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_YUJIEUN/08_practice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap01-literal-and-variable-practice-question/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_PARKJUNBEOM/00_practice/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_PARKJUNBEOM/chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_dowhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap04-control-flow-lecture-source/src/main/java/com/ohgiraffers/section02/looping/D_dowhile.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nyaeon"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/backend20250319/03_Java.git",
+    "accountId": "70b9324a-8ab8-4e3a-a38e-dbb278574fdf"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2v7UUsuTcPOH33vkCAEfYJTN7Qu" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main 병합 중",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/03_Java/16_LIMNAYEON/00_practice/chap06-class-and-object-practice-question/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="5bed9fb4-a500-4c2d-b168-881a12324d60" name="변경" comment="" />
+      <created>1743495627606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743495627606</updated>
+      <workItem from="1743495628477" duration="356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
