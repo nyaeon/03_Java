@@ -1,5 +1,6 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Application1 {
@@ -25,6 +26,45 @@ public class Application1 {
          * W H J X
          * W S S J
          * */
+
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
+        int hor;
+        int ver;
+        while (true) {
+            System.out.print("가로 행의 수를 입력하세요 : ");
+            hor = sc.nextInt();
+            if (hor >= 1 && hor <= 10) {
+                break;
+            } else {
+                System.out.println("반드시 1~10까지의 정수를 입력해야 합니다");
+            }
+        }
+
+        while (true) {
+            System.out.print("세로 행의 수를 입력하세요 : ");
+            ver = sc.nextInt();
+            if (ver >= 1 && ver <= 10) {
+                break;
+            } else {
+                System.out.println("반드시 1~10까지의 정수를 입력해야 합니다");
+            }
+        }
+
+        char[][] arr = new char[hor][ver];
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = (char) ('A' + rand.nextInt(26));
+            }
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println("");
+        }
 
 
     }

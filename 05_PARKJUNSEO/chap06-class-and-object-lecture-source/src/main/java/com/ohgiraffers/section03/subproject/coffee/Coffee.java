@@ -19,6 +19,6 @@ public class Coffee {
     }
 
     public String toString() {
-    return "%s(%s)".formatted(name, option);
+        return "%s(%s)".formatted(name, option);
     }
 }

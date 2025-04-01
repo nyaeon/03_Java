@@ -1,8 +1,9 @@
 package com.ohgiraffers.section03.dto;
 
-import com.ohgiraffers.section03.constructor.User;
+import java.util.Date;
 
 public class Application {
+
     public static void main(String[] args) {
         /*
          *  캡슐화의 원칙에는 일부 어긋나긴 하지만 다른 목적을 가진 클래스와 객체를 추상화 하는 기법이 있다.
@@ -21,9 +22,14 @@ public class Application {
          *  미리 모든 필드에 접근 가능성을 염두해두고 작성해두는 관례로 인해 현재도 많이 사용되고 있다.
          *  (엄밀히 말하자면 EJB의 java bean 작성 규칙에 따르는 것이다.)
          * */
-        User user1 = new User();
+        UserDTO user1 = new UserDTO();
+        System.out.println(user1);
+        user1.setId("user01");
+        System.out.println(user1.getId());
         System.out.println(user1);
 
-        User user2 = new User("user01", "pass01", "홍길동");
+        UserDTO user2 = new UserDTO("user02", "pass02", "홍길동", new Date());
+        System.out.println(user2);
+
     }
 }
