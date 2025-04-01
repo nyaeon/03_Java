@@ -8,6 +8,9 @@ public class Application4 {
         app.testMethodA("홍길동", 20, '남');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
         String name =  "유관순";
         int age = 20;
         char gender = '여';
@@ -19,6 +22,7 @@ public class Application4 {
         System.out.println("당신의 이름은 " + name + "이고, 나이는 " + age + "세 이며, 성별은 " + gender + "입니다.");
     }
 }
+<<<<<<< HEAD
 =======
         String name = "유관순"; // 변수 선언 시 자료형을 명시해야 함
         int age = 20; // 변수 선언 시 자료형을 명시해야 함
@@ -33,3 +37,5 @@ public class Application4 {
     }
 }
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

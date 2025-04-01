@@ -5,6 +5,9 @@ public class Application7 {
     public static void main(String[] args) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
         int first = 100;
         int second = 50;
 
@@ -21,6 +24,7 @@ public class Application7 {
         System.out.println("두 수 중 큰값은? (static 메소드) >> " + cal.maxNumberOf(first, second));
     }
 }
+<<<<<<< HEAD
 =======
         /* 매개변수와 리턴값 복합 활용 */
         /* 매개변수도 존재하고 리턴값도 존재하는 메소드를 이용하여 간단한 계산기 만들기 */
@@ -60,3 +64,5 @@ public class Application7 {
     }
 }
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

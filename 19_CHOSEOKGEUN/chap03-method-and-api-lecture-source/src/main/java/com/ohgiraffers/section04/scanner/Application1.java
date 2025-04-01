@@ -1,15 +1,22 @@
 package com.ohgiraffers.section04.scanner;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.Scanner;
 =======
 import java.util.Scanner;  // Sacnner 입력시 자동 기입
 >>>>>>> a8fb790 (수정4)
+=======
+import java.util.Scanner;
+>>>>>>> cec8712 (왜 안돼~~)
 
 public class Application1 {
 
     public static void main(String[] args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
         System.out.println("hello");
         // 1. Scanner 객체생성
 //        java.util.Scanner scanner = new java.util.Scanner(java.lang.System.in);
@@ -53,6 +60,7 @@ public class Application1 {
         System.out.println("ch = " + ch);
 
 
+<<<<<<< HEAD
 =======
         Scanner sc = new Scanner(System.in);
 
@@ -85,5 +93,7 @@ public class Application1 {
                                 "다시 입력 해주십시오.");
         sc.close();
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
     }
 }

@@ -2,6 +2,9 @@ package com.ohgiraffers.section03.math;
 
 public class Application2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
     public static void main(String[] args) {
         // 0.0 * 10<=  x   < 1.0 * 10
@@ -24,6 +27,7 @@ public class Application2 {
         System.out.println("random4 = " + random4);
 
 
+<<<<<<< HEAD
 =======
     public static void main(String[] args) {
         // 0.0 (* 10) <= Values < 1.0 (* 10)
@@ -44,5 +48,7 @@ public class Application2 {
         int random4 = (int) ((Math.random() * 256)) - 127 ;
         System.out.println("난수 생성  : " + random4);
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
     }
 }

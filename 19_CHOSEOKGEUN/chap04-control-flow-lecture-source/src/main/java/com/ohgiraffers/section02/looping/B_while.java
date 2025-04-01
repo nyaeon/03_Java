@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 package com.ohgiraffers.section02.looping;
 
 import java.util.Scanner;
@@ -11,6 +14,7 @@ public class B_while {
         int i = 1;
 
         while(i <= 10) {
+<<<<<<< HEAD
 =======
 /* package com.ohgiraffers.section02.looping;
 
@@ -21,11 +25,16 @@ public class B_while {
         int i = 1;
         while (i <= 10) {
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
             System.out.println(i);
             i++;
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
     public void testWhileExample() {
 
@@ -40,6 +49,7 @@ public class B_while {
         System.out.println("시키는 데로 눌러줘서 감사합니다.");
     }
 }
+<<<<<<< HEAD
 =======
     public void testSimpleWhile() {
         char answer = '\0';
@@ -52,3 +62,5 @@ public class B_while {
 }
 */
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

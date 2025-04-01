@@ -2,6 +2,9 @@ package com.ohgiraffers.section01.method;
 
 public class Calculator {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
 
     public int plusTwoNumbers(int first, int second) {
@@ -18,6 +21,7 @@ public class Calculator {
 
     public static int maxNumberOf(int first, int second) {
         return (first > second) ? first : second;
+<<<<<<< HEAD
 =======
     public int plusTwoNumbers(int first, int second) {
         return first + second;
@@ -44,5 +48,7 @@ public class Calculator {
         public int minNumberOf(int first , int second) {
             return Math.min(first, second);
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
     }
 }

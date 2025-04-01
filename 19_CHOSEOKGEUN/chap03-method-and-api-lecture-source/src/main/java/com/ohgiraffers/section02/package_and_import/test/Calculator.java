@@ -2,6 +2,9 @@ package com.ohgiraffers.section02.package_and_import.test;
 
 public class Calculator {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
 
     public int plusTwoNumbers(int first, int second) {
@@ -21,6 +24,7 @@ public class Calculator {
     }
 
 
+<<<<<<< HEAD
 =======
     public int plusTwoNumbers(int first, int second) {
         return first + second;
@@ -45,4 +49,6 @@ public class Calculator {
         return Math.max(i, i1);
     }
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 }

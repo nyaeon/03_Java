@@ -1,15 +1,21 @@
 package com.ohgiraffers.section01.conditional;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import java.util.Scanner;
 
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 public class Application {
 
     public static void main(String[] args) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
         A_if a = new A_if();
         //a.testSimpleIfStatement();
         //a.testNestedIfStatement();
@@ -26,6 +32,7 @@ public class Application {
 
     }
 }
+<<<<<<< HEAD
 =======
     //    A_if a = new A_if();
     //    a.testSimpleIfStatement();
@@ -43,3 +50,5 @@ public class Application {
     }
 
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

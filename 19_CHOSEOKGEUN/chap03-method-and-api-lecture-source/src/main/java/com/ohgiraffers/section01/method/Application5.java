@@ -2,6 +2,9 @@ package com.ohgiraffers.section01.method;
 
 public class Application5 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
     public static void main(String[] args) {
 
@@ -16,6 +19,7 @@ public class Application5 {
         return; // 메소드를 호출한 곳으로 돌아가기 위해서 return;을 작성 안적어도 컴파일러가 자동으로 추가해준다.
     }
 }
+<<<<<<< HEAD
 =======
     public static void main(String[] args) {
 
@@ -47,3 +51,5 @@ public class Application5 {
             }
         }
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

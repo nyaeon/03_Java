@@ -5,10 +5,14 @@ import java.util.Scanner;
 public class C_ifElseIf {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void testSimleIfElseIfStatement(){
 =======
     public void testSimpleIfElseIfStatement() {
 >>>>>>> 3cfb28b (수정2)
+=======
+    public void testSimleIfElseIfStatement(){
+>>>>>>> cec8712 (왜 안돼~~)
 
         String texts = """
                 산 속에서 나무를 하던 나무꾼이 연못에 도끼를 빠뜨리고 말았다. 그때!!
@@ -16,6 +20,9 @@ public class C_ifElseIf {
                 나무꾼에게 셋 중 어떤 도끼가 나무꾼의 도끼인지 물어보았다.
                 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
                 어느 도끼가 너의 도끼이냐?????? (1. 금도끼, 2. 은도끼, 3. 쇠도끼) :
                 """;
         System.out.println(texts);
@@ -101,6 +108,7 @@ public class C_ifElseIf {
 
 
 }
+<<<<<<< HEAD
 =======
                 어느 도끼가 너의 도끼이야?????? (1. 금도끼, 2. 은도끼, 3. 쇠도끼):
                 """;
@@ -132,3 +140,5 @@ public class C_ifElseIf {
     }
 }
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

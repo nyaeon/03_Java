@@ -2,6 +2,9 @@ package com.ohgiraffers.section02.looping;
 
 import java.util.Scanner;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
 public class A_for {
 
@@ -196,6 +199,7 @@ public class A_for {
         System.out.println("1부터 " + random + "까지의 합은 " + sum2);
     }
 }
+<<<<<<< HEAD
 =======
 /*
 public class A_for {
@@ -219,3 +223,5 @@ public class A_for {
 }
 */
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

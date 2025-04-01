@@ -2,6 +2,9 @@ package com.ohgiraffers.section01.method;
 
 public class Application2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
     public static void main(String[] args) {
 
@@ -34,6 +37,7 @@ public class Application2 {
         System.out.println("methodC() 종료됨");
     }
 }
+<<<<<<< HEAD
 =======
     public static void main(String[] args) {
 
@@ -73,3 +77,5 @@ public class Application2 {
     }
 
 >>>>>>> a8fb790 (수정4)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

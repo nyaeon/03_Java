@@ -1,6 +1,9 @@
 package com.ohgiraffers.section01.conditional;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 import java.util.Scanner;
 
 public class D_switch {
@@ -33,6 +36,7 @@ public class D_switch {
     }
 }
 
+<<<<<<< HEAD
 =======
 
 import java.util.Scanner;
@@ -65,3 +69,5 @@ public class D_switch {
     }
 }
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

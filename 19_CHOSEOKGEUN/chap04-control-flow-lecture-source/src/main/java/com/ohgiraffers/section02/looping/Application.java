@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 package com.ohgiraffers.section02.looping;
 
 import com.ohgiraffers.section01.conditional.D_switch;
@@ -27,6 +30,7 @@ public class Application {
 
     }
 }
+<<<<<<< HEAD
 =======
 /* package com.ohgiraffers.section02.looping;
 
@@ -42,3 +46,5 @@ public class Application {
 }
 */
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

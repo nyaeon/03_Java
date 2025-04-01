@@ -1,13 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.ohgiraffers.section01.conditional;
 =======
  package com.ohgiraffers.section01.conditional;
 >>>>>>> 3cfb28b (수정2)
+=======
+package com.ohgiraffers.section01.conditional;
+>>>>>>> cec8712 (왜 안돼~~)
 
 import java.util.Scanner;
 
 public class A_if {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
     /***
      * 단일 if문 테스트
@@ -46,6 +53,7 @@ public class A_if {
 
 
 }
+<<<<<<< HEAD
 =======
         public void testSimpleIfStatement() {
 
@@ -66,3 +74,5 @@ public class A_if {
     }
 
 >>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
