@@ -16,7 +16,7 @@ public class Car {
     public void go(){
         if(isOn){ // 시동이 켜져 있어야 달릴 수 있음
             this.speed += 10;
-            System.out.println("차가 앞으로 움직입니다. 현재 속도는 " + speed);
+            System.out.println("차가 앞으로 움직입니다. 현재 속도는 " + speed + "km입니다.");
         } else {
             System.out.println("차의 시동이 걸려있지 않습니다. 시동을 먼저 걸어주세요.");
         }

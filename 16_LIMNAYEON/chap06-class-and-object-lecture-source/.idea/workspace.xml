@@ -5,37 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3de8f6-1d05-49e2-99f6-05241447a2b6" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap05-array-practice-question/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/user_type/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/user_type/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/problem2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/problem2/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/resolved/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/resolved/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section01/array/Application5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section02/dimensional/Application1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-lecture-source/src/main/java/com/ohgiraffers/section03/copy/Application2.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/CarRacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Barista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Kiosk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nyaeon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nyaeon&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/backend20250319/03_Java.git",
-    "accountId": "70b9324a-8ab8-4e3a-a38e-dbb278574fdf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/backend20250319/03_Java.git&quot;,
+    &quot;accountId&quot;: &quot;70b9324a-8ab8-4e3a-a38e-dbb278574fdf&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2v4OrLcoQe8k7L87aYVHy0Op6rs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,25 +60,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.encapsulation.problem1.Application.main()].executor": "Run",
-    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.resolved.Application.main()].executor": "Run",
-    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.abstraction.Application.main()].executor": "Run",
-    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.user_type.Application.main()].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/03_Java/00_Practice/chap05-array-practice-question",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.encapsulation.problem1.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section02.resolved.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.abstraction.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section03.subproject.coffee.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.user_type.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/03_Java/00_Practice/chap05-array-practice-question&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.section03.abstraction.Application">
+}</component>
+  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.section03.subproject.coffee.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.user_type.Application" />
       <module name="chap06-class-and-object-lecture-source.main" />
@@ -150,8 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ohgiraffers.section03.subproject.coffee.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.subproject.coffee.Application" />
+      <module name="chap06-class-and-object-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.subproject.coffee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.com.ohgiraffers.section03.subproject.coffee.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section03.abstraction.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section02.resolved.Application" />
         <item itemvalue="애플리케이션.com.ohgiraffers.section02.encapsulation.problem1.Application" />
@@ -176,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743401081205</updated>
       <workItem from="1743401082319" duration="8539000" />
+      <workItem from="1743465657809" duration="8233000" />
     </task>
     <servers />
   </component>
