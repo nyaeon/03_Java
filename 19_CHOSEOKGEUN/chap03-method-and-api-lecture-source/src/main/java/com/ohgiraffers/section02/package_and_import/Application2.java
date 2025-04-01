@@ -1,6 +1,7 @@
 package com.ohgiraffers.section02.package_and_import;
 
 import com.ohgiraffers.section01.method.Calculator;
+<<<<<<< HEAD
 
 //import static com.ohgiraffers.section01.method.Calculator.maxNumberOf;
 //import static com.ohgiraffers.section01.method.Calculator.minNumberOf;
@@ -11,10 +12,16 @@ public class Application2 {
     public static void main(String[] args) {
 
         // non-static method
+=======
+public class Application2 {
+    public static void main(String[] args) {
+
+>>>>>>> a8fb790 (수정4)
         Calculator cal = new Calculator();
         int result = cal.plusTwoNumbers(10, 20);
         System.out.println("result = " + result);
 
+<<<<<<< HEAD
         int result2 = maxNumberOf(10, 20);
         System.out.println("result2 = " + result2);
 
@@ -24,5 +31,15 @@ public class Application2 {
         int result3 = maxNumberOf(10, 20);
         int result4 = minNumberOf(20, 30);
 
+=======
+        int result2 = cal.plusTwoNumbers(10, 20);
+        System.out.println("result2 = " + result);
+
+        com.ohgiraffers.section02.package_and_import.test.Calculator Cal2
+                = new com.ohgiraffers.section02.package_and_import.test.Calculator();
+
+        int result3 = cal.maxNumberOf(10, 20);
+        int result4 = cal.minNumberOf(20, 30);
+>>>>>>> a8fb790 (수정4)
     }
 }
