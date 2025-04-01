@@ -17,6 +17,7 @@ public class Application {
 
         Scanner scanner = new Scanner(System.in);
         int input = 0;
+        CarRacer racer = new CarRacer();
         String menuText = """
                 =========== 카레이싱 프로그래밍 ============
                 1. 시동걸기
@@ -30,10 +31,14 @@ public class Application {
             System.out.print(menuText);
             input = scanner.nextInt();
             switch (input) {
-                case 1: break;
-                case 2: break;
-                case 3: break;
-                case 4: break;
+                case 1: racer.startUp();
+                    break;
+                case 2: racer.stepAccelator();
+                    break;
+                case 3: racer.stepBreak();
+                    break;
+                case 4: racer.turnOff();
+                    break;
                 case 9:
                     System.out.println("프로그램을 종료하겠습니다.");
                     break;
