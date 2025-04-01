@@ -1,5 +1,7 @@
 package com.ohgiraffers.section03.dto;
 
+import com.ohgiraffers.section03.constructor.User;
+
 import java.util.Date;
 
 public class Application {
@@ -30,6 +32,8 @@ public class Application {
 
         UserDTO user2 = new UserDTO("user02", "pass02", "홍길동", new Date());
         System.out.println(user2);
+
+
 
     }
 }

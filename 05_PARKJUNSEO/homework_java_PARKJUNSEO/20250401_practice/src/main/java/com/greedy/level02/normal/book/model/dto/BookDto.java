@@ -1,6 +1,6 @@
 package com.greedy.level02.normal.book.model.dto;
 
-public class BookDto {
+public class BookDTO {
 
     private String title;
     private String publisher;
@@ -9,11 +9,11 @@ public class BookDto {
     private double discountRate;
 
     // 기본 생성자
-    public BookDto() {
+    public BookDTO() {
     }
 
     // 필드 3가지를 초기화하는 생성자
-    public BookDto(String title, String publisher, String author) {
+    public BookDTO(String title, String publisher, String author) {
         this.title = title;
         this.publisher = publisher;
         this.author = author;
@@ -21,7 +21,7 @@ public class BookDto {
 
     // 모든 필드를 초기화하는 생성자
 
-    public BookDto(String title, String publisher, String author, int price, double discountRate) {
+    public BookDTO(String title, String publisher, String author, int price, double discountRate) {
         this.title = title;
         this.publisher = publisher;
         this.author = author;
@@ -69,8 +69,8 @@ public class BookDto {
         this.discountRate = discountRate;
     }
 
-    BookDto bd = new BookDto();
+
     public void printInformation () {
-        System.out.println(bd.title + ", " + bd.publisher + ", " + bd.author + ", "+ bd.price + ", " + bd.discountRate);
+        System.out.println(title + ", " + publisher + ", " + author + ", "+ price + ", " + discountRate);
     }
 }
