@@ -16,7 +16,7 @@ public class Application {
         3. 역할(객체의 책임이 모여 하나의 역할이 된다.)
      */
         Scanner sc = new Scanner(System.in);
-
+        CarRacer carRacer = new CarRacer();
         int input = 0;
         String menuText = """
                 ============== 카레이싱 프로그래밍 ==============
@@ -31,10 +31,10 @@ public class Application {
             System.out.println(menuText);
             input = sc.nextInt();
             switch (input){
-                case 1:break;
-                case 2:break;
-                case 3:break;
-                case 4:break;
+                case 1: carRacer.startUp(); break;
+                case 2: carRacer.stepAccelator(); break;
+                case 3: carRacer.stepBrake(); break;
+                case 4: carRacer.turnOff(); break;
                 case 9:
                     System.out.println("프로그램을 종료하겠습니다.");
                     break;

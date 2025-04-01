@@ -1,15 +1,24 @@
 package com.ohgiraffers.section01.level01.basic;
 
 public class Calculator {
-    public static void checkMethod(){
-        Calculator.checkMethod();
-        checkMethod();
+
+    public void checkMethond(){
+        System.out.println("메소드 호출 확인");
     }
 
-    public int sumTwoNumber(int first, int second){
-            return first + second;
+    public String sumTwoNumber(int x, int y){
+        String result1;
+        result1 = (x + "과" + y + " 의 합은 " + (x+y) + "입니다.");
+        return result1;
     }
-
+    public String multiTwoNumber(int x, int y){
+        String result2;
+        result2 = (x + "과" + y + " 의 곱은 " + (x * y) +" 입니다.");
+        return result2;
+    }
+    public int multiTwoNumber2(int x, int y){
+        return x * y;
+    }
 
     // 반환값 : x
     // 메소드명 : checkMethod

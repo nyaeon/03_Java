@@ -1,8 +1,20 @@
 package com.ohgiraffers.section01.conditional.level01.basic;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 입력하세요 : ");
+        int scNum = sc.nextInt();
+
+        if (scNum % 2 == 0){
+            System.out.println("짝수 입니다.");
+        }else {
+            System.out.println("홀수 입니다.");
+        }
 
         /* 정수를 입력 받아 그 수가 짝수인지 홀수인지 판단해서 결과를 출력하세요
          * 짝수인 경우 "짝수다." 출력, 홀수인 경우 "홀수다." 출력
