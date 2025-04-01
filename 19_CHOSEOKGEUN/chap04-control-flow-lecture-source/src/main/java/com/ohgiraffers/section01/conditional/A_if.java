@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 package com.ohgiraffers.section01.conditional;
+=======
+ package com.ohgiraffers.section01.conditional;
+>>>>>>> 3cfb28b (수정2)
 
 import java.util.Scanner;
 
 public class A_if {
+<<<<<<< HEAD
 
     /***
      * 단일 if문 테스트
@@ -41,3 +46,23 @@ public class A_if {
 
 
 }
+=======
+        public void testSimpleIfStatement() {
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("정수 한 개를 입력하세요: ");
+            int input = sc.nextInt();
+
+            // (만약에 입력받은 값이 짝수면) {
+            //  " 짝수입니다"라고 출력한다.
+            // }
+
+            if(input % 2 ==0) {
+                System.out.println("짝수입니다.");
+            }
+        }
+
+    }
+
+>>>>>>> 3cfb28b (수정2)

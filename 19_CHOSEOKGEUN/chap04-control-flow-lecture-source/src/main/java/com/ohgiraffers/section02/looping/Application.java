@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.ohgiraffers.section02.looping;
 
 import com.ohgiraffers.section01.conditional.D_switch;
@@ -26,3 +27,18 @@ public class Application {
 
     }
 }
+=======
+/* package com.ohgiraffers.section02.looping;
+
+public class Application {
+    public static void main(String[] args) {
+
+      //  A_for a = new A_for();
+      //  a.testSimpleForStatement();
+
+        B_while b = new B_while();
+        b.testSimpleWhile();
+    }
+}
+*/
+>>>>>>> 3cfb28b (수정2)
