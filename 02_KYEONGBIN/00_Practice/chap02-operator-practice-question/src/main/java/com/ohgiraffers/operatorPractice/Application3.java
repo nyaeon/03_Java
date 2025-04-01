@@ -14,5 +14,14 @@ public class Application3 {
          * 남자입니다.
          * */
 
+         char gender;
+         gender = 'M';
+
+         if (gender == 'M') {
+            System.out.println("남자입니다.");
+         } else if (gender == 'F') {
+            System.out.println("여자입니다.");
+         }
+
     }
 }

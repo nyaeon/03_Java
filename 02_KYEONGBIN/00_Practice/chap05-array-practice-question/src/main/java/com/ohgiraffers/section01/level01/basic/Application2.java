@@ -3,10 +3,6 @@ package com.ohgiraffers.section01.level01.basic;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Application2 {
-
-    public static void main(String[] args) {
-
         /* 길이가 5인 String 배열을 선언하고
          * "딸기", "바나나", "복숭아", "키위", "사과" 로 초기화를 하고
          * 스캐너로 0부터 4까지의 정수를 입력 받아
@@ -27,60 +23,43 @@ public class Application2 {
          * 준비된 과일이 없습니다.
          * */
 
-        String[] bamm = new String[5];
-        bamm[0] = "딸기";
-        bamm[1] = "바나나";
-        bamm[2] = "복숭아";
-        bamm[3] = "키위";
-        bamm[4] = "사과";
+public class Application2 {
+    public static void main(String[] args) {
+
+        String[] fruits = {"딸기", "바나나", "복숭아", "키위", "사과"};
         
-        System.out.println("We have " + Arrays.toString(bamm));
+        System.out.println("We have " + Arrays.toString(fruits));
         System.out.println();
 
+        Scanner scanner = new Scanner(System.in);
+
         while (true) {
-            System.out.println();
-            System.out.println("Please enter the number from 0 to 4");
-            System.out.println("Please enter the \"e \" key if you wish to leave : ");
+            System.out.println("\nPlease enter a number from 0 to 4");
+            System.out.println("Enter \"e\" to exit: ");
 
-            Scanner bammm = new Scanner(System.in);
-            
-            int num = bammm.nextInt();
-            String End = bammm.nextLine();
-            if (num >= 0 && num <= 4) {
-                if (num == 0) {
-                    System.out.println();
-                    System.out.println("Here's ur " + bamm[0]);                    
-                } else if (num == 1) {
-                    System.out.println();
-                    System.out.println("Here's ur " + bamm[1]);
-                } else if (num == 2) {
-                    System.out.println();
-                    System.out.println("Here's ur " + bamm[2]);
-                } else if (num == 3) {
-                    System.out.println();
-                    System.out.println("Here's ur " + bamm[3]);
-                } else if (num == 4) {
-                    System.out.println();
-                    System.out.println("Here's ur " + bamm[4]);
-                } else if (End.equals("e")) {
-                    System.out.println("The service is closing");
-                    break;
-                } else {
-                    System.out.println("It's not a correct key, please enter again.");
-                }
-            } else {
-                System.out.println();
-                System.out.println("준비된 과일이 없습니다.");
-            } 
+            String input = scanner.nextLine();
 
+            if (input.equals("e")) {
+                System.out.println("The service is closing");
+                break;
             }
-            
+
+            try {
+                // 입력값을 정수로 변환
+                int num = Integer.parseInt(input);
+
+                // 올바른 범위인지 확인 후 과일 출력
+                if (num >= 0 && num < fruits.length) {
+                    System.out.println("\nHere's your " + fruits[num]);
+                } else {
+                    System.out.println("\n준비된 과일이 없습니다.");
+                }
+            } catch (NumberFormatException e) {
+                // 정수가 아닌 값을 입력하면 예외 처리
+                System.out.println("\n올바른 숫자를 입력하세요.");
+            }
         }
 
-
-
-
-
-         
+        scanner.close(); // Scanner 닫기
     }
-
+}

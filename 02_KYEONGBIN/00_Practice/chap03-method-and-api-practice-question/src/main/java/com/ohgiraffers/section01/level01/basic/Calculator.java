@@ -2,6 +2,26 @@ package com.ohgiraffers.section01.level01.basic;
 
 public class Calculator {
 
+    public void checkMethod() {
+        int x = 10;
+        System.out.println(x);
+    }
+
+    public String sumTwoNumber(int x, int y) {
+        System.out.println(x + "과" + y + "의 합은" + (x + y) + "입니다.");
+        return x + "과" + y + "의 합은" + (x + y) + "입니다.";
+    }
+
+    public String multiTwoNumber(int x, int y) {
+        System.out.println(x + "과" + y + "의 곱은" + (x * y) + "입니다.");
+        return x + "과" + y + "의 곱은" + (x * y) + "입니다.";
+    }
+
+    public int multiTwoNumber2(int x, int y) {
+        System.out.println(x + "과" + y + "의 곱은" + (x * y) + "입니다.");
+        return x * y;
+    }
+
     // 반환값 : x
     // 메소드명 : checkMethod
     // 호출하면 "메소드 호출 확인"을 출력하는 기능의 메소드

@@ -14,5 +14,17 @@ public class Application2 {
          * 청소년
          * */
 
+        int ages = 19;
+
+        if (ages > 13 && ages <= 19) {
+
+            System.out.println("청소년");
+        } else if (ages > 19) {
+            System.out.println("성인");
+        } else if (ages <= 13) {
+            System.out.println("어린이이");
+        }
+
+
     }
 }

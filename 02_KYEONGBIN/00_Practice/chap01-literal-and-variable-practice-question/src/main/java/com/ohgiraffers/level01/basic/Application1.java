@@ -15,6 +15,16 @@ public class Application1 {
          * 나누기한 나머지 : 20
          * */
 
+         int x = 20;
+         int y= 30;
+
+         System.out.println("x + y = " + (x + y));
+         System.out.println("x - y = " + (x - y));
+         System.out.println("x * y = " + (x * y));
+         System.out.println("x / y = " + (x / y));
+         System.out.println("x % y = " + (x % y));
+
+
 
     }
 }

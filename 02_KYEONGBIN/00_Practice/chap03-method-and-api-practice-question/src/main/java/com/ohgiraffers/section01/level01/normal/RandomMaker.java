@@ -2,6 +2,20 @@ package com.ohgiraffers.section01.level01.normal;
 
 public class RandomMaker {
 
+    public static void rockPaperScissors(String[] args) {
+
+        int randomInt = (int) (Math.random() * 2);
+        String str[randomInt] = {"가위", "바위", "보"};
+        if (randomInt = 0) {
+            
+        }
+
+        
+
+        
+
+    }
+
     /*
      * static 메소드로 생성
      * 반환형 : String
