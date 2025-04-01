@@ -23,7 +23,13 @@ public class Application {
          *   2. 동시성 문제를 고려해서 설계해야 하기 때문에 난이도가 있다.
          * */
 
-        
+        EagerSingletone eager = new EagerSingletone();
+        EagerSingletone eager2 = new EagerSingletone();
+
+        System.out.println("singletone's hashCode() = " + eager.hashCode());
+        System.out.println("singletone's hashCode() = " + eager2.hashCode());
+
+
 
 
 

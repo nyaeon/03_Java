@@ -7,7 +7,7 @@ public class RandomMaker {
     public static String rockPaperScissors() {
 
         int ranNum = new Random().nextInt(3);
-        String result = (ranNum == 0) 
+        String result = ((ranNum == 0) 
 
     }
 
