@@ -4,34 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91bfaf33-b50c-4e56-a6db-7666f4a3689d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/hard/emp/model/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/hard/emp/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level01/basic/member/model/dto/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level01/basic/member/model/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level02/normal/book/model/dto/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level02/normal/book/model/dto/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw1/model/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw2/model/dto/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw2/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw3/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw3/model/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap07-object-array-practice-source/src/main/java/com/ohgiraffers/hw3/run/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="91bfaf33-b50c-4e56-a6db-7666f4a3689d" name="Changes" comment="06_클래스 및 객체 과제 완료">
+      <change afterPath="$PROJECT_DIR$/../chap08-Inherit-prectice-question/src/main/java/com/ohgiraffers/hw1/model/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap08-Inherit-prectice-question/src/main/java/com/ohgiraffers/hw1/model/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap08-Inherit-prectice-question/src/main/java/com/ohgiraffers/hw1/model/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap08-Inherit-prectice-question/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap06-class-and-object-lectrue-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +61,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2v9Lo9m6vJAo0KrDVfIsBP4iNXX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -168,11 +150,24 @@
       <updated>1743552516803</updated>
       <workItem from="1743552517962" duration="2170000" />
       <workItem from="1743572519364" duration="1827000" />
-      <workItem from="1743585947714" duration="555000" />
+      <workItem from="1743585947714" duration="1407000" />
     </task>
+    <task id="LOCAL-00001" summary="06_클래스 및 객체 과제 완료">
+      <option name="closed" value="true" />
+      <created>1743586593016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743586593016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="06_클래스 및 객체 과제 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="06_클래스 및 객체 과제 완료" />
   </component>
 </project>
