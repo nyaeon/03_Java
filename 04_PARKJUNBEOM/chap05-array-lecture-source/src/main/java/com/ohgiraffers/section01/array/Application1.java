@@ -26,7 +26,7 @@ public class Application1 {
         System.out.println(arr);
         System.out.println(Arrays.toString(arr));
 
-        
+
         // 배열 초기화
         for(int i = 0; i < 5; i++) {
             arr[i] = (i + 1) * 10;
@@ -45,6 +45,6 @@ public class Application1 {
         }
 
         System.out.println("sum2 = " + sum2);
-        
+
     }
 }

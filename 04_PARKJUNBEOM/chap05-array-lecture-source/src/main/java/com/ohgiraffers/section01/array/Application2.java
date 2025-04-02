@@ -3,13 +3,13 @@ package com.ohgiraffers.section01.array;
 public class Application2 {
 
     public static void main(String[] args) {
-        
+
         /*
-        * 배열의 사용 방법
-        * 1. 배열의 선언
-        * 2. 배열의 크기 할당
-        * 3. 배열의 인덱스 공간에 값 대입
-        * */
+         * 배열의 사용 방법
+         * 1. 배열의 선언
+         * 2. 배열의 크기 할당
+         * 3. 배열의 인덱스 공간에 값 대입
+         * */
 
         int[] iArr;
 //        char cArr[]; 대괄호가 뒤에 붙어도 돌아가지만 권장되진 X
@@ -18,7 +18,7 @@ public class Application2 {
         iArr = new int[10];
 
         char[] cArr = new char[5];
-        
+
         // 참조자료형 변수 출력 결과 = toString()의 결과 -> 자료형@16진수 주소값
         System.out.println("iArr = " + iArr.toString());  // [I@36baf30c
         System.out.println("cArr = " + cArr);
