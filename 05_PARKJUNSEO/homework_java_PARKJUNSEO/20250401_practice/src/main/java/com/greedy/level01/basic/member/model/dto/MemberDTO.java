@@ -2,6 +2,13 @@ package com.greedy.level01.basic.member.model.dto;
 
 public class MemberDTO {
 
+    /*
+    * + : public
+    * # : protected
+    * ~ : default
+    * - : private
+    * */
+
     private String id;
     private String pwd;
     private String name;

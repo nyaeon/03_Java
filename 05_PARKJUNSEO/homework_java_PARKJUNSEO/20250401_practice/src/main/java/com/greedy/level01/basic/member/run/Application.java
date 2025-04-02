@@ -4,7 +4,11 @@ import com.greedy.level01.basic.member.model.dto.MemberDTO;
 
 public class Application {
     public static void main(String[] args) {
-        MemberDTO member = new MemberDTO();
+
+        // 기본 생성자를 이용해서 객체를 생성
+
+        MemberDTO member = new MemberDTO();     // JVM이 기본값을 넣어줌
+
         member.getId();
         member.getPwd();
         member.getName();

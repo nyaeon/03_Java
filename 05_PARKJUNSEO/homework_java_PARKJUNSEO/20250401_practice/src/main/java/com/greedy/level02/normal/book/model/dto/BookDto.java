@@ -2,6 +2,10 @@ package com.greedy.level02.normal.book.model.dto;
 
 public class BookDTO {
 
+    // 기본 생성자를 통해서 객체를 생성하고 값을 추가하는 방법
+
+    // 매개변수가 있는 생성자를 이용해서 생성시점부터 값을 초기화하고 시작하는 방법
+
     private String title;
     private String publisher;
     private String author;
@@ -20,7 +24,6 @@ public class BookDTO {
     }
 
     // 모든 필드를 초기화하는 생성자
-
     public BookDTO(String title, String publisher, String author, int price, double discountRate) {
         this.title = title;
         this.publisher = publisher;
