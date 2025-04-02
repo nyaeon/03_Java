@@ -15,9 +15,10 @@ public class Calculator {
     // 출력의 내용은 "10과 20의 합은 30입니다." 라는 문장을
     // 출력하는 기능
 
-    public void sumTwoNumber(int a, int b) {
-        int sum = a + b;
-        System.out.println(a + "과 " + b +"의 합은 " + sum + "입니다.");
+    public String sumTwoNumber(int a, int b) {
+        String result;
+        result = a + "과 " + b +"의 합은 " + (a + b) + "입니다.";
+        return result;
     }
 
     // 반환값 : String
@@ -26,9 +27,10 @@ public class Calculator {
     // 출력의 내용은 "10과 20의 곱은 200입니다." 라는 문장을
     // 출력하는 기능
 
-    public void multiTwoNumber(int a, int b) {
-        int mul = a * b;
-        System.out.println(a + "과 " + b +"의 곱은 " + mul + "입니다.");
+    public String multiTwoNumber(int a, int b) {
+        String result;
+        result = a + "과 " + b +"의 곱은 " + (a * b) + "입니다.";
+        return result;
     }
 
 
@@ -40,7 +42,6 @@ public class Calculator {
 
     public int multiTwoNumber2(int a, int b) {
         int mul2 = a * b;
-        System.out.println(a + "과 " + b +"의 곱은" + mul2 + " 입니다.");
         return mul2;
     }
 

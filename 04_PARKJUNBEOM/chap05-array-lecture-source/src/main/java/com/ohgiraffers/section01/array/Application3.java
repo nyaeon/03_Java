@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Application3 {
 
     public static void main(String[] args) {
-         /*
+        /*
          * 값의 형태별 기본값
          * 정수 : 0
          * 실수 : 0.0
