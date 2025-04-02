@@ -22,7 +22,7 @@ public class Car {
         }
     }
 
-    private boolean isRunning() {
+    protected boolean isRunning() {
         return runningStatus;
     }
 
