@@ -1,6 +1,10 @@
 package com.ohgiraffers.section02.looping;
 
 import java.util.Scanner;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 
 public class A_for {
 
@@ -195,3 +199,29 @@ public class A_for {
         System.out.println("1부터 " + random + "까지의 합은 " + sum2);
     }
 }
+<<<<<<< HEAD
+=======
+/*
+public class A_for {
+    public void testSimpleForStatement(){
+        // 1 부터 10까지 1씩 증가시키면서 i값을 출력하는 기본 반복문
+        // 동안(1부터; 10까지; 1씩 증가) {
+        // 1부터 10까지 반복하며 출력
+        // }
+ /*       int sum = 0;
+        for (int i = 1 ; i <= 10; i++ ) {
+            sum += i;
+            System.out.println("sum = " + sum);
+
+        int sum2 = 0;
+        for (int j = 1 ; j <= random; j++ ) {
+            sum2 += j;
+        }
+            System.out.println("1 부터 " + random + "까지의 합은 : " );
+        }
+    }
+}
+*/
+>>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)

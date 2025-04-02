@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="ChangeListManager">
+    <list default="true" id="1fa673d5-2ba5-40fe-bc0d-573968c2e29f" name="Changes" comment="" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7649187a-6a68-423e-93cd-4ed6c6b21b5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/chap07-inheritance-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Practice/chap07-inheritance-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap06-class-and-object-lecture-source/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" afterDir="false" />
+    </list>
+>>>>>>> 8ec34f9474451b8d8d0cbca1b0a614a947aac175
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+<<<<<<< HEAD
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+=======
+<<<<<<< HEAD
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2v4kfQU8h7wZ8cLYQnCRw4kdyfI" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/05_PARKJUNSEO" />
+>>>>>>> 2f4718ccb52dbe56d636c8b19180e32c2e2b6ac1
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2v08DEYoxbHfBdblf47H94857yY" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "B:/Development/Backend-study/03_JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 8ec34f9474451b8d8d0cbca1b0a614a947aac175
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="1fa673d5-2ba5-40fe-bc0d-573968c2e29f" name="Changes" comment="" />
+      <created>1743411839076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743411839076</updated>
+      <workItem from="1743411842619" duration="85000" />
+      <workItem from="1743411952824" duration="2000" />
+=======
+      <changelist id="7649187a-6a68-423e-93cd-4ed6c6b21b5d" name="Changes" comment="" />
+      <created>1743270513133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743270513133</updated>
+      <workItem from="1743270515661" duration="4000" />
+      <workItem from="1743349961595" duration="495000" />
+<<<<<<< HEAD
+      <workItem from="1743569241474" duration="34000" />
+      <workItem from="1743572894220" duration="20000" />
+=======
+>>>>>>> 8ec34f9474451b8d8d0cbca1b0a614a947aac175
+>>>>>>> 2f4718ccb52dbe56d636c8b19180e32c2e2b6ac1
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> 8ec34f9474451b8d8d0cbca1b0a614a947aac175
+</project>
