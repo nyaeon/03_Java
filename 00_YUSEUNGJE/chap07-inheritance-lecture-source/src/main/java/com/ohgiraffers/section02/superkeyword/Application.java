@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.superkeyword;
 
+import java.util.Date;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -12,6 +14,20 @@ public class Application {
          *           구문이라면, super()는 부모클래스가 가지는 private 생성자를 제외한 나머지 생성자를
          *           호출할 수 있도록 한 구문이다.
          * */
+        Product product1 = new Product();
+        System.out.println(product1.getInformation());
 
+        Product product2 = new Product("S-01234", "삼성", "갤럭시Z폴드3", 2800000, new Date());
+        System.out.println(product2.getInformation());
+
+        Computer computer1 = new Computer();
+        System.out.println(computer1.getInformation());
+
+        Computer computer2 = new Computer("퀄컴 스냅드래곤", 512, 12, "안드로이드");
+        System.out.println(computer2.getInformation());
+
+        Computer computer3 = new Computer("S-01234", "삼송", "은하수Z폴드3", 2800000, new Date()
+                , "퀄컴 스냅드래곤", 512, 12, "안드로이드");
+        System.out.println(computer3.getInformation());
     }
 }
