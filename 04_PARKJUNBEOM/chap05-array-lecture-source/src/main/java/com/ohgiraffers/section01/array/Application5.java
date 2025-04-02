@@ -1,19 +1,31 @@
 package com.ohgiraffers.section01.array;
 
-import java.util.Random;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Application5 {
+public class Application4 {
 
     public static void main(String[] args) {
 
-        String[] shape = {"SPADE", "CLOVER", "HEART", "DIAMOND"};
-//        System.out.println(shape[5]);
-        String[] cardNumber = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "JACK", "QUEEN", "KING", "ACE"};
+        int[] score = new int[5];
 
-        int randomShapeIndex = (int) (Math.random() * shape.length); // 0 ~ 3// new Random().nextInt(shape.length);
-        int randomCardNumberIndex = (int) (Math.random() * cardNumber.length); // 0 ~ 12
+        Scanner sc = new Scanner(System.in);
+        for(int i = 0; i < score.length; i++) {
 
-        System.out.println("당신이 뽑은 카드는 " + shape[randomShapeIndex] + " "
-                + cardNumber[randomCardNumberIndex] + "카드 입니다.");
+            System.out.print((i + 1) + "번째 학생의 자바 점수를 입력해 주세요: ");
+            score[i] = sc.nextInt();
+        }
+        System.out.println("현재까지 입력된 값 : " + Arrays.toString(score));
+
+        int sum = 0;
+        for(int perScore : score) {
+            sum += perScore;
+        }
+
+        System.out.println("합계 : " + sum);
+
+        double avg = sum / score.length;
+        System.out.println("평균: " + avg);
+
     }
 }

@@ -6,7 +6,7 @@ public class Car {
 
     // 시동을 걸어라, 앞으로 가라, 멈춰라, 시동을 꺼라
 
-    public void startup() {
+    public void startUp() {
         if(this.isOn) { // isOn 값은 ? true
             System.out.println("이미 시동이 걸려 있습니다.");
         } else {
@@ -36,7 +36,7 @@ public class Car {
         }
     }
 
-    public void turnoff() {
+    public void turnOff() {
         if(isOn) {
             if(speed > 0) {
                 System.out.println("달리는 상태에서 시동을 끌 수 없습니다. 차를 우선 멈춰주세요.");
