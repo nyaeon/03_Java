@@ -2,16 +2,19 @@ package com.ohgiraffers.hw2.run;
 
 import com.ohgiraffers.hw2.model.dto.StudentDTO;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
-
+        int count = 0;
         Scanner sc = new Scanner(System.in);
         // 최대 10명의 학생 정보를 기록할 수 있게 배열을 할당한다.
         StudentDTO[] students = new StudentDTO[10];
         // while문을 사용하여 학생들의 정보를 계속 입력 받고
         while (true) {
+            students[count] = new StudentDTO();
+
             System.out.print("학년 : ");
             int grade = sc.nextInt();
             System.out.print("반 : ");
@@ -25,14 +28,21 @@ public class Application {
             System.out.print("수학점수 : ");
             int math = sc.nextInt();
 
-            for (int i = 0; i < students.length; i++) {
-                students[i] = new StudentDTO();
-            }
+            count++;
 
             System.out.print("계속 추가할 겁니까 ? (y/n) : ");
             String answer = sc.next();
             if (answer.equals("y")) {}
-                else break;
+            else {
+                    break;}
+
+
+
+
+        }
+        for (int i = 0; i < students.length; i++) {
+            System.out.println(students[i].information() + "평균 : " + (students[i].getKor()+students[i].getEng()+students[i].getMath())/3 + "점");
+
         }
         // 한 명씩 추가 될 때마다 카운트함
         System.out.println(students[0].information() + "평균 : " + (students[0].getKor()+students[0].getEng()+students[0].getMath())/3 + "점");
