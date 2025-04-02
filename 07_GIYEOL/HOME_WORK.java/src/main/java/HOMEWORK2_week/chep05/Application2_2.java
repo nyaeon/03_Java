@@ -9,10 +9,15 @@ public class Application2_2 {
         System.out.print("주민등록 번호 입력:");
         String ID = sc.nextLine();
         System.out.println(ID);
+
         //  System.out.println(Arrays.toString(ID.toCharArray()));
-        for (char i = 8; i < ID.length()-1; i++) {
-            cahange i = '*';
-            System.out.print(ID.charAt(i));
-        }
+      if(ID.length()==14 && ID.charAt(6)=='-'){
+          for(int i=8;i>ID.length();i--){
+              String num = ID.substring(-1,-8)+"********";
+          System.out.println(num);
+          }
+        //  String num = ID.substring(0,7)="*******";
+
+      }
     }
 }//4번 중복값 x
