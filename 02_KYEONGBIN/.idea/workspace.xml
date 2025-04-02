@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0359f4e-83ee-4b8c-8bff-b0ed518a1732" name="Changes" comment="" />
+    <list default="true" id="b0359f4e-83ee-4b8c-8bff-b0ed518a1732" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level01/basic/member/model/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level01/basic/member/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/book/model/dto/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/book/model/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/student/model/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/student/model/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/model/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap-06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Practice/chap07-object-array-practice-soutce/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap06-class-and-object-practice-question/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Practice/chap07-inheritance-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Practice/chap07-inheritance-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Practice/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level01/basic/member/model/dto/MemberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level01/basic/member/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/book/model/dto/BookDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/book/model/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/student/model/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/student/model/vo/StudentVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap05-array-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap05-array-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +96,10 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "B:/Development/Backend-study/03_JAVA/02_KYEONGBIN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -77,6 +123,7 @@
       <workItem from="1743487123080" duration="30000" />
       <workItem from="1743555382512" duration="105000" />
       <workItem from="1743557892878" duration="85000" />
+      <workItem from="1743579894263" duration="2797000" />
     </task>
     <servers />
   </component>
