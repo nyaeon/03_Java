@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="802f2907-bd12-41a6-8358-ee17ac59eb58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap07-object-array-practice-question/src/main/java/com/ohgiraffers/hw1/model/dto/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/model/dto/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/model/dto/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,8 @@
       <workItem from="1743465731826" duration="10832000" />
       <workItem from="1743549525649" duration="6000" />
       <workItem from="1743557229827" duration="44000" />
+      <workItem from="1743570189670" duration="3000" />
+      <workItem from="1743572122860" duration="405000" />
     </task>
     <servers />
   </component>
