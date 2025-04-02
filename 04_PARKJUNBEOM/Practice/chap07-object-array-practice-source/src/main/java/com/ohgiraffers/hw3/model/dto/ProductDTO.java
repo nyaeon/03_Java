@@ -1,10 +1,12 @@
 package com.ohgiraffers.hw3.model.dto;
 
+import com.ohgiraffers.hw3.controller.ProductController;
+
 public class ProductDTO {
-    int pld;
-    String pName;
-    int price;
-    double tax;
+    private int pld;        // 제품번호
+    private String pName;   // 제품명
+    private int price;      // 제품 가격
+    private double tax;     // 제품 세금
 
     public ProductDTO() {
     }
@@ -49,9 +51,9 @@ public class ProductDTO {
     }
 
     public String information() {
-        return "메뉴 선택 : " + pld + "\n" +
-                "제품 번호 : " + pName + "\n" +
-                "제품 가격 : " + price + "\n" +
-                "제품 세금 : " + tax;
+        return "제품 번호 : " + pld + "제품 이름 : " + pName +
+                "제품 가격 : " + price + "제품 세금 : " + tax;
+
+
     }
 }
