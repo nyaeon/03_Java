@@ -1,4 +1,4 @@
-package com.ohgiraffers.h2.model.dto;
+package com.ohgiraffers.hw2.model.dto;
 
 public class StudentDTO {
 

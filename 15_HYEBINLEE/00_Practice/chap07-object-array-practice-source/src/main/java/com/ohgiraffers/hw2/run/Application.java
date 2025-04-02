@@ -1,7 +1,6 @@
-package com.ohgiraffers.h2.run;
+package com.ohgiraffers.hw2.run;
 
-import com.ohgiraffers.h2.model.dto.StudentDTO;
-import java.sql.SQLOutput;
+import com.ohgiraffers.hw2.model.dto.StudentDTO;
 import java.util.Scanner;
 
 public class Application {
