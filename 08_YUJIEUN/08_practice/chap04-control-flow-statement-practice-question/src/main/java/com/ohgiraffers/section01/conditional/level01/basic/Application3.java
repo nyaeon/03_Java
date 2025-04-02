@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level01.basic;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
@@ -14,5 +16,9 @@ public class Application3 {
         * ---출력----
         * 남자 입니다
         * */
+
+        Scanner sc =  new Scanner(System.in);
+        int a = sc.nextInt();
+
     }
 }
