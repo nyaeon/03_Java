@@ -19,10 +19,12 @@ public class B_while {
 
         Scanner sc = new Scanner(System.in);
 
-        char answer = '\0'; // 초기값 설정
+        char answer = '\0';
         while(!(answer == 'Y' || answer == 'y')) {
             System.out.print("Y 또는 y 좀 눌러줄래?");
             answer = sc.next().charAt(0);
         }
+
+        System.out.println("시키는 데로 눌러줘서 감사합니다.");
     }
 }

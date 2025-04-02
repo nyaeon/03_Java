@@ -15,9 +15,9 @@ public class D_switch {
         boolean flag = true;
 
         switch (grade) {
-            case 'G': point += 10; break;
-            case 'S': point += 10; break;
-            case 'B': point += 10;
+            case 'G': point += 11; break;
+            case 'S': point += 12; break;
+            case 'B': point += 13;
                       break;
             default:
                 flag = false;
@@ -31,3 +31,4 @@ public class D_switch {
         }
     }
 }
+

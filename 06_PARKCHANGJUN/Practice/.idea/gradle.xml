@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap01-literal-and-variable-practice-question" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap01-literal-and-variable-practice-question" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap02-operator-practice-question" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap02-operator-practice-question" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap03-method-and-api-practice-question" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap03-method-and-api-practice-question" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap04-control-flow-statement-practice-question" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap04-control-flow-statement-practice-question" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap05-array-practice-question" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap05-array-practice-question" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

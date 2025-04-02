@@ -2,8 +2,9 @@ package com.ohgiraffers.section01.method;
 
 public class Calculator {
 
+
     public int plusTwoNumbers(int first, int second) {
-        return first + second;
+        return  first + second;
     }
 
     public int subTwoNumbers(int first, int second) {
