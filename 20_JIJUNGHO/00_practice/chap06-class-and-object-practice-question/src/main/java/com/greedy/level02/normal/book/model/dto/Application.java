@@ -4,6 +4,12 @@ public class Application {
     public static void main(String[] args) {
         // 기본생성자를 통해서 객체를 생성하고 값을 추가하는 방법
         BookDTO book1 = new BookDTO();
+        book1.setTitle("jungho");
+        book1.setPublisher("jungho");
+        book1.setAuthor("jungho");
+        book1.setPrice(10000);
+        book1.setDiscountRate(3.0);
+
         book1.printInfomation();
         // 매개변수가 있는 생성자를 이용해서 생성지점부터 값을 초기화하고 시작하는 방법
         BookDTO book2 = new BookDTO("자바의 정석", "도우출판", "남궁성", 0, 0);

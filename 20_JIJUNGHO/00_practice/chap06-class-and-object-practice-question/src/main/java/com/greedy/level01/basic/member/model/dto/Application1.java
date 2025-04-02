@@ -29,6 +29,5 @@ public class Application1 {
         System.out.println("변경 후 gender : " + dto2.getGender());
         System.out.println("변경 후 phone : " + dto2.getPhone());
         System.out.println("변경 후 email : " + dto2.getEmail());
-
     }
 }
