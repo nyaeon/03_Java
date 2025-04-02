@@ -11,5 +11,15 @@ public class Application2 {
          * 총점 : 201
          * 평균 : 67
          *  */
+
+        double Kor = 80.5; // 국어
+        double Math = 50.6; // 수학
+        double Eng = 70.8; // 영어
+
+        int total = (int) (Kor + Math + Eng);
+        int avg = total / 3;
+
+        System.out.println("총점 : " + total);
+        System.out.println("평균 : " + avg);
     }
 }

@@ -38,8 +38,22 @@ public class Application {
             count++;
 
             System.out.print("계속 추가하시겠습니까? (y/n): ");
-            sc.nextLine(); // 버퍼 비우기
+            sc.nextLine();
             String answer = sc.nextLine();
 
+            // equalsIgnoreCase 대소문자 구분안함. 즉, 대소문자 상관없이 'y'이면 계속 객체 추가
+            if (!answer.equalsIgnoreCase("y") || count >= 10) {
+                break; // 대소문자 상관없이 "y" 이거나 10명까지 기록 가능함. 부정이니 count가 10보다 작거나 같을때까지 구하고 종료.
+            }
+        }
+        double totalAvg = 0;
+
+        for (int i = 0; i < count; i++) {
+            System.out.println(students[i].information());
+
+            int avg = (students[i].getKor() + students[i].getEng() + students[i].getMath()) / 3;
+            System.out.println("평균 = " + avg);
+            totalAvg += avg;
         }
     }
+}
