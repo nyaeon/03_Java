@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc5529ab-9e45-4db8-bb4b-3d6ba9e3c400" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/section01/level01/normal/Application.java" afterDir="false" />
@@ -22,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Practice/chap04-control-flow-statement-practice-question/src/main/java/com/ohgiraffers/section01/conditional/level03/Application4.java" afterDir="false" />
+=======
+>>>>>>> 18ef159 (수정)
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
@@ -73,6 +77,8 @@
     "accountId": "dc9438fd-7139-443a-9d0d-0069fa5bd280"
   }
 }]]></component>
+=======
+>>>>>>> 18ef159 (수정)
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,6 +89,7 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application1.main()].executor": "Run",
@@ -110,8 +117,37 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application5.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Application7.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section01.method.Applicaton6.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section02.package_and_import.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section02.package_and_import.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section03.math.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section03.math.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap03-method-and-api-lecture-source [:com.ohgiraffers.section04.scanner.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> 18ef159 (수정)
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ohgiraffers.section01.method" />
@@ -213,7 +249,13 @@
       <option name="presentableId" value="Default" />
       <updated>1743121595293</updated>
       <workItem from="1743121595295" duration="15204000" />
+<<<<<<< HEAD
       <workItem from="1743326322643" duration="2414000" />
+=======
+      <workItem from="1743151691180" duration="6000" />
+      <workItem from="1743151714458" duration="27000" />
+      <workItem from="1743379661530" duration="20000" />
+>>>>>>> 18ef159 (수정)
     </task>
     <servers />
   </component>

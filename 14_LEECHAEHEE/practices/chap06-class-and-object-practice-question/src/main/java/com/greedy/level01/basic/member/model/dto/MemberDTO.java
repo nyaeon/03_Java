@@ -9,9 +9,6 @@ public class MemberDTO {
     private String phone;
     private String email;
 
-    public MemberDTO() {
-    }
-
     public String getId() {
         return id;
     }
@@ -40,13 +37,31 @@ public class MemberDTO {
         return email;
     }
 
-    public void setMemberDTO(String id, String pwd, String name, int age, char gender, String phone, String email) {
-        this.id =  id;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public void setAge(int age) {
         this.age = age;
+    }
+
+    public void setGender(char gender) {
         this.gender = gender;
+    }
+
+    public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public void setEmail(String email) {
         this.email = email;
     }
 }
