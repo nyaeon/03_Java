@@ -1,5 +1,9 @@
 package com.ohgiraffers.section02.looping;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cec8712 (왜 안돼~~)
 import java.util.Scanner;
 
 public class A_nestedFor {
@@ -56,6 +60,21 @@ public class A_nestedFor {
                 System.out.print("*");
             }
             System.out.println();
+<<<<<<< HEAD
+=======
+public class A_nestedFor {
+    public void printGugudanFromTowToNine(){
+
+        int sum = 0;
+        for (int i = 2; i <= 9; i++) {
+            for(int j = 1; j < 10; j++){
+                sum = i * j;
+                // 2 x 1 = 2
+                System.out.println(i +" X " + j + " = " + sum);
+            }
+>>>>>>> 3cfb28b (수정2)
+=======
+>>>>>>> cec8712 (왜 안돼~~)
         }
     }
 }
