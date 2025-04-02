@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126ed287-71be-47e5-bde1-ae00d9e5a48b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level01/basic/member/model/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level01/basic/member/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level02/normal/book/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level02/normal/book/model/dto/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/greedy/level02/normal/book/run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="126ed287-71be-47e5-bde1-ae00d9e5a48b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743552378421</updated>
-      <workItem from="1743552379839" duration="2279000" />
+      <workItem from="1743552379839" duration="2363000" />
     </task>
     <servers />
   </component>
