@@ -2,8 +2,12 @@ package com.ohgiraffers.section05.typecasting;
 
 public class Application1 {
     public static void main(String[] args) {
-        //byte
+        //byte < short < int < long
         byte bNUM = 10;
+
+        short sNUM = 20;
+        int iNum = sNUM;
+
         int num1 = 10;
         long num2 = 10;
 

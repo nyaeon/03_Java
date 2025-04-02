@@ -16,8 +16,7 @@ public class Application1 {
 ////          c.testSimpleIfElseIFStatement();
 //            c.testNestedIfElseIfStatement();
 
-        D_switch.testSimpleSwitchStatement();
-
+        //D_switch.testSimpleSwitchStatement();
 
 
 
