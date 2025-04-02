@@ -1,8 +1,10 @@
 package com.ohgiraffers.section07.uses;
 
+import java.util.Arrays;
+
 public class MemberServices {
 
-    public void signupMembers() {
+    public void signUpMembers() {
 
         Member[] members = new Member[5];       // [null, null, null, null, null]
         members[0] = new Member(1, "user01", "pass01", "홍길동", 20, '남');
@@ -12,7 +14,12 @@ public class MemberServices {
         members[4] = new Member(5, "user01", "pass05", "윤봉길", 22, '남');
 
         MemberRegister memberRegister = new MemberRegister();
+        memberRegister.regist(members);
+    }
 
-
+    public void showAllMember() {
+        MemberFinder finder = new MemberFinder();
+        System.out.println("========== 가입된 회원 목록 =====");
+        System.out.println(Arrays.toString(finder.findAllMembers()));
     }
 }

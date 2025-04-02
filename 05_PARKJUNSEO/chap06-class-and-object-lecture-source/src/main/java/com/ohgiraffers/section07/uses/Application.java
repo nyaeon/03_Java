@@ -8,6 +8,8 @@ public class Application {
 
         Scanner sc = new Scanner(System.in);
 
+        MemberServices memberManager = new MemberServices();
+
         while (true) {
             String menu = """
                     ========== 회원관리 프로그램 ==========
@@ -20,8 +22,10 @@ public class Application {
             int no = sc.nextInt();
 
             switch (no) {
-                case 1:break;
-                case 2:break;
+                case 1: memberManager.signUpMembers();
+                    break;
+                case 2: memberManager.showAllMember();
+                    break;
                 case 9:
                     System.out.println("프로그램을 종료합니다.");
                     break;

@@ -34,6 +34,19 @@
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Application.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Car.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/MemberServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/homework_java_PARKJUNSEO/20250401_practice/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/homework_java_PARKJUNSEO/20250401_practice/src/main/java/com/greedy/level01/basic/member/model/dto/MemberDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_PARKJUNSEO/homework_java_PARKJUNSEO/20250401_practice/src/main/java/com/greedy/level01/basic/member/run/Application.java" afterDir="false" />
@@ -107,6 +120,7 @@
       <workItem from="1743270515661" duration="4000" />
       <workItem from="1743349961595" duration="495000" />
       <workItem from="1743524196905" duration="137000" />
+      <workItem from="1743569437614" duration="17000" />
     </task>
     <servers />
   </component>
