@@ -1,8 +1,26 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Random random = new Random();
+        System.out.print("가로 행의 수를 입력하세요 : ");
+        int width = sc.nextInt();
+        System.out.print("세로 열의 수를 입력하세요 : ");
+        int length = sc.nextInt();
+        char[][] chars = new char[width][length];
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < length; j++) {
+                chars[i][j] = (char)(random.nextInt(26)+65);
+                System.out.print(chars[i][j]+ " ");
+            }
+            System.out.println();
+        }
 
         /* 가로와 세로 길이를 정수형으로 입력 받아
          * 입력받은 가로 세로 길이를 이용하여 이차원 배열을 할당하고

@@ -1,9 +1,23 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("문자열을 입력하세요 : ");
+        String input = sc.nextLine();
+        System.out.print("문자를 입력하세요 : ");
+        char ch_input = sc.next().charAt(0);
+        int cnt = 0;
+        for(int i=0; i<input.length(); i++){
+           if(input.charAt(i)==ch_input){
+               cnt++;
+           }
+        }
+        System.out.println("입력하신 문자열"+input+"에서 찾으시는 문자 "+ch_input+"은 "+cnt+"개 입니다.");
         /* 문자열을 하나 입력받아 문자 자료형 배열로 바꾼 뒤
          * 검색할 문자를 하나 입력 받아
          * 입력 받은 검색할 문자가 문자열에 몇개 있는지를 출력하세요

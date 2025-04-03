@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdbacb47-d374-43ee-ae5f-4bf13111fee1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap06-class-and-object-practice-question/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap06-class-and-object-practice-question/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap07-inheritance-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap07-inheritance-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level01/basic/member/model/dto/MemberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level01/basic/member/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/book/model/dto/BookDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/book/model/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/student/model/run/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/00_Practice/06-class-and-object-practice-question/src/com/greedy/level02/normal/student/model/vo/StudentVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap05-array-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap05-array-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap06-class-and-object-lecture-source/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/FireCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section01/extend/RacingCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_KYEONGBIN/chap07-inheritance-lecture-source/src/main/java/com/ohgiraffers/section02/superkeyword/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vA91j5A9YqqFoNUU7EmbsuUGrr" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdbacb47-d374-43ee-ae5f-4bf13111fee1" name="Changes" comment="" />
+      <created>1743576802587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743576802587</updated>
+      <workItem from="1743576803940" duration="311000" />
+      <workItem from="1743577136161" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,6 +1,7 @@
 package com.greedy.level01.basic.member.model.dto;
 
 public class MemberDTO {
+    // 필드
     private String id;
     private String pwd;
     private String name;
@@ -9,6 +10,7 @@ public class MemberDTO {
     private String phone;
     private String email;
 
+    // 기본 생성자
     public MemberDTO() {
     }
 
