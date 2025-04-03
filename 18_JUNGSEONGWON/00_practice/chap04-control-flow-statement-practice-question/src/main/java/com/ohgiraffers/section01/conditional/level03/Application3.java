@@ -1,9 +1,16 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
-
+            Scanner sc = new Scanner(System.in);
+            int kor = sc.nextInt();
+            int eng = sc.nextInt();
+            int math = sc.nextInt();
+            int avg = (kor + eng + math)/3;
+            
         /* 국어, 영어, 수학 점수를 입력받아
          * 평균 점수가 60점 이상이면서 각 과목이 40점 이상인 조건이 만족하면 "합격입니다!" 를 출력하세요,
          * 단, 합격이 아닌 경우 불합격 사유가 무엇인지를 모두 출력해주어야 합니다.
