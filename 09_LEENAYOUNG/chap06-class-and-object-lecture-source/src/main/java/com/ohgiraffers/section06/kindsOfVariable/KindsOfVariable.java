@@ -17,7 +17,7 @@ public class KindsOfVariable {
     public void testMethod(int num) {  // 메소드 영역의 시작
         // 메소드 영역에서 작성하는 변수를 지역변수
         // 메소드의 괄호안에 선언하는 변수를 매개변수
-        // 매가변수도 일종의 지역변수로 생각하면 된다.
+        // 매개변수도 일종의 지역변수로 생각하면 된다.
         // 지역변수와 매개변수 모두 메소드 호출 시 stack을 할당받아 stack에 생성된다.
         System.out.println(num);  // 매개변수는 호출 시 값이 넘어와서 변경되기 때문에 초기화할 필요가 없다.
         int localNum;

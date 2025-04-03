@@ -1,10 +1,16 @@
 package com.ohgiraffers.section02.level03;
 
+import java.util.Arrays;
+
 public class Application1 {
 
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
+       for (int i = 0; i < arr.length; i++) {
+           arr[i%4][i%4] = i+1;
+       }
+        System.out.println(Arrays.deepToString(arr));
     }
 
     /**
