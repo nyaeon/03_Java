@@ -30,7 +30,7 @@ public class ProductController {
                  break;
              case 9:
                  System.out.println("프로그램을 종료합니다.");
-                 break;
+                 return;
              default:
                  System.out.println("잘못된 번호를 입력하셨습니다.");
                  break;
