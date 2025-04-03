@@ -12,5 +12,16 @@ public class Application2 {
          * 면적 : 455.0
          * 둘레 : 97.8
          *  */
+        // 사각형의 너비와 높이 변수 선언 및 초기화
+        double width = 12.5;
+        double height = 36.4;
+
+        // 면적과 둘레 계산
+        double area = width * height;
+        double perimeter = 2 * (width + height);
+
+        // 결과 출력
+        System.out.println("면적 : " + area);
+        System.out.println("둘레 : " + perimeter);
     }
 }

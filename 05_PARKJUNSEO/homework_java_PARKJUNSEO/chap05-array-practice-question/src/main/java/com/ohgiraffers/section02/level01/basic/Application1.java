@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.level01.basic;
 
+import java.util.Arrays;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -15,5 +17,20 @@ public class Application1 {
          *
          * 단, 출력물의 줄맞춤은 신경쓰지 말고 풀어보세요
          * */
+
+        int[][] iarr = new int[3][4];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                iarr[i][j] = 4*i+j+1;
+            }
+        }
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.print(iarr[i][j] + " ");
+            }
+            System.out.println("");
+        }
+
     }
 }
