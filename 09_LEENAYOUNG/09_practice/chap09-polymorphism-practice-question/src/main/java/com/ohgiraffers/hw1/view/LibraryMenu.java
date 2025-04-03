@@ -41,8 +41,7 @@ public class LibraryMenu {
 
             switch (choice) {
                 case 1:
-                    System.out.printf("이름: %s, 나이: %d, 성별: %c, 보유쿠폰 개수: %d\n",
-                            lm.myInfo().getName(), lm.myInfo().getAge(), lm.myInfo().getGender(), lm.myInfo().getCouponCount());
+                    System.out.println(lm.myInfo());
                     break;
                 case 2: selectAll();
                     break;
