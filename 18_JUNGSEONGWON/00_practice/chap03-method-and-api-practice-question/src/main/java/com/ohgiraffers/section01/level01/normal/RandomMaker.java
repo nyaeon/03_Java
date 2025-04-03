@@ -2,10 +2,16 @@ package com.ohgiraffers.section01.level01.normal;
 
 public class RandomMaker {
 
-    public void makeRandom(){
-
+    public String rockPaperScissors(){
+        String[] rand = {"가위","바위","보"};
+        return rand[(int)(Math.random()*3)];
     }
 
+    public static String tossCoin(){
+        String[] coin = {"앞면","뒷면"};
+        return coin[(int)(Math.random()*2)];
+
+    }
     /*
      * static 메소드로 생성
      * 반환형 : String
