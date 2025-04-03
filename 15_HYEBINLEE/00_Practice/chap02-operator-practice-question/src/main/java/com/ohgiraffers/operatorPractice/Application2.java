@@ -13,6 +13,16 @@ public class Application2 {
          * ------ 출력 결과 --------
          * 청소년
          * */
+        // 정수 선언 및 초기화
+        int age = 19;
 
+        // 나이 조건에 따른 출력
+        if (age <= 13) {
+            System.out.println("어린이");
+        } else if (age <= 19) {
+            System.out.println("청소년");
+        } else {
+            System.out.println("성인");
+        }
     }
 }
