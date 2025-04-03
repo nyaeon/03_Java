@@ -33,12 +33,13 @@ public class LibraryMenu {
                     메뉴 선택 : """;
             System.out.print(menu);
             int choice = sc.nextInt();
+
             switch (choice) {
                 case 1:
                     System.out.println(member);
                     break;
                 case 2:
-                    System.out.println(selectAll());
+                    selectAll();
                     break;
                 case 3: searchBook();
                     break;
@@ -49,7 +50,7 @@ public class LibraryMenu {
         }
     }
 
-    public Book[] selectAll() {
+    public void selectAll() {
         Book[] bList = lm.selectAll();
 
         for (int i =0; i < bList.length; i++) {
@@ -58,7 +59,6 @@ public class LibraryMenu {
         if (bList.length == 0) {
             System.out.println("검색하신 해당 도서가 현재 존재하지 않습니다.");
         }
-        return bList;
     }
 
     public void searchBook() {
