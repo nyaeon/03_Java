@@ -15,6 +15,7 @@ public class RandomMaker {
      * -- 출력 --
      * 가위
      * */
+    RandomMaker() {}
     public static String rockPaperScissors() {
       String[] choices = {"가위", "바위", "보"};
       Random random = new Random();
