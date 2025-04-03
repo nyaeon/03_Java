@@ -1,5 +1,7 @@
 package com.ohgiraffers.hw3.model.dto;
 
+import com.ohgiraffers.hw3.controller.ProductController;
+
 public class ProductDTO {
     private int pId;
     private String pName;
@@ -14,6 +16,7 @@ public class ProductDTO {
         this.pName = pName;
         this.price = price;
         this.tax = tax;
+        ProductController.count++;
     }
 
     public String information() {

@@ -41,20 +41,22 @@ public class ProductController {
 
  public void productInput() {
      System.out.print("제품 번호: ");
-     pro[count].setpId(sc.nextInt());
+     int pNum = sc.nextInt();
      System.out.print("제품명을 입력하세요 : ");
-         pro[count].setpName(sc.next());
+     String pName = sc.next();
      System.out.print("제품 가격을 입력하세요 : ");
-         pro[count].setPrice(sc.nextInt());
+     int price = sc.nextInt();
      System.out.print("제품 세금을 입력하세요 : ");
-         pro[count].setTax(sc.nextDouble());
-         count++;
+     double tax = sc.nextDouble();
+     pro[count] = new ProductDTO(pNum, pName, price, tax);
  }
 
  public void productPrint() {
-     System.out.println("제품번호= " + pro[count].getpName()
-             + ", 제품명= " + pro[count].getpId()
-     + ", 제품가격= " + pro[count].getpName()
-     + ", 제품 세금=  " + pro[count].getPrice());
+     for (int i = 0; i < count; i++) {
+         System.out.println("제품번호= " + pro[i].getpName()
+                 + ", 제품명= " + pro[i].getpId()
+                 + ", 제품가격= " + pro[i].getpName()
+                 + ", 제품 세금=  " + pro[i].getPrice());
+     }
  }
 }
