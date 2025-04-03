@@ -46,6 +46,7 @@ public class Application1 {
         System.out.println("longMulti = " + longMulti);
 
         // 강제 형변환
-        long result = (long) ;
+        long reuslt = (long) firstNum * secondNum; // 작은자료형은 큰 자료형을 따라간다.
+        System.out.println("reuslt = " + reuslt);
     }
 }

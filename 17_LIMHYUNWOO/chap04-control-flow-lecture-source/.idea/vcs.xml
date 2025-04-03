@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+<<<<<<< HEAD:.idea/vcs.xml
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/05_PARKJUNSEO" vcs="Git" />
+=======
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+>>>>>>> fc59ff8998672c2b0427d60ced9dd8fae2d833e3:17_LIMHYUNWOO/chap04-control-flow-lecture-source/.idea/vcs.xml
+  </component>
+</project>
