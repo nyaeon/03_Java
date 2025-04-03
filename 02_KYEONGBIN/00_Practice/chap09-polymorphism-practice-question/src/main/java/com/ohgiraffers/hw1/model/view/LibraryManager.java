@@ -1,26 +1,11 @@
 package com.ohgiraffers.hw1.model.view;
 
-import com.ohgiraffers.hw1.model.dto.AniBook;
-import com.ohgiraffers.hw1.model.dto.Book;
-import com.ohgiraffers.hw1.model.dto.CookBook;
-import com.ohgiraffers.hw1.model.dto.Member;
+import com.ohgiraffers.hw1.model.dto.*;
+import java.util.ArrayList;
 
 public class LibraryManager {
-
-    public Member getMem() {return mem;}
-    public void setMem(Member mem) {this.mem = mem;}
-
-
-    public Book[] getbList() {
-        return bList;}
-
-
-    public void setbList(Book[] bList) {
-        this.bList = bList;
-    }
-
     private Member mem = null;
-    private Book[] bList = new Book[5];
+    private final Book[] bList = new Book[5];
 
     {
         bList[0] = new CookBook("백종원의 집밥", "백종원", "tvN", true);
@@ -42,14 +27,25 @@ public class LibraryManager {
         return bList;
     }
 
-    public Book[] searchBook(String title) {
+    public Book[] searchBook(String keyword) {
+        ArrayList<Book> result = new ArrayList<>();
         for (Book book : bList) {
-            if (book != null && book.getTitle().equalsIgnoreCase(title)) {
-                return new Book[]{book};
+            if (book.getTitle().toLowerCase().contains(keyword.toLowerCase())) {
+                result.add(book);
             }
         }
-        return null;
-        }
+        return result.toArray(new Book[0]);
     }
 
-
+    public int rentBook(int index) {
+        Book book = bList[index];
+        if (book instanceof AniBook ani && mem.getAge() < ani.getAccessAge()) {
+            return 1;
+        }
+        if (book instanceof CookBook cook && cook.isCoupon()) {
+            mem.setCouponCount(mem.getCouponCount() + 1);
+            return 2;
+        }
+        return 0;
+    }
+}
