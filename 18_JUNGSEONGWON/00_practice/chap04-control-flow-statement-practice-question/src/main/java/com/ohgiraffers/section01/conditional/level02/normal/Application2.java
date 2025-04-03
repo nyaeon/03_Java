@@ -13,7 +13,13 @@ public class Application2 {
         double BMI = weight / (height * height);
 
         if (BMI < 20) {
-            
+            System.out.println("당신은 저체중 입니다.");
+        } else if (BMI < 25) {
+            System.out.println("당신은 정상체중입니다.");
+        } else if (BMI < 30) {
+            System.out.println("당신은 과체중입니다.");
+        } else {
+            System.out.println("당신은 비만입니다.");
         }
         /* BMI(신체질량지수)를 계산하고, 계산된 값에 따라
          * 저체중(20 미만)인 경우 "당신은 저체중 입니다.",
