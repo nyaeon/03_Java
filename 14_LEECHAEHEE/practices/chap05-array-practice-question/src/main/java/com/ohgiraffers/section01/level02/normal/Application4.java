@@ -1,5 +1,6 @@
 package com.ohgiraffers.section01.level02.normal;
 
+
 import java.util.Scanner;
 
 public class Application4 {
@@ -12,15 +13,18 @@ public class Application4 {
 
 		  Random 클래스 사용 혹은 Math.random() 메소드를 사용
 	   */
+        int[] lotto = new int[6];
         System.out.println("=======오늘의 로또번호========");
-        int[] loto = new int[7];
-        for (int i = 0; i < loto.length; i++) {
-            loto[i] = (int)(Math.random() * 45 + 1);
-            if (loto[i] == loto[i]) {
-                continue;
-            } else {
-                System.out.print(loto[i] + " ");
+        for (int i = 0; i < lotto.length; i++) {
+        int num = (int) (Math.random() * 45) + 1;
+        lotto[i] = num;
+        for (int j = 0; j < i; j++) {
+            if (num == lotto[j]) {
+                i--;
+                break;
             }
+        }
+            System.out.print(lotto[i] + " ");
         }
     }
 }
