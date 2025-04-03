@@ -6,6 +6,7 @@ public class Application {
 
     public static void main(String[] args) {
 
+        // 기본 생성자를 이용해서 객체를 생성
         MemberDTO member = new MemberDTO();
 
         //getter를 이용해서 필드의 초기값 확인

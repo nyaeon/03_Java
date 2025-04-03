@@ -2,11 +2,16 @@ package com.greedy.level03.hard.emp.run;
 
 import com.greedy.level03.hard.emp.model.dto.EmployeeDTO;
 
+import java.util.Scanner;
+
 public class Application {
 
     public static void main(String[] args) {
 
         EmployeeDTO dto = new EmployeeDTO();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("사원 정보를 입력하세요 :");
 
         dto.setNumber(200);
         dto.setName("홍길동");

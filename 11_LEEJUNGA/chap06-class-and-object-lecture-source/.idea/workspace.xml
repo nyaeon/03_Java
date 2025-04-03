@@ -5,54 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b018ad5-53bf-497e-a6c6-ee628907266f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level01/basic/member/model/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level01/basic/member/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/book/model/dto/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/book/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/student/model/vo/StudentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level02/normal/student/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/model/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_practice/chap06-class-and-object-practice-question/src/main/java/com/greedy/level03/hard/emp/run/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/CarRacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/constructor/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/RequestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Kiosk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/subproject/coffee/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/overloading/OverloadingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/parameter/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/parameter/ParameterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/parameter/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/finalkeyword/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/finalkeyword/FinalFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/singleton/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/singleton/EagerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/statickeyword/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/statickeyword/DepartmentStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/statickeyword/OverseasDirectPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section05/statickeyword/StaticFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section06/initblock/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section06/initblock/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section06/kindsOfVariable/KindsOfVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/object_array/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/object_array/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/MemberFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/MemberRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section07/uses/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +61,7 @@
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section06.initblock.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section06.kindsOfVariable.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section07.object_array.Application.main()].executor": "Run",
+    "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.section07.uses.Application.main()].executor": "Run",
     "Gradle.chap06-class-and-object-lecture-source [:com.ohgiraffers.user_type.Application.main()].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -121,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ohgiraffers.section07.uses" />
       <recent name="com.ohgiraffers.section05.statickeyword" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -149,7 +110,9 @@
       <updated>1743401062708</updated>
       <workItem from="1743401063846" duration="10918000" />
       <workItem from="1743465938243" duration="539000" />
-      <workItem from="1743466487742" duration="25060000" />
+      <workItem from="1743466487742" duration="25816000" />
+      <workItem from="1743552211175" duration="3050000" />
+      <workItem from="1743556504651" duration="1019000" />
     </task>
     <servers />
   </component>

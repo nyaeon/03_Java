@@ -62,7 +62,7 @@ public class BookDTO {
         this.discountRate = discountRate;
     }
 
-    public String toString() {
-        return title + "," + publisher + "," + author + "," + price + "," + discountRate;
+    public void printInformation() {
+        System.out.println(this.title + "," + this.publisher + "," + this.author + "," + this.price + "," + this.discountRate);
     }
 }
