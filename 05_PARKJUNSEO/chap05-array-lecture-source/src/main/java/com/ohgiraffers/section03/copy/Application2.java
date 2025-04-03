@@ -39,7 +39,7 @@ public class Application2 {
 
         // 4. copyOf()를 이용한 복사 (원본의 처음부터만 가능) -> 길이 조절은 가능함
         int[] copyArr4 = Arrays.copyOf(originArr, 3);
-        print(copyArr3, "copyOf()를 활용한 사본");
+        print(copyArr4, "copyOf()를 활용한 사본");
 
     }
 
