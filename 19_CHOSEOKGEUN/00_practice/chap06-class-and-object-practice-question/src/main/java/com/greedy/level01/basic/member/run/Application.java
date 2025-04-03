@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Application {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // 기본생성자를 이용해서 객체를 생성
         MemberDTO member = new MemberDTO();
 
         System.out.print("id : " );
@@ -41,6 +42,7 @@ public class Application {
         System.out.println(member.getGender());
         System.out.println(member.getPhone());
         System.out.println(member.getEmail());
+
 
     }
 }
