@@ -27,7 +27,7 @@ public class Application1 {
         }
         System.out.println("============================================================");
         iArr2[0] = new int[]{1,2,3};
-        iArr2[1] = new int[]{4,5,6, 7};
+        iArr2[1] = new int[]{4,5,6,7};
         iArr2[2] = new int[]{8, 9, 10, 11, 12};
 
         for (int i = 0; i < iArr2.length; i++) {
