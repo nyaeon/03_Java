@@ -6,44 +6,40 @@ import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
-
-        EmployeeDTO dto = new EmployeeDTO();
-
+        EmployeeDTO employeeDTO = new EmployeeDTO();
         Scanner sc = new Scanner(System.in);
-        System.out.print("사원코드를 입력하세요 : ");
-        dto.setNumber(sc.nextInt());
-        System.out.print("사원명을 입력하세요 : ");
-        dto.setName(sc.next());
-        System.out.print("부서명을 입력하세요 : ");
-        dto.setDept(sc.next());
-        System.out.print("직급명을 입력하세요 : ");
-        dto.setJob(sc.next());
-        System.out.print("나이를 입력하세요 : ");
-        dto.setAge(sc.nextInt());
-        System.out.print("성별을 입력하세요 : ");
-        dto.setGendder(sc.next().charAt(0));
-        System.out.print("연봉을 입력하세요 : ");
-        dto.setSalary(sc.nextInt());
-        System.out.print("보너스포인트를 입력하세요 : ");
-        dto.setBonusPoint(sc.nextDouble());
-        System.out.print("전화번호를 입력하세요 : ");
-        dto.setPhone(sc.next());
-        System.out.print("주소를 입력하세요 : ");
-        dto.setAddress(sc.next());
+        System.out.print("사원번호 : ");
+        employeeDTO.setNumber(sc.nextInt());
+        System.out.print("이름 : ");
+        employeeDTO.setName(sc.next());
+        System.out.print("부서 : ");
+        employeeDTO.setDept(sc.next());
+        System.out.print("직급 : ");
+        employeeDTO.setJob(sc.next());
+        System.out.print("나이 : ");
+        employeeDTO.setAge(sc.nextInt());
+        System.out.print("성별 : ");
+        employeeDTO.setGendder(sc.next().charAt(0));
+        System.out.print("월급 : ");
+        employeeDTO.setSalary(sc.nextInt());
+        System.out.print("보너스 포인트 : ");
+        employeeDTO.setBonusPoint(sc.nextDouble());
+        System.out.print("전화번호 : ");
+        employeeDTO.setPhone(sc.next());
+        sc.nextLine();
+        System.out.print("주소 : ");
+        employeeDTO.setAddress(sc.nextLine());
 
-        System.out.println(dto.getNumber());
-        System.out.println(dto.getName());
-        System.out.println(dto.getDept());
-        System.out.println(dto.getJob());
-        System.out.println(dto.getAge());
-        System.out.println(dto.getGendder());
-        System.out.println(dto.getSalary());
-        System.out.println(dto.getBonusPoint());
-        System.out.println(dto.getPhone());
-        System.out.println(dto.getAddress());
-
-
-
+        System.out.println(employeeDTO.getNumber());
+        System.out.println(employeeDTO.getName());
+        System.out.println(employeeDTO.getDept());
+        System.out.println(employeeDTO.getJob());
+        System.out.println(employeeDTO.getAge());
+        System.out.println(employeeDTO.getGendder());
+        System.out.println(employeeDTO.getSalary());
+        System.out.println(employeeDTO.getBonusPoint());
+        System.out.println(employeeDTO.getPhone());
+        System.out.println(employeeDTO.getAddress());
 
     }
 }

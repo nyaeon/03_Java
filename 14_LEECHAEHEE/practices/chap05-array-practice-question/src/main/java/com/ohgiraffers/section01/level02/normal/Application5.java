@@ -1,5 +1,8 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Application5 {
 
     public static void main(String[] args) {
@@ -15,5 +18,22 @@ public class Application5 {
          *	application에 i가 존재하는 위치(인덱스) : 4 8
          *	i 개수 : 2
          * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("문자열 : ");
+        String str = sc.next() ;
+        System.out.print("문자 : ");
+        char ch = sc.next().charAt(0);
+        int count = 0;
+        char[] chars = new char[str.length()];
+        int[] index = new int[str.length()];
+        for (int i = 0; i < chars.length; i++) {
+            chars[i] = str.charAt(i);
+            if (chars[i] == ch) {
+                index[count] = i;
+                count++;
+            }
+        }
+        System.out.println(str + "에 " + ch + "가 존재하는 위치 : " + Arrays.toString(index));
+        System.out.println(ch+ "의 개수 : " + count);
     }
 }
