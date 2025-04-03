@@ -9,6 +9,9 @@
     <file type="web" url="file://$PROJECT_DIR$/chap04-control-flow-statement-practice-question" />
     <file type="web" url="file://$PROJECT_DIR$/chap05-array-practice-question" />
     <file type="web" url="file://$PROJECT_DIR$/chap06-class-and-object-practice-question" />
+    <file type="web" url="file://$PROJECT_DIR$/chap07-object-array-practice-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap08-Inherit-prectice-question" />
+    <file type="web" url="file://$PROJECT_DIR$/chap09-polymorphism-practice-question" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
