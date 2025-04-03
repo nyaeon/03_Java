@@ -49,6 +49,7 @@ public class PersonDTO {
     }
 
     public String information(){
-        return "name=" + name + ", age=" + age + ", height=" + height + ", weight=" + weight;
+        return "name=" + getName() + ", age=" + getAge() +
+                ", height=" + getHeight() + ", weight=" + getWeight();
     }
 }
