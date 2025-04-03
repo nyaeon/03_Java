@@ -1,10 +1,13 @@
 package com.ohgiraffers.hw3.run;
 
-import com.ohgiraffers.hw3.model.dto.ProductDTO;
+import com.ohgiraffers.hw3.controller.ProductController;
+
 
 public class Application {
     public static void main(String[] args) {
 
-        ProductDTO pro = new ProductDTO();
+        ProductController pc = new ProductController();
+        pc.mainMenu();
+
     }
 }
