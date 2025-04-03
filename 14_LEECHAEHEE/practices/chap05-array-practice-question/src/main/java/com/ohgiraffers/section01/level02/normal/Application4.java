@@ -16,10 +16,11 @@ public class Application4 {
         int[] loto = new int[7];
         for (int i = 0; i < loto.length; i++) {
             loto[i] = (int)(Math.random() * 45 + 1);
-//            if (loto[i] == loto[i + 1]) {
-//                continue;
-//            }
-            System.out.print(loto[i]+ " ");
+            if (loto[i] == loto[i]) {
+                continue;
+            } else {
+                System.out.print(loto[i] + " ");
+            }
         }
     }
 }
