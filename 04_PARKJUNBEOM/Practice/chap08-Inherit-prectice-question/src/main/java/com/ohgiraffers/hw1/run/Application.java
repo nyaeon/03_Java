@@ -15,14 +15,14 @@ public class Application {
         students[1] = new StudentDTO("김말똥", 21, 187.3, 80, 2, "경영학과");
         students[2] = new StudentDTO("강개순", 23, 167.0, 45.0, 4, "정보통신공학과");
 
-        for (StudentDTO student : students) {
+        for (StudentDTO student : students) { // 향상된 for문 이용
             System.out.println(student.information());
         }
 
         EmployeeDTO[] employees = new EmployeeDTO[10];
         int count = 0;
 
-        while (true) {
+        while (true) { // while(true) 무한 반목문을 통해
             System.out.print("이름 : ");
             String name = sc.next();
             System.out.print("나이 : ");
