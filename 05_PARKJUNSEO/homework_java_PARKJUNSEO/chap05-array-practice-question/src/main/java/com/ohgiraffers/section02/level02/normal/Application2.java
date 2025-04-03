@@ -33,5 +33,36 @@ public class Application2 {
          * 김정희 대조영
          * 김유신 이사부
          */
+
+        String[] total = new String[]{"홍길동", "이순신", "유관순", "윤봉길", "장영실", "임꺽정", "장보고", "이태백", "김정희", "대조영", "김유신", "이사부"};
+        String[][] stu1 = new String[3][2];
+        String[][] stu2 = new String[3][2];
+
+        for (int i = 0; i < stu1.length; i++) {
+            for (int j = 0; j < 2; j++) {
+                stu1[i][j] = total[2*i + j];
+            }
+            for (int j = 0; j < 2; j++) {
+                stu2[i][j] = total[2*i + j + 6];
+            }
+        }
+
+        System.out.println("== 1분단 ==");
+        for (int i = 0; i < stu1.length; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.print(stu1[i][j] + " ");
+            }
+            System.out.println("");
+        }
+
+        System.out.println("");
+
+        System.out.println("== 2분단 ==");
+        for (int i = 0; i < stu1.length; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.print(stu2[i][j] + " ");
+            }
+            System.out.println("");
+        }
     }
 }

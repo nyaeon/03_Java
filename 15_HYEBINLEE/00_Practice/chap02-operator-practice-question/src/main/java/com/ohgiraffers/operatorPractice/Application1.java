@@ -14,6 +14,14 @@ public class Application1 {
          *
          * 홀수
          * */
+        // 정수 선언 및 초기화
+        int number = 9;
 
+        // 짝수, 홀수 판별 후 출력
+        if (number % 2 == 0) {
+            System.out.println("짝수");
+        } else {
+            System.out.println("홀수");
+        }
     }
 }
