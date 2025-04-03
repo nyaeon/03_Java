@@ -9,6 +9,7 @@ public class MemberDTO {
     private String phone;
     private String email;
 
+    // 기본 생성자
     public MemberDTO() {
     }
 

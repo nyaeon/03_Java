@@ -11,5 +11,17 @@ public class Application2 {
          * 총점 : 201
          * 평균 : 67
          *  */
+        // 과목 점수 변수 선언 및 초기화
+        double korean = 80.5;
+        double math = 50.6;
+        double english = 70.8;
+
+        // 총점 및 평균 계산 (정수형 변환)
+        int total = (int) (korean + math + english);
+        int average = total / 3;
+
+        // 결과 출력
+        System.out.println("총점 : " + total);
+        System.out.println("평균 : " + average);
     }
 }

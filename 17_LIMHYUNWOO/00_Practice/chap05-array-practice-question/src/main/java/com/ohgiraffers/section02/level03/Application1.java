@@ -1,10 +1,19 @@
 package com.ohgiraffers.section02.level03;
 
+import java.util.Arrays;
+
 public class Application1 {
 
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
+        int j= 0;
+        int k=0;
+       for (int i = 0; i < arr.length; i++) {
+           arr[j][k]=i;
+
+       }
+        System.out.println(Arrays.deepToString(arr));
     }
 
     /**

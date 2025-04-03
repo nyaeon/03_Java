@@ -5,91 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0359f4e-83ee-4b8c-8bff-b0ed518a1732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/CarRacer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/RequestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Barista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Kiosk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/overloading/OverloadingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/ParameterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/finalkeyword/FinalFieldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/EagerSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/DepartmentStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/OverseasDirectPurchase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/StaticFieldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/kindsOfVariable/KindsOfVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/object_array/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_YUSEUNGJE/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section07/uses/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap03-method-and-api-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap03-method-and-api-lecture-source/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section01/user_type/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem1/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/problem2/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section02/encapsulation/resolved/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/abstraction/CarRacer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/constructor/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/RequestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Barista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Kiosk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section03/subproject/coffee/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/overloading/OverloadingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/ParameterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section04/parameter/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/finalkeyword/FinalFieldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/EagerSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/singleton/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/DepartmentStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/OverseasDirectPurchase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section05/statickeyword/StaticFieldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-class-and-object-lecture-source/src/main/java/com/ohgiraffers/section06/initblock/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +55,11 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;B:/Development/Backend-study/03_JAVA/02_KYEONGBIN/chap06-class-and-object-lecture-source&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/Development/Backend-study/03_JAVA/02_KYEONGBIN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -162,6 +82,9 @@
       <updated>1743487121765</updated>
       <workItem from="1743487123080" duration="30000" />
       <workItem from="1743555382512" duration="105000" />
+      <workItem from="1743557892878" duration="85000" />
+      <workItem from="1743579894263" duration="2799000" />
+      <workItem from="1743638539636" duration="730000" />
     </task>
     <servers />
   </component>

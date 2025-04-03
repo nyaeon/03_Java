@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.method;
 
-public class Application4 {
+public class  Application4 {
     public static void main(String[] args) {
 
         Application4 app = new Application4();
