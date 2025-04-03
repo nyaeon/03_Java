@@ -15,12 +15,12 @@ System.out.println("discountRate = " + book.getDiscountRate());
 book.setDiscountRate(0.0);
         System.out.println(book.getTitle()+", " + book.getPublisher()+
                 ", " + book.getAuthor()+"," + book.getPrice()+", " + book.getDiscountRate());
-        book.setTitle("홍길동");
-        book.setPublisher("활빈당");
-        book.setAuthor("허균");
-        book.setPrice(50000000);
-        book.setDiscountRate(0.5);
-        System.out.println(book.getTitle()+", " + book.getPublisher()+
+book.setTitle("홍길동");
+book.setPublisher("활빈당");
+book.setAuthor("허균");
+book.setPrice(50000000);
+book.setDiscountRate(0.5);
+   System.out.println(book.getTitle()+", " + book.getPublisher()+
                 ", " + book.getAuthor()+"," + book.getPrice()+", " + book.getDiscountRate());
     }
 }
