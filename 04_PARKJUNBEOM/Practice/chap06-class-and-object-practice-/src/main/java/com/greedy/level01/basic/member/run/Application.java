@@ -8,7 +8,7 @@ public class Application {
     // setter를 이용해서 필드 값 변경
     // getter를 이용해서 변경된 필드값 확인
         MemberDTO member1 = new MemberDTO();
-        System.out.println(member1.getId());
+//        System.out.println(member1.getId());
         System.out.println(member1);
         member1.setId("user01");
         member1.setPwd("pass01");
