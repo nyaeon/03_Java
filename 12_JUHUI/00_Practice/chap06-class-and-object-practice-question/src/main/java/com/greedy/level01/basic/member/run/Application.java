@@ -6,9 +6,34 @@ public class Application {
 
     public static void main(String[] args) {
 
+        // 기본 생성자를 이용해서 객체를 생성
         MemberDTO member = new MemberDTO();
 
-        //getter
+        // 강사님 설명 추가 부분
+        System.out.println(member); //  주소값이 나옴. jvm이 기본값을 이용해 넣어준거임.
+        System.out.println(member.getId());
+        System.out.println(member.getName());
+        System.out.println(member.getAge());
+        System.out.println(member.getGender());
+        System.out.println(member.getEmail());
+        System.out.println(member.getPhone());
+
+        // 변경 후
+        member.setId("user01");
+        member.setPwd("pass01");
+        member.setName("홍길동");
+        member.setAge(20);
+        member.setGender('M');
+        member.setPhone("010-1234-5678");
+        member.setEmail("user01@gmail.com");
+
+        //setter로 받은 값 getter로 반환해 sout이용해 출력
+        System.out.println("변경 후 : " + member.getId());
+        System.out.println();
+
+
+        // =========================================================
+        //getter 여기는 내가 푼 부분
         member.getId();
         System.out.println("id : " + member.getId());
 
