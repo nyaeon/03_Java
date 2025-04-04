@@ -6,6 +6,8 @@ public class MemberService {
 
     public void signUpMembers() {
 
+        
+
         Member[] members = new Member[5];  // [null, null, null, null, null]
         members[0] = new Member(1, "user01", "pass01", "홍길동", 20, '남');
         members[1] = new Member(2, "user02", "pass02", "유관순", 16, '여');
