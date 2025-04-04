@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.object.book;
 
+import java.util.Objects;
+
 public class Book {
 
     private int number;
@@ -62,4 +64,75 @@ public class Book {
                 ", price=" + price +
                 ']';
     }
+
+    // 2. equals() 오버라이딩
+    @Override
+
+    public boolean equals(Object obj) { // obj는 업캐스팅됨
+
+        if (this == obj) {
+            return true;
+        }
+
+        if (obj == null) {
+            return false;
+        }
+
+        // 넘겨받은 값이 같은지 다른지 비교
+
+        Book other = (Book) obj; // Book 에 다운캐스팅
+
+        if (this.number != other.number) { // number 은 정수형
+            return false;
+        }
+
+        if (this.title == null) {
+            if (other.title != null) {
+                return false;
+            }
+        } else if ( ! this.title.equals(other.title)) {
+            return false;
+        }
+
+        if (this.author == null) {
+            if (other.author != null) {
+                return false;
+            }
+        } else if ( ! this.author.equals(other.author)) {
+            return false;
+        }
+
+        if (this.price != other.price) {
+            return false;
+        }
+
+
+        return true; // 위에서 하나라도 false면 false로 출력
+
+
+        }
+    // 3. hashCode() 오버라이딩
+
+    @Override
+    public int hashCode() {
+
+        // 곱셈 연산을 누적시켜야 하기 때문에 0이 아닌 값으로 초기화
+        int result = 1;
+
+        /*
+        * 필드마다 곱해줄 소수값을 선언
+        * 31은 소수이기 때문에 연산 시 동일한 hashCode 값이 나오지 않으르 확률을 증가시킴
+        * */
+
+        final int PRIME = 31;
+
+        result  = PRIME * result + this.number;
+        result  = PRIME * result + this.title.hashCode();
+        result  = PRIME * result + this.author.hashCode();
+        result  = PRIME * result + this.price;
+
+        return result;
+
+    }
+
 }
