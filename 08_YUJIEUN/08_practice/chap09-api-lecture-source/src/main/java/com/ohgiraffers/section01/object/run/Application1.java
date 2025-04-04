@@ -9,9 +9,10 @@ public class Application1 {
         /**
          * [object]
          * 모든 클래스는 object 클래스의 후손이다.
+         * 따라서 object가 가진 메소드를 자신의 것처럼 사용할 수 있다.
          *
-         * Object 클래스의 메소드 중 관례상 많이 오버라이딩 해서 사요ㅛㅏ는 메소드는
-         * toString(),equals(),hashCod()
+         * Object 클래스의 메소드 중 관례상 많이 오버라이딩 해서 사용하는 메소드는
+         * toString(),equals(),hashCode()
          */
 
         Book book1 = new Book(1,"홍길동전","허균",50000);
@@ -28,7 +29,7 @@ public class Application1 {
         System.out.println("book2 : "+book2.toString());
         System.out.println("book3 : "+book3.toString());
         System.out.println("bok1 : " + book1);
-        System.out.println("book2 :" + book2)
-        System.out.printl("book :"+ book3);
+        System.out.println("book2 :" + book2);
+        System.out.println("book :"+ book3);
     }
 }
