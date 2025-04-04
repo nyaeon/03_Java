@@ -33,6 +33,7 @@ public class Application4 {
          * 이스케이프 문자를 사용하는 특수문자(\\)
          * $ ^ * ( ) + | { } [ ] . ?
          *
+         *
          * (앞에 \\ 붙여야 한다.
          * 정규표현식에서 사용되는 특수문자인 경우 \$가 정규표현식 문자와 겹치게 된다.
          * 따라서 $를 기준으로 split을 하기 위해서는 정규표현식 문자가 아닌 $라는 구분자로 split하겠다는
@@ -40,5 +41,10 @@ public class Application4 {
          * 하지만 역슬래쉬가 위에서 배운 이스케이프 문자의 역슬래쉬와 겹친다.
          * 따라서 \\$로 해야 역슬래쉬 + $로 인식해서 정규표현식을 탈출하는 탈출문자가 된다.
          * */
+        String str = "java$mysql$jdbc";
+        String[] sarr = str.split("\\$");
+        for(String s : sarr) {
+            System.out.println(s);
+        }
     }
 }
