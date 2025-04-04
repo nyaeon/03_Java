@@ -15,13 +15,11 @@ public class LibraryMenu {
         lm = new LibraryManager();
         // 이름, 나이, 성별을 키보드로 입력 받은 후 Member 객체 생성
             System.out.print("이름 : ");
-            mem.name = mem.setName(sc.next());
-            lm.insertMember(nameA);
+            lm.insertMember(next());
             System.out.print("나이 : ");
-            lm.insertMember(sc.nextInt());
             System.out.print("성별 : ");
-            mem.setGender(sc.next().charAt(0));
-             = mem.getName();
+
+
 
         // LibraryManager의 insertMember() 메소드에 전달
         // 무한 반복 실행
