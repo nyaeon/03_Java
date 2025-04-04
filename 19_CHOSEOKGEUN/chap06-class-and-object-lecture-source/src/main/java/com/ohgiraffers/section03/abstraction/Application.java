@@ -18,6 +18,7 @@ public class Application {
         */
 
         Scanner scanner = new Scanner(System.in);
+        CarRacer carRacer = new CarRacer();
 
         int input = 0;
         String menuText = """
@@ -32,10 +33,14 @@ public class Application {
             System.out.print(menuText);
             input = scanner.nextInt();
             switch (input){
-                case 1: break;
-                case 2: break;
-                case 3: break;
-                case 4: break;
+                case 1: carRacer.startUp();
+                    break;
+                case 2: carRacer.stepAccelator();
+                    break;
+                case 3: carRacer.stepBreak();
+                    break;
+                case 4: carRacer.turnOff();
+                    break;
                 case 9:
                     System.out.println("프로그램을 종료하겠습니다.");;
                     break;

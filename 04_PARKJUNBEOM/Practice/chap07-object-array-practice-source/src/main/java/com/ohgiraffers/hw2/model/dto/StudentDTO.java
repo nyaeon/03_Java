@@ -70,7 +70,9 @@ public class StudentDTO {
     }
 
     public String information() {
-        return "학년 :" + grade + "반 : " + classroom + " 이름 : " +
-                name + " 국어 점수 : " + kor + " 영어 점수 : " + eng + " 수학 점수 : " + math;
+        return "학년 :" + getGrade() + "반 : " + getClassroom() +
+                " 이름 : " + getName() + " 국어 점수 : " + getKor() +
+                " 영어 점수 : " + getEng() + " 수학 점수 : " + getMath();
+
     }
 }
