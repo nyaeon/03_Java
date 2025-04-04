@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Application2 {
 
     public static void main(String[] args) {
-
+        
         Scanner sc = new Scanner(System.in);
         String[] strArr = {"홍길동","이순신","유관순","윤봉길","장영실","임꺽정","장보고","이태백","김정희","대조영","김유신","이사부"};
         int k=1;
