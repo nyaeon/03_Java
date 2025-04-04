@@ -37,5 +37,10 @@ public class Application4 {
          * 하지만 역슬래쉬가 위에서 배운 이스케이프 문자의 역슬래쉬와 겹친다.
          * 따라서 \\$로 해야 역슬래쉬 + $로 인식해서 정규표현식을 탈출하는 탈출문자가 된다.
          * */
+        String str = "java$mysql$jabc";
+        String[] sarr = str.split("\\$");
+        for(String s : sarr){
+            System.out.println(s);
+        }
     }
 }
