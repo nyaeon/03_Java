@@ -10,5 +10,11 @@ public class Application1 {
          * -- 출력 예시 --
          * 문자 a의 unicode : 97
          * */
+        // 문자형 변수 선언 및 초기화
+        char character = 'a';
+
+        // 문자 'a'의 유니코드 값 출력
+        System.out.println("문자 " + character + "의 unicode : " + (int) character);
+
     }
 }

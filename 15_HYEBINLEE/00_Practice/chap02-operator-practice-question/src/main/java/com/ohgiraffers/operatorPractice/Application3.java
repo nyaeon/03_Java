@@ -13,6 +13,13 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 남자입니다.
          * */
+        // 문자형 변수 선언 및 초기화
+        char gender = 'M';
 
+        // 삼항 연산자를 이용한 성별 판별
+        String result = (gender == 'M') ? "남자입니다." : "여자입니다.";
+
+        // 결과 출력
+        System.out.println(result);
     }
 }

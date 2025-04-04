@@ -8,10 +8,7 @@ public class Application1 {
         Calculator cal = new Calculator();
         cal.checkMethond();
         System.out.println( cal.sumTwoNumber(10, 20));
-        cal.multiTwoNumber(10,20);
         System.out.println( cal.multiTwoNumber(10,20));
-        int x = 10;
-        int y = 20;
-        System.out.println(x + "과" + y + " 의 곱은 " + (x * y) + " 입니다.");
+        System.out.println( cal.multiTwoNumber2(10,20));
     }
 }

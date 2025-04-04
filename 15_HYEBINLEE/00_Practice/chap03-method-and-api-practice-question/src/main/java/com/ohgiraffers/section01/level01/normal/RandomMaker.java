@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level01.normal;
 
+import java.util.Random;
+
 public class RandomMaker {
 
     /*
@@ -13,6 +15,14 @@ public class RandomMaker {
      * -- 출력 --
      * 가위
      * */
+    RandomMaker() {}
+    public static String rockPaperScissors() {
+      String[] choices = {"가위", "바위", "보"};
+      Random random = new Random();
+      String result = choices[random.nextInt(3)];
+      System.out.println(result);
+      return result;
+    }
 
     /*
      * static 메소드로 생성
@@ -26,5 +36,12 @@ public class RandomMaker {
      * 앞면
      *
      * */
+    public static String tossCoin() {
+      String[] coinSides = {"앞면", "뒷면"};
+      Random random = new Random();
+      String result = coinSides[random.nextInt(2)];
+      System.out.println(result);
+      return result;
+    }
 
 }
