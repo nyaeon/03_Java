@@ -24,6 +24,6 @@ public class Application5 {
         String dateNow2="250403";
 
         //this 패키지가 인식한 날짜 및 시간을 원하는 문자열로 반환
-        
+
     }
 }
