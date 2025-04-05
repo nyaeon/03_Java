@@ -14,5 +14,16 @@ public class Application1 {
          * 나누기한 몫 : 0
          * 나누기한 나머지 : 20
          * */
+
+        int a,b;
+        a= 20;
+        b =30;
+
+        System.out.println("더하기 결과  : "+ (a+b));
+        System.out.println("빼기 결과 : "+ (a-b));
+        System.out.println("곱하기 결과 :"+ (a*b));
+        System.out.println("나누기한 몫 :"+ (a/b));
+        System.out.println("나누기한 나머지 : "+ (a%b));
+
     }
 }

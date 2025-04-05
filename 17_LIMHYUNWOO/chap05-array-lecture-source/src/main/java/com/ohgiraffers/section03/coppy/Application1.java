@@ -1,0 +1,36 @@
+package com.ohgiraffers.section03.coppy;
+
+import java.util.*;
+
+public class Application1 {
+    public static void main(String[] args) {
+        int[] originArr={ 1, 2, 3};
+        System.out.println(originArr.hashCode());
+        System.out.println(Arrays.toString(originArr));
+        int[] copyArr=originArr;  //참조 주소값(얕은 복사) Call by Reference
+        System.out.println("copyArr : "+ copyArr.hashCode());
+        System.out.println("copyArr : "+ Arrays.toString(copyArr));
+
+        copyArr[0] = 1000;
+        System.out.println("=============================");
+        System.out.println("originArr : "+Arrays.toString(originArr));
+        System.out.println("copyArr : "+Arrays.toString(copyArr));
+
+        test(copyArr);
+        System.out.println("=============================");
+        System.out.println("originArr : "+Arrays.toString(originArr));
+        System.out.println("copyArr : "+Arrays.toString(copyArr));
+
+        int[] test = returnTest();
+        System.out.println("test = " + test);
+    }
+
+    public static void test(int[] arr){
+        System.out.println("arr의 hashCode() : " + arr.hashCode());
+        arr[0] = 1;
+    }
+    
+    public static int[] returnTest(){
+        return new int[]{100,200,300};
+    }
+}

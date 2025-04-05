@@ -1,5 +1,7 @@
 package com.ohgiraffers.operatorPractice;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
@@ -13,6 +15,17 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 남자입니다.
          * */
+
+        char c= 'M';
+
+        String result = (c=='M')?"남자입니다.": "여성입니다";
+        System.out.println(result);
+
+
+
+
+
+
 
     }
 }
