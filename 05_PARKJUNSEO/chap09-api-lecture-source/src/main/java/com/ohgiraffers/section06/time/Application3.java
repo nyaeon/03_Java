@@ -11,12 +11,11 @@ public class Application3 {
         System.out.println("주소값 : " + System.identityHashCode(localDateTime));
 
         LocalDateTime localDateTime1 = localDateTime.plusMinutes(30);
-        System.out.println("30분 후 " + localDateTime1);
-        System.out.println("주소값 : " + System.identityHashCode(localDateTime1));    // 주소가 달라짐 (객체의 불변 보장)
+        System.out.println("30분 후 : " + localDateTime1);
+        System.out.println("주소값  : " + System.identityHashCode(localDateTime1));
 
-        LocalDateTime localDateTime2 = localDateTime.plusHours(3);
-        System.out.println("3시간 후 " + localDateTime2);
-        System.out.println("주소값 : " + System.identityHashCode(localDateTime2));    // 주소가 달라짐 (객체의 불변 보장)
-
+        LocalDateTime localDateTime2 = localDateTime.minusHours(3);
+        System.out.println("30분 후 : " + localDateTime2);
+        System.out.println("주소값  : " + System.identityHashCode(localDateTime2));
     }
 }

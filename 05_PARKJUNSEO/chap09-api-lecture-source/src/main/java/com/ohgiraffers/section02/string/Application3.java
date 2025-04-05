@@ -42,6 +42,7 @@ public class Application3 {
         StringTokenizer st2 = new StringTokenizer(emp2, "/");
         StringTokenizer st3 = new StringTokenizer(emp3, "/");
 
+
         /* hasMoreTokens() : 현재 꺼낼 토큰이 있는지 없는지 체크 */
         while (st1.hasMoreTokens()) {
             System.out.println("st1 : " + st1.nextToken());

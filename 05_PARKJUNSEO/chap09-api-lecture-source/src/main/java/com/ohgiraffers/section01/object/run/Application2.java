@@ -7,9 +7,9 @@ public class Application2 {
     public static void main(String[] args) {
         /*
         * Object 클래스의 equals() 메소드
-        *
-        * equals() 메소드 오버라이딩
-        * equals 메소드는 매개변수로 전달받은 인스턴스와 == 연산하여 true or false를 반환한다.
+         *
+         * equals() 메소드 오버라이딩
+         * equals 메소드는 매개변수로 전달받은 인스턴스와 == 연산하여 true or false를 반환한다.
         * 즉, 동일한 인스턴스인지를 비교하는 기능을 한다. (주소값이 같은지 확인)
         * 단, 문자열 비교에 equqls()는 동등한 인스턴스인지를 확인함
         * */
