@@ -23,6 +23,10 @@ public class Application {
         Product product = new Product();
         System.out.println(product.getInformation());
 
-        // 인스턴스변수 : 기본값(JVM)
+        Product product2 = new Product("대륙폰", 1000000, "샤우미");
+        System.out.println(product2.getInformation());
+
+        // 인스턴스변수 : 기본값(JVM) => 명시적초기값 => 인스턴스초기화블럭 => 생성자
+        // 클래스변수 : 기본값(JVM) => 명시적초기값 => 정적초기화블럭 => 인스턴스초기화블럭 => 생성자
     }
 }
