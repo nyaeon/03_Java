@@ -7,10 +7,9 @@ public class AniBook extends Book {
         super(title, author, publisher);
         this.accessAge = accessAge;
     }
-
     @Override
     public String toString() {
-        return "AniBook{}";
+        return super.toString() + ", 연령제한: " + accessAge + "세 이상";
     }
 
     public int getAccessAge() {
