@@ -2,12 +2,7 @@ package com.ohgiraffers.api.object;
 
 import com.ohgiraffers.api.string.StringProcess;
 
-public class App extends Car {
-
-    public App(String carName, String carColor, int engineCC) {
-        super(carName, carColor, engineCC);
-    }
-
+public class App {
 
     public static void main(String[] args) {
 
