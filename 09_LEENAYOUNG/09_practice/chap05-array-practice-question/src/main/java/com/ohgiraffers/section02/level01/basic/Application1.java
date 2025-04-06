@@ -15,5 +15,15 @@ public class Application1 {
          *
          * 단, 출력물의 줄맞춤은 신경쓰지 말고 풀어보세요
          * */
+
+        int[][] iArr = new int[3][4];
+
+        for (int i = 0; i < iArr.length; i++) {
+            for (int j = 0; j < iArr[i].length; j++) {
+                iArr[i][j] = i * iArr[i].length + j + 1;
+                System.out.print(iArr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

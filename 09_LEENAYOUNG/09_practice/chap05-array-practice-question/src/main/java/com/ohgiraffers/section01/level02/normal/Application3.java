@@ -34,14 +34,19 @@ public class Application3 {
         System.out.print("홀수인 양의 정수를 입력하세요 : ");
         int num = sc.nextInt();
 
-        if(num % 2 != 0){
+        if(num % 2 != 0 && num > 0){
+            int[] iArr = new int[num];
+
+            for (int i = 0; i <= num / 2; i++){
+                iArr[i] = i + 1;
+                System.out.print(iArr[i] + " ");
+            }
+            for (int i = (num / 2) + 1; i < num; i++){
+                iArr[i] = num - i;
+                System.out.print(iArr[i] + " ");
+            }
+        } else {
             System.out.println("양수 혹은 홀수만 입력해야 합니다.");
         }
-
-        for (int i = 0; i < num; i++){
-            System.out.println();
-        }
-
-
     }
 }

@@ -36,19 +36,19 @@ public class Application2 {
 
         switch (num) {
             case 0:
-                System.out.println("딸기");
+                System.out.println(sArr[0]);
                 break;
             case 1:
-                System.out.println("바나나");
+                System.out.println(sArr[1]);
                 break;
             case 2:
-                System.out.println("복숭아");
+                System.out.println(sArr[2]);
                 break;
             case 3:
-                System.out.println("키위");
+                System.out.println(sArr[3]);
                 break;
             case 4:
-                System.out.println("사과");
+                System.out.println(sArr[4]);
                 break;
             default:
                 System.out.println("준비된 과일이 없습니다.");
