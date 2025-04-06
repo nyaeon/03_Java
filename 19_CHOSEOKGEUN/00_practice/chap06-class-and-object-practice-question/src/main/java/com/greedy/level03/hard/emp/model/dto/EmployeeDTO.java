@@ -1,6 +1,7 @@
 package com.greedy.level03.hard.emp.model.dto;
 
 public class EmployeeDTO {
+    // 필드 변수
     private int number;
     private String name;
     private String dept;
@@ -12,6 +13,7 @@ public class EmployeeDTO {
     private String phone;
     private String address;
 
+    // 기본 생성자 생성
     public EmployeeDTO() {}
 
     public int getNumber() { return number; }

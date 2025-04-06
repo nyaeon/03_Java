@@ -31,7 +31,8 @@ public class EmployeeDTO extends PersonDTO {
     }
 
     public String information() {
-        return "name="  + name + ", age=" + getAge() + ", height=" + getHeight() +
-                ", weight=" + getWeight() + ", salary=" + salary +", dept=" + dept;
+        return "name="  + super.getName() + ", age=" + super.getAge() +
+                ", height=" + super.getHeight() + ", weight=" + super.getWeight() +
+                ", salary=" + salary +", dept=" + dept;
     }
 }
