@@ -5,7 +5,7 @@ public class Application1 {
     public static void main(String[] args) {
 
         int[] arr = new int[4];
-        System.out.println(arr.length); //배열은 length 사용시 메소드로 사용하는게 아님.
+        System.out.println(arr.length); //배열은 length 사용시 메소드로 사용하는게 아님. 필드의 들어가있는 값 참조함.
         /*
          * charAt(int index) : 해당 문자열의 특정 인덱스에 해당하는 문자를 반환한다.
          * 인덱스는 0부터 시작하는 숫자 체계를 의미하며
