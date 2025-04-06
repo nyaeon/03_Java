@@ -13,7 +13,7 @@ public class User {
 
     public User(int id, String firstName, String lastName,
                 String email, String gender, String birthday,
-                String reservationDate, String reservationTime, String trim) {
+                String reservationDate, String reservationTime, String createdAt) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
