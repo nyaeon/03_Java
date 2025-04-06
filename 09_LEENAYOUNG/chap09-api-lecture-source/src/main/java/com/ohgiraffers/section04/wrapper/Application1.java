@@ -30,7 +30,7 @@ public class Application1 {
          * */
 
         int intValue = 20;
-//        Integer boxingNumber1 = new Inter(intValue);
+//        Integer boxingNumber1 = new Integer(intValue);
         Integer boxingNumber1 = Integer.valueOf(intValue);  // static 메소드 int -> Integer
 
         int unBoxingNumber1 = boxingNumber1.intValue(); // Integer => int
@@ -59,8 +59,6 @@ public class Application1 {
         System.out.println("Integer와 Integer 비교 : " + (integerNum1 == integerNum2));
         System.out.println("Integer와 Integer 비교 : " + (integerNum1 == integerNum3));
         System.out.println("Integer와 Integer 비교 : " + (integerNum3 == integerNum4));
-
-
 
     }
 }

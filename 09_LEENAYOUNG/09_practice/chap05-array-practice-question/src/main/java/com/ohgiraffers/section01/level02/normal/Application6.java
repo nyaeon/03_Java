@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application6 {
 
     public static void main(String[] args) {
@@ -15,5 +17,25 @@ public class Application6 {
          * 양념치킨 배달 가능              불닭치킨은 없는 메뉴입니다.
          * */
 
+        // 치킨 메뉴가 들어가 있는 배열 생성
+        String[] menu = new String[]{"후라이드", "양념", "간장"};
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("치킨 이름을 입력하세요 : ");
+        String keyword = sc.nextLine();
+        boolean found = false;
+
+        // 검색한 메뉴가 배열에 있는지 확인
+        for (int i = 0; i < menu.length; i++) {
+            if (menu[i].equals(keyword)) {
+                System.out.println(menu[i] + "치킨 배달 가능");
+                found = true;
+            }
+        }
+
+        // 검색한 메뉴가 베열에 없을 시
+        if (!found) {
+            System.out.println(keyword + "치킨은 없는 메뉴입니다.");
+        }
     }
 }

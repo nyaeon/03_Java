@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -23,5 +25,36 @@ public class Application1 {
          * W H J X
          * W S S J
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int row = 0; int col = 0;
+        boolean flag = false;
+
+        // 행과 열 숫자 입력
+        while (!flag){
+            System.out.print("가로 행의 수를 입력하세요 : ");
+            row = sc.nextInt();
+            System.out.print("세로 행의 수를 입력하세요 : ");
+            col = sc.nextInt();
+
+            if (row > 0 && col > 0 && row < 10 && col < 10) {
+                flag = true;
+            } else {
+                System.out.println("반드시 1~10까지의 정수를 입력해야 합니다. 다시 입력하세요.");
+            }
+        }
+
+        // 이차원 배열 선언 및 출력
+        char[][] arr = new char[row][col];
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                arr[i][j] = (char) (Math.random() * 26 + 65);
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
     }
 }

@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Random;
+
 public class Application7 {
 
     public static void main(String[] args) {
@@ -14,5 +16,33 @@ public class Application7 {
          * 최대값 : 10
          * 최소값 : 2
          * */
+
+        // 정수형 배열 선언
+        int[] iArr = new int[10];
+
+        // 배열 전체, 최대값, 최소값 저장할 변수 선언 및 초기화
+        String arr = "";
+        int maxNum = 1;
+        int minNum = 10;
+
+        // 1~10 사이의 난수로 배열 할당
+        for (int i = 0; i < iArr.length; i++) {
+            iArr[i] = new Random().nextInt(10) + 1;
+        }
+
+        // 배열 전체 값, 최대값, 최소값 출력
+        for (int i = 0; i < iArr.length; i++) {
+            if (iArr[i] > maxNum) {
+                maxNum = iArr[i];
+            }
+            if (iArr[i] < minNum) {
+                minNum = iArr[i];
+            }
+            arr += iArr[i] + " ";
+        }
+
+        System.out.println(arr);
+        System.out.println("최대값 : " + maxNum);
+        System.out.println("최소값 : " + minNum);
     }
 }

@@ -21,18 +21,17 @@ public class Application2 {
         System.out.print("주민등록번호를 입력하세요 : ");
         String str = sc.nextLine();
 
-        char[] cArr = new char[str.length()];
+        /* char[] cArr = new char[str.length()];
         for (int i = 0; i < cArr.length; i++) {
             cArr[i] = str.charAt(i);
-        }
-        //System.out.println(Arrays.toString(str.toCharArray()));
+        } */
+        char[] cArr = str.toCharArray();
 
         for (int j = 8; j < cArr.length; j++) {
             cArr[j] = '*';
         }
 
         System.out.println(cArr);
-
 
     }
 }
