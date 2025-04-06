@@ -1,14 +1,52 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Random;
+import java.util.Scanner;
+import java.util.Arrays;
+
 public class Application4 {
 
     public static void main(String[] args) {
 
-     /*
-		  로또 번호 자동 생성기 프로그램을 작성하세요.
-		  단, 중복 값 없이 오름차순으로 정렬하여 출력하세요.
+        Scanner sc = new Scanner(System.in);
+        Random random = new Random();
 
-		  Random 클래스 사용 혹은 Math.random() 메소드를 사용
-	   */
+        while (true) {
+            System.out.println("\nEnter any key to start (Enter 'q' to quit): ");
+            String input = sc.nextLine();
+
+            if (input.equalsIgnoreCase("q")) {
+                System.out.println("The service is closing.");
+                break;
+            }
+
+            int[] lottoNum = new int[6];
+            int count = 0;
+
+            while (count < 6) {
+                int num = random.nextInt(45) + 1;
+                boolean duplicate = false;
+
+                for (int i = 0; i < count; i++) {
+                    if (lottoNum[i] == num) {
+                        duplicate = true;
+                        break;
+                    }
+                }
+
+                if (!duplicate) {
+                    lottoNum[count] = num;
+                    count++;
+                }
+            }
+
+            Arrays.sort(lottoNum);
+
+            System.out.print("로또 번호: ");
+            for (int i : lottoNum) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
     }
 }

@@ -42,18 +42,12 @@ public class Application1 {
             char ch;
             for (int i = 0; i < row; i++) {
                 for (int j = 0; j < column; j++) {
-                    ch = (char)((Math.random() * 26) + 65);
+                    ch = (char) ((Math.random() * 26) + 65);
                     num[i][j] = ch;
-                }
-            }
-            for (int i = 0; i < row; i++) {
-                for (int j = 0; j < column; j++) {
                     System.out.print(num[i][j] + " ");
                 }
                 System.out.println();
             }
         }
-
-
     }
 }

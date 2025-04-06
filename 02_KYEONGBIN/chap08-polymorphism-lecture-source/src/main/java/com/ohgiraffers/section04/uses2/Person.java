@@ -9,7 +9,7 @@ public class Person {
     }
 
     public void doSomething() {
-        String data = "String data";
+        String data = "string data";
 
         saveProvider.save(data);
     }
