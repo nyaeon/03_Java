@@ -1,6 +1,6 @@
-package com.ohgiraffers.hw1.model.dto;
+package com.ohgiraffers.hw1.run;
 
-import com.ohgiraffers.hw1.run.EmployeeDTO;
+import com.ohgiraffers.hw1.model.dto.EmployeeDTO;
 
 public class Application {
     public static void main(String[] args) {
