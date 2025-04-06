@@ -17,7 +17,7 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{}";
+        return "이름: " + name + ", 나이: " + age + ", 성별: " + gender + ", 쿠폰 수: " + couponCount;
     }
 
     public String getName() {

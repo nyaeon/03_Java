@@ -7,10 +7,9 @@ public class CookBook extends Book {
         super(title, author, publisher);
         this.coupon = coupon;
     }
-
     @Override
     public String toString() {
-        return "CookBook{}";
+        return super.toString() + ", 쿠폰 유무: " + (coupon ? "있음" : "없음");
     }
 
     public boolean isCoupon() {
