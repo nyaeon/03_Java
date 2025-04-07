@@ -1,0 +1,5 @@
+abcdef
+gcdeabcdef
+gcdeabcdef
+gcdeabcdef
+gcde
