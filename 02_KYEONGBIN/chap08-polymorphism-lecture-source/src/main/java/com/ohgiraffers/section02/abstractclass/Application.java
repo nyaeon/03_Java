@@ -3,7 +3,6 @@ package com.ohgiraffers.section02.abstractclass;
 public class Application {
 
     public static void main(String[] args) {
-
         /* 추상클래스와 추상메소드
          *
          * 추상메소드를 0개 이상 포함하는 클래스를 추상클래스라고 한다.
@@ -26,29 +25,25 @@ public class Application {
          * ex) public abstract void method();
          * */
 
-//        product pRoducT = new product();
+//        Product product = new Product();
 
-        Smartphone smartphone = new Smartphone();
+        SmartPhone smartPhone = new SmartPhone();
 
-        System.out.println(smartphone instanceof Smartphone);
-        System.out.println(smartphone instanceof product);
+        System.out.println(smartPhone instanceof SmartPhone); // true
+        System.out.println(smartPhone instanceof Product);    // true
 
-        product pd = new Smartphone();
-        pd.abstMethod();
+        Product product = new SmartPhone();
+        product.abstMethod();
 
-        pd.nonStaticMethod();
+        product.nonStaticMethod();
 
-        pd.staticMethod();
+        Product.staticMethod();
 
-        /**
-         * 추상클래스를 왜 쓰는가?
-         * 추상클래스의 추상메소드는 오버라이딩에 대한 강제성이 부여된다.
-         * 따라서 여러 클래스들을 그룹화하여 필수 기능을 정의하여 강제성을 부여해 개발 시 일관된 인터페이스를 제공할 수 있다.
-         * api에서 주로 많이 사용함
-         */
-
-
+        /*
+        * 추상클래스를 왜 쓰는가?
+        * 추상클래스의 추상메소드는 오버라이딩에 대한 강제성이 부여된다.
+        * 따라서 여러 클래스들을 그룹화하여 필수 기능을 정의하여 강제성을 부여해 개발 시 일관된 인터페이스를 제공할 수 있다.
+        * */
 
     }
-
 }

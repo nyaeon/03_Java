@@ -12,6 +12,7 @@
     <file type="web" url="file://$PROJECT_DIR$/chap07-object-array-practice-source" />
     <file type="web" url="file://$PROJECT_DIR$/chap08-Inherit-prectice-question" />
     <file type="web" url="file://$PROJECT_DIR$/chap09-polymorphism-practice-question" />
+    <file type="web" url="file://$PROJECT_DIR$/chap10-api-practice-question" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

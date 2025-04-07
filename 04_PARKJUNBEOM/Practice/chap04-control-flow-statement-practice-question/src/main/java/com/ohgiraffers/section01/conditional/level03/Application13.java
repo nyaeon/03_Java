@@ -39,7 +39,14 @@ public class Application13 {
 
             int num1 = Integer.parseInt(numLine);
             int result = num1 * 8 + i;
-            System.out.println(numLine + " X " + "8 " + "+ " + i + "= " + result);
+
+            for (int j = 0; j < num - i; j++) {
+                System.out.print(" ");
+            }
+
+            // 실제 출력
+            System.out.println(numLine + " X 8 + " + i + " = " + result);
         }
+
     }
 }
