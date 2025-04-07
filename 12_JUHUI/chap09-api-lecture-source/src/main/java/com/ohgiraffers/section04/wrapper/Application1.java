@@ -33,7 +33,7 @@ public class Application1 {
         //Integer boxingNumber = new Integer(intValue); // 박싱
         Integer boxingNumber1 = Integer.valueOf(intValue); //static method로 만들어준것 int인 기본자료형인 걸 래퍼클래스인 Integer로 바꿔준 것. 박싱해준것
 
-        int unboxingNumber = boxingNumber1.intValue();//Interger를 int로 바꿔주는 것은 언박싱.
+        int unboxingNumber = boxingNumber1.intValue();// Interger를 int로 바꿔주는 것은 언박싱.
 
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "hi");
