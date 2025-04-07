@@ -7,7 +7,7 @@ public class Application2 {
     public static void main(String[] args) {
 
         /*
-        * tyu-with-resource
+        * try-with-resource
         * JDK 1.7에 추가된 문법이다.
         *
         * close해야 하는 인스턴스의 경우 try 옆에 괄호 안에서 생성하면
