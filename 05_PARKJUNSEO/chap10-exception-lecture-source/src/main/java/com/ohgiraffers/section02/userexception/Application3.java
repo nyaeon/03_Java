@@ -4,7 +4,7 @@ import com.ohgiraffers.section02.ExceptionTest;
 
 public class Application3 {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
         ExceptionTest et = new ExceptionTest();
 
