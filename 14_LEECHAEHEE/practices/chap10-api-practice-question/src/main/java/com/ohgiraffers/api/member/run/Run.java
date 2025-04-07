@@ -27,7 +27,7 @@ public class Run {
 
         // 결과 출력
         for (Member m : members) {
-            System.out.println(m);
+            System.out.println(m.information());
         }
     }
 }
