@@ -68,53 +68,45 @@ public class Book {
     }
 
     // 2. equals() 오버라이딩
-//    @Override
-//    public boolean equals(Object o) {
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Book book = (Book) o;
-//        return number == book.number && price == book.price && Objects.equals(title, book.title) && Objects.equals(author, book.author);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(number, title, author, price);
-//    }
-
     @Override
-    public boolean equals(Object obj) { //obj는 업캐스팅된거
+    public boolean equals(Object obj) {
 
-        if((this == obj)) {
+        if (this == obj) {
             return true;
         }
+
         if (obj == null) {
             return false;
         }
-        // 넘겨받은 값을 하나씩 비교하기
+
         Book other = (Book) obj;
 
-        if (this.number != other.number) {
+        if(this.number != other.number) { // number는 정수형
             return false;
         }
 
         if(this.title == null) {
-            if(other.title != null) {
+
+            if (other.title != null) {
                 return false;
             }
-        } else if (! this.title.equals(other.title)) {
+        } else if (!this.title.equals(other.title)) {
             return false;
         }
 
         if(this.author == null) {
-            if(other.author != null) {
+
+            if (other.author != null) {
                 return false;
             }
-        } else if (! this.author.equals(other.author)) {
+        } else if (!this.author.equals(other.author)) {
             return false;
         }
 
         if(this.price != other.price) {
             return false;
         }
+
         return true;
     }
 
