@@ -45,8 +45,14 @@ public class Application1 {
 //                System.out.println((char) value);
 //            }
             System.out.println("파일의 길이 : " + new File("src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt").length());
+            int size = (int) new File("src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt").length();
+            byte[] bytes = new byte[size];
 
+            fin.read(bytes);
 
+            for (int i = 0; i < bytes.length; i++) {
+                System.out.println((char) bytes[i]);
+            }
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
