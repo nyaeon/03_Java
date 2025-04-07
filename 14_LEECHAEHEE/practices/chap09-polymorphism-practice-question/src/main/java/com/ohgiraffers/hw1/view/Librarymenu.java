@@ -62,7 +62,7 @@ public class Librarymenu {
         String keyword = sc.next();
         Book[] searchList = lm.searchBook(keyword);
         if(searchList[0] == null) {
-            System.out.println("잘못입력하셨습니다.");
+            System.out.println("잘못 입력하셨습니다.");
         } else {
             for( Book book : searchList ) {
             if(book != null) {

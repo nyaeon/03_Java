@@ -17,7 +17,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{}";
+        return "제목: " + title + ", 저자: " + author + ", 출판사: " + publisher;
     }
 
     public String getTitle() {

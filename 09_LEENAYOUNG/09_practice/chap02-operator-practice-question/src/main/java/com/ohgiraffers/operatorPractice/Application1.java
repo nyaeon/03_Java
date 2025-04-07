@@ -15,5 +15,15 @@ public class Application1 {
          * 홀수
          * */
 
+        int num = 9;
+
+        /* if(num % 2 == 0){
+            System.out.println("짝수다");
+        } else {
+            System.out.println("홀수다");
+        }*/
+
+        System.out.println((num % 2 == 0) ? "짝수다" : "홀수다");
+
     }
 }

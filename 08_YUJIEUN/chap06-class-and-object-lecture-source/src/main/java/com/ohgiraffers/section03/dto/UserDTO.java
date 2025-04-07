@@ -2,7 +2,6 @@ package com.ohgiraffers.section03.dto;
 
 import java.util.Date;
 
-public class UserDTO {
 
     public class UserDTO { //UaerDto
         /*
@@ -116,4 +115,4 @@ public class UserDTO {
 
 
 
-}
+
