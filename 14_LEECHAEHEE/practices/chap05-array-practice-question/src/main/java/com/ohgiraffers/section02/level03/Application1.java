@@ -5,6 +5,7 @@ public class Application1 {
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
+        arrayTest1();
     }
 
     /**
@@ -16,7 +17,12 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest1(int[][] arr) {
-
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 
     /**
