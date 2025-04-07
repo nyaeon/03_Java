@@ -2,9 +2,9 @@ package com.ohgiraffers.hw1.model.dto;
 
 public class EmployeeDTO {
 
-    private int empNO;          // 사번
+    private int empNo;          // 사번
     private String empName;     // 사원명
-    private String dept;        // 소속부서
+    private String dept ;       // 소속부서
     private String job;         // 직급
     private int age;            // 나이
     private char gender;        // 성별
@@ -13,10 +13,11 @@ public class EmployeeDTO {
     private String phone;       // 전화번호
     private String address;     // 주소
 
-    public EmployeeDTO() {}
+    public EmployeeDTO() {
+    }
 
-    public EmployeeDTO(int empNO, String empName, int age, char gender, String phone, String address) {
-        this.empNO = empNO;
+    public EmployeeDTO(int empNo, String empName, int age, char gender, String phone, String address) {
+        this.empNo = empNo;
         this.empName = empName;
         this.age = age;
         this.gender = gender;
@@ -24,8 +25,8 @@ public class EmployeeDTO {
         this.address = address;
     }
 
-    public EmployeeDTO(int empNO, String empName, String dept, String job, int age, char gender, int salary, double bonusPoint, String phone, String address) {
-        this.empNO = empNO;
+    public EmployeeDTO(int empNo, String empName, String dept, String job, int age, char gender, int salary, double bonusPoint, String phone, String address) {
+        this.empNo = empNo;
         this.empName = empName;
         this.dept = dept;
         this.job = job;
@@ -35,15 +36,20 @@ public class EmployeeDTO {
         this.bonusPoint = bonusPoint;
         this.phone = phone;
         this.address = address;
-
     }
 
-    public int getEmpNO() {
-        return empNO;
+    public String information(){ // String을 반환하려면 값을 반환하는 방식으로 변경. 따라서 return 사용.
+        return empNo + ", " + empName + ", " + dept + ", " + job + ", " + age + ", " + gender + ", "
+                + salary + ", " + bonusPoint + ", " + phone + ", " + address;
     }
 
-    public void setEmpNO(int empNO) {
-        this.empNO = empNO;
+    // setter and getter
+    public int getEmpNo() {
+        return empNo;
+    }
+
+    public void setEmpNo(int empNo) {
+        this.empNo = empNo;
     }
 
     public String getEmpName() {
@@ -117,20 +123,4 @@ public class EmployeeDTO {
     public void setAddress(String address) {
         this.address = address;
     }
-
-    public String Information() {
-
-        return "empNO = " + this.empNO
-                + ", empName = " + this.empName
-                + ", dept = " + this.dept
-                + ", job = " + this.job
-                + ", age = " + this.age
-                + ", gender = " + this.gender
-                + ", salary = " + this.salary
-                + ", bonusPoint = " + this.bonusPoint
-                + ", phone = " + this.phone
-                + ", address = " + this.address;
-    }
-
-
 }

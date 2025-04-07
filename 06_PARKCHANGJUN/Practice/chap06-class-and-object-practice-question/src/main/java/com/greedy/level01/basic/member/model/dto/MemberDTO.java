@@ -8,6 +8,7 @@ public class MemberDTO {
      * - : private
      * + : public
      */
+
     // 멤버 변수이면서 지역 변수
     private String id;
     private String pwd;
@@ -18,19 +19,7 @@ public class MemberDTO {
     private String email;
 
     // 기본생성자
-    private MemberDTO() {
-
-    }
-    private MemberDTO(String id, String pwd, String name, char gender, String phone, String email) {}
-
-    public MemberDTO(String id, String pwd, String name, int age, char gender, String phone, String email) {
-        this.id = id;
-        this.pwd = pwd;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.phone = phone;
-        this.email = email;
+    public MemberDTO() {
     }
 
     public String getId() {
