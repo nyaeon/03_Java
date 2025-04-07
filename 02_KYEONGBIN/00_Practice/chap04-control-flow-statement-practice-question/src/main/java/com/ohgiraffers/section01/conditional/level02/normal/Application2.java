@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level02.normal;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -14,5 +16,46 @@ public class Application2 {
          *
          * 계산 예시) BMI = 67 / (1.7 * 1.7)
          * */
+
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+
+            System.out.println("Enter your weight (kg): \n(Enter \"q\" to quit)");
+            String weight = sc.nextLine();
+            if (weight.equalsIgnoreCase("q")) {
+                System.out.println("Goodbye");
+                break;
+            }
+
+            System.out.println("Enter your height (m): \n(Enter \"q\" to quit)");
+            String height = sc.nextLine();
+            if (height.equalsIgnoreCase("q")) {
+                System.out.println("Goodbye");
+                break;
+            }
+
+            if (!weight.matches("\\d+(\\.\\d+)?") || !height.matches("\\d+(\\.\\d+)?")) {
+                System.out.println("Please enter valid numbers.");
+                continue;
+            }
+
+            double weightDouble = Double.parseDouble(weight);
+            double heightDouble = Double.parseDouble(height);
+
+            double bmi = weightDouble / (heightDouble * heightDouble);
+
+            if (bmi < 20) {
+                System.out.println("You are underweight.");
+            } else if (bmi < 25) {
+                System.out.println("You have a normal weight.");
+            } else if (bmi < 30) {
+                System.out.println("You are overweight.");
+            } else {
+                System.out.println("You are obese.");
+            }
+        }
+
+        sc.close();
     }
 }

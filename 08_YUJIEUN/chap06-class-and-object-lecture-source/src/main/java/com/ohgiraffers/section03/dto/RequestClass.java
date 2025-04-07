@@ -6,7 +6,7 @@ public class RequestClass {
         System.out.println("test"+user);
     }
 
-    public UserDTO.UserDTO requestMethod2(UserDTO user) {
+    public UserDTO requestMethod2(UserDTO user) {
         System.out.println("Return");
         user.setId("helloworld");
         return user;
