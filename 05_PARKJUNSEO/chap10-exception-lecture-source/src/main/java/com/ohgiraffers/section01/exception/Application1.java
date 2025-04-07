@@ -1,6 +1,7 @@
 package com.ohgiraffers.section01.exception;
 
 public class Application1 {
+
     public static void main(String[] args) throws Exception {
 
         /*
@@ -11,11 +12,10 @@ public class Application1 {
         * 1. throws로 위임
         * 2. try-catch로 처리
         * */
-
         ExceptionTest et = new ExceptionTest();
-        et.checkEnoughMoney(10000, 50000);
-        et.checkEnoughMoney(50000, 10000);
-        System.out.println("프로그램을 종료합니다.");
 
+        et.checkEnougMoney(10000, 50000);
+        et.checkEnougMoney(50000, 10000);
+        System.out.println("프로그램을 종료합니다.");
     }
 }
