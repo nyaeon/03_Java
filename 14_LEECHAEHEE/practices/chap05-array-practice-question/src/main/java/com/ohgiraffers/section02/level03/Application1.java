@@ -3,9 +3,12 @@ package com.ohgiraffers.section02.level03;
 public class Application1 {
 
     public static void main(String[] args) {
-
+        Application1 app = new Application1();
         int[][] arr = new int[4][4];
-        arrayTest1();
+//        app.arrayTest1(arr);
+//        app.arrayTest2(arr);
+        app.arrayTest3(arr);
+//        app.arrayTest4(arr);
     }
 
     /**
@@ -17,12 +20,13 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest1(int[][] arr) {
+        int num = 1;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] + " ");
+                arr[i][j] = num++;
             }
-            System.out.println();
         }
+        print(arr);
     }
 
     /**
@@ -34,7 +38,13 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest2(int[][] arr) {
-
+        int num = 1;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[j][i] = num++;
+            }
+        }
+        print(arr);
     }
 
     /**
@@ -46,7 +56,13 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest3(int[][] arr) {
-
+        int num = 1;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = arr[i].length - 1; j >= 0; j--) {
+                arr[i][j] = num++;
+            }
+        }
+        print(arr);
     }
 
     /**
@@ -58,7 +74,13 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest4(int[][] arr) {
-
+        int num = 16;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[j][i] = num--;
+            }
+        }
+        print(arr);
     }
 
     /**
@@ -103,6 +125,11 @@ public class Application1 {
      * @param arr
      */
     public void print(int[][] arr) {
-
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

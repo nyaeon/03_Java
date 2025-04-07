@@ -13,7 +13,7 @@ public class Application1 {
         * */
         ExceptionTest test = new ExceptionTest();
         test.checkEnoughMoney(10000, 50000);
-
+        test.checkEnoughMoney(50000, 10000);
         System.out.println("프로그램을 종료합니다.");
     }
 }
