@@ -13,6 +13,7 @@ public class Application1 {
          * */
 
        String str1 = "apple";
+
        for (int i = 0; i < str1.length(); i++) { //string의 길이는 length() 메소드를 사용하는 것임.
            System.out.println("charAt(" + i + ") = " + str1.charAt(i));
        }
