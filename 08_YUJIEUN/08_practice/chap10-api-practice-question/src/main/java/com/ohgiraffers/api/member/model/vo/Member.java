@@ -1,13 +1,14 @@
 package com.ohgiraffers.api.member.model.vo;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Member {
     private int memberNo;
     private String memberName;
     private int height;
     private int weight;
-    LocalDate birth;
+    private LocalDate birth;
 
     public Member() {
     }
@@ -20,54 +21,17 @@ public class Member {
         this.birth = birth;
     }
 
-    public int getMemberNo() {
-        return memberNo;
-    }
 
-    public void setMemberNo(int memberNo) {
-        this.memberNo = memberNo;
-    }
 
-    public String getMemberName() {
-        return memberName;
-    }
-
-    public void setMemberName(String memberName) {
-        this.memberName = memberName;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
-    public LocalDate getBirth() {
-        return birth;
-    }
-
-    public void setBirth(LocalDate birth) {
-        this.birth = birth;
-    }
-
-    @Override
-    public String informationz() {
+    public String information() {
         return "Member{" +
-                "memberNo=" + memberNo +
-                ", memberName='" + memberName + '\'' +
-                ", height=" + height +
-                ", weight=" + weight +
-                ", birth=" + birth +
+                "회원번호 :" + memberNo +
+                ", 이름 : '" + memberName + '\'' +
+                ", 키 :" + height +
+                ", 몸무게 : " + weight +
+                ", 생일 : " + birth.format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일")) +
                 '}';
     }
+
+
 }
