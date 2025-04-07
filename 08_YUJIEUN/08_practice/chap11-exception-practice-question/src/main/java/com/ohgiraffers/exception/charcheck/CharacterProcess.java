@@ -2,9 +2,6 @@ package com.ohgiraffers.exception.charcheck;
 
 public class CharacterProcess {
 
-    public CharacterProcess() {
-    }
-
     public void countAlpha(String s) throws CharCheckException {
         // 문자열에 공백이 포함되어 있는지 확인
         if (s.contains(" ")) {

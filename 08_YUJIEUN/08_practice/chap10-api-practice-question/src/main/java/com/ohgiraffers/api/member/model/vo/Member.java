@@ -61,7 +61,7 @@ public class Member {
     }
 
     @Override
-    public String information() {
+    public String informationz() {
         return "Member{" +
                 "memberNo=" + memberNo +
                 ", memberName='" + memberName + '\'' +
