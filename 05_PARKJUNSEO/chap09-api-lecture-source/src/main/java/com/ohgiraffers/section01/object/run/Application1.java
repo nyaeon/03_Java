@@ -34,8 +34,6 @@ public class Application1 {
         System.out.println("book1 = " + book1);;
         System.out.println("book2 = " + book2);;
         System.out.println("book3 = " + book3);;    // 오버라이딩 해두면 컴파일러가 알아서 toString 형태로 알려줌
-
     }
-
 
 }
