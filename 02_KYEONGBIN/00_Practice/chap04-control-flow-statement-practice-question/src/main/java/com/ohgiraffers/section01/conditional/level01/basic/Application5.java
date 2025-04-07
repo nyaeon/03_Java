@@ -1,18 +1,51 @@
 package com.ohgiraffers.section01.conditional.level01.basic;
 
+import java.util.Scanner;
+
 public class Application5 {
 
     public static void main(String[] args) {
 
-        /*
-        * 모든 사람이 사탕을 골고루 나눠가지려고 한다. 인원 수와 사탕 개수를 키보드로 입력 받고
-        * 1인당 동일하게 나눠가진 사탕 개수와 나눠주고 남은 사탕의 개수를 출력하세요.
-        *
-        * 인원 수 : 29
-        * 사탕 개수 : 100
-        *
-        * 1인당 사탕 개수 : 3
-        * 남는 사탕 개수 : 13
-        * */
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+
+            System.out.println("Enter the number of people \n(Enter 'q' to quit)");
+            String people = sc.nextLine();
+
+            if (people.equalsIgnoreCase("q")) {
+                System.out.println("Service is closing.");
+                break;
+            }
+
+            System.out.println("Enter the number of candies \n(Enter 'q' to quit)");
+            String candies = sc.nextLine();
+
+            if (candies.equalsIgnoreCase("q")) {
+                System.out.println("Service is closing.");
+                break;
+            }
+
+            if (!people.matches("\\d+")) {
+                System.out.println("Invalid people number. Please enter digits only.");
+                continue;
+            }
+
+            if (!candies.matches("\\d+")) {
+                System.out.println("Invalid candy number. Please enter digits only.");
+                continue;
+            }
+
+            int peopleNum = Integer.parseInt(people);
+            int candiesNum = Integer.parseInt(candies);
+
+            int candiesPerPerson = candiesNum / peopleNum;
+            int leftoverCandies = candiesNum % peopleNum;
+
+            System.out.println("Candies for 1 person: " + candiesPerPerson);
+            System.out.println("Spare candies: " + leftoverCandies);
+        }
+
+        sc.close();
     }
 }
