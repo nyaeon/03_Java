@@ -6,7 +6,9 @@ import com.ohgiraffers.section02.userexception.PriceNegativeException;
 
 public class ExceptionTest {
 
-    public void checkEnougMoney(int price, int money) throws Exception {
+    public void checkEnougMoney(int price, int money)
+            throws PriceNegativeException, MoneyNegativeException, NotEnoungMoneyException {
+//            throws Exception {
 
         if(price < 0) {
             // throw를 이용해서 이부분에서 강제로 예외를 발생시킴
