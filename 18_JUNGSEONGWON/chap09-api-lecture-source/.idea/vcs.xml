@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<<< HEAD:18_JUNGSEONGWON/chap09-api-lecture-source/.idea/vcs.xml
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
-========
-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
->>>>>>>> 8be1ccd10f17e51fe9539ccf7608b405c49531f2:05_PARKJUNSEO/chap09-api-lecture-source/.idea/vcs.xml
   </component>
 </project>
