@@ -33,7 +33,6 @@ public class Application1 {
 
         int unBoxingNumber1 = boxingNumber.intValue(); // Integer => int
 
-        Map<Integer, String> map = boxingNumber.intValue(); // Integer => int
 
         // 오토박싱
         Integer boxingNumber2 = intValue;

@@ -26,26 +26,57 @@ public class Application {
         EmployeeDTO[] emp = new EmployeeDTO[10];
 
         // 사원들의 정보를 키보드로 계속 입력 받고 --> while(true) 무한 반복문을 통해
-//        while(true) {
-//
-//            System.out.print("사원의 이름은? : ");
-//            String name = emp.
-//                System.out.print("사원의 나이는? : ");
-//                System.out.print("사원의 신장은? : ");
-//                System.out.print("사원의 몸무게는? : ");
-//                System.out.print("사원의 학년은? : ");
-//                System.out.print("사원의 ? : ");
-//
-//                if ( while != )
-//            }
+        Scanner sc = new Scanner(System.in);
+
+        int count = 0;
+        boolean flag = false;
+        do {
+            for (int i = 0; i < emp.length; i++) {
+                System.out.print("사원의 이름은? : ");
+                String name = sc.next();
+                System.out.print("사원의 나이는? : ");
+                int age = sc.nextInt();
+                System.out.print("사원의 신장은? : ");
+                int height = sc.nextInt();
+                System.out.print("사원의 몸무게는? : ");
+                int weight = sc.nextInt();
+                System.out.print("사원의 급여는? : ");
+                int salary = sc.nextInt();
+                System.out.print("사원의 부서는? : ");
+                String dept = sc.next();
+                emp[i] = new EmployeeDTO(name, age, height, weight, salary, dept);
+
+                // 한 명씩 추가 될 때마다 카운트함
+                count++;
 
 
+                // 2명 정도의 사원 정보를 입력 받아 객체 배열에 저장
+                System.out.print("계속 추가할 것인가요? (y/n): ");
+                char c = sc.next().charAt(0);
+
+                // 계속 추가할 것인지 물어보고, 대소문자 상관없이 ‘y’이면 계속 객체 추가
+                if (c == 'y' || c == 'Y') {
+                    flag = true;
+                } else if (c == 'n' || c == 'N') {
+                    flag = false;
+                    break;
+                }
+            }
+        } while (flag);
+
+        System.out.println("총 " + count + "명");
+
+        // 현재 기록된 사원들의 정보를 모두 출력
+        for (int i = 0; i < emp.length; i++) {
+            if(emp[i] != null) {
+                System.out.println(emp[i].information());
+            }
         }
 
-        // 계속 추가할 것인지 물어보고, 대소문자 상관없이 ‘y’이면 계속 객체 추가
-        // 한 명씩 추가 될 때마다 카운트함
-        // 2명 정도의 사원 정보를 입력 받아 객체 배열에 저장
-        // 현재 기록된 사원들의 정보를 모두 출력
     }
+
+
+
+
 
 }

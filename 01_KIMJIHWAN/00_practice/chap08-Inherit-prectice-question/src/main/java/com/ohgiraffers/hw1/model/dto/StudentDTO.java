@@ -3,13 +3,13 @@ package com.ohgiraffers.hw1.model.dto;
 import com.ohgiraffers.hw1.run.Application;
 
 public class StudentDTO extends PersonDTO {
-    private int grade;      // 핚년
+    private int grade;      // 학년
     private String major;   // 전공
 
 
     public StudentDTO(String name, int age, double height, double weight, int grade, String major) {
         super(age, height, weight);
-        this.name = name;
+        super.name = name;
         this.grade = grade;
     }
 

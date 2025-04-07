@@ -1,7 +1,7 @@
 package com.ohgiraffers.hw1.model.dto;
 
 public class CookBook extends Book{
-    private boolean Coupon;
+    private boolean Coupon; // 요리학원 쿠폰 유무
 
     public CookBook() {
     }

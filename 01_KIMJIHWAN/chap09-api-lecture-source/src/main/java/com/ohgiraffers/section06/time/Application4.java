@@ -20,6 +20,6 @@ public class Application4 {
         System.out.println(localDate.isAfter(past));
         System.out.println("past : " + past);
         System.out.println(localDateTime.isBefore(future));
-        System.out.println(ZonedDateTime.isEqual(now));
+        System.out.println(zonedDateTime.isEqual(now));
     }
 }

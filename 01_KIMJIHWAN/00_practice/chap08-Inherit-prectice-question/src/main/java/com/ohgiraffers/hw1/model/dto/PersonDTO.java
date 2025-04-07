@@ -3,10 +3,10 @@ package com.ohgiraffers.hw1.model.dto;
 import com.ohgiraffers.hw1.run.Application;
 
 public class PersonDTO {
-    protected String name;
-    private int age;
-    private double height;
-    private double weight;
+    protected String name;  // 이름
+    private int age;        // 나이
+    private double height;  // 신장
+    private double weight;  // 몸무게
 
     public PersonDTO() {
     }

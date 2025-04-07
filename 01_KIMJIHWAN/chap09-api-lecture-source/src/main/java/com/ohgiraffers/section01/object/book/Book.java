@@ -51,6 +51,8 @@ public class Book {
         this.price = price;
     }
 
+    String toString;
+
     // 1. toString 오버라이딩
     @Override
     public String toString() {

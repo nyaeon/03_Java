@@ -11,7 +11,7 @@ public class EmployeeDTO extends PersonDTO {
         super(age, height, weight);
         this.salary = salary;
         this.dept = dept;
-        this.name = name;
+        super.name = name;
     }
 
     public int getSalary(int salary) {
@@ -32,7 +32,11 @@ public class EmployeeDTO extends PersonDTO {
 
     @Override
     public String information() {
-        return super.information();
+//        return "이름: " + super.getName() + ", 나이: " + super.getAge() +
+//                ", 신장: " + super.getHeight() + ", 몸무게: " + super.getWeight() +
+//                ", 급여: " + salary + ", 부서: " + dept;
+        return super.information()
+                + "급여: " + salary + ", 부서: " + dept;
     }
 
 }
