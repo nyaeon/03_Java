@@ -42,7 +42,7 @@ public class Application2 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         try {
-            bw.write("java mysql jdbc hahahahahahahaha comeback home");
+            bw.write("java mysql jdbc hahahahahahahahaha comeback home");
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
