@@ -1,10 +1,8 @@
 package com.ohgiraffers.exception.number;
-
-public class NumberRangeException {
-
-    public NumberRangeException() {}
-
-    public boolean checkDouble(int a, int b){
-        if (b%2 == 0)
+// 사용자 정의 예외 클래스
+public class NumberRangeException extends Exception {
+    public NumberRangeException(String message) {
+        super(message);
     }
+
 }
