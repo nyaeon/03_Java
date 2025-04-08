@@ -1,11 +1,14 @@
 package com.ohgiraffers.section03.constructor;
 
+import java.util.Date;
+
 public class User {
 
     private String id;
     private String pwd;
     private String name;
     private java.util.Date enrollDate;
+
     /*
      * 생성자의 작성 위치
      * 작성위치는 문법상으로는 클래스 내부에 작성하면 되지만
@@ -25,7 +28,7 @@ public class User {
     /*
      * 생성자 작성 방법
      * [표현식]
-     * 접근제한자 클래스명(매개변수) {
+     * 접근제한자 클래스명([매개변수]) {
      *      인스턴스 생성 시점에 수행할 명령 기술(주로 필드를초기화)
      *      this.필드명 = 매개변수;    // 설정자(setter) 여러 개의 기능을 한 번의 호출로 수행할 수 있다.
      * }
@@ -44,4 +47,34 @@ public class User {
      * 매개변수 있는 생성자가 한개라도 존재하는 경우 기본생성자를 자동으로 추가해주지 않기 때문에
      * 기본생성자가 필요한 경우에는 반드시 명시적으로 작성해 주어야 한다.
      * */
+    // 기본생성자
+    public User() {
+        System.out.println("User 클래스의 기본생성자 호출함...");
+    }
+
+//    public User(){}// 동일한 이름의 생성자 혹은 메소드를 한 클래스 안에서 작성하는 것은 불가능하다.(compile error)
+
+    // id, pwd, name의 초기화를 담당할 생성자
+    public User(String id, String pwd, String name) {
+        this.id = id;
+        this.pwd = pwd;
+        this.name = name;
+        System.out.println("User 클래스의 id, pwd, name을 초기화하는 생성자 호출됨..");
+    }
+
+    // 모든 필드를 초기화하는 생성자
+    public User(String id, String pwd, String name, Date enrollDate) {
+//        this.id = id;
+//        this.pwd = pwd;
+//        this.name = name;
+        // this()를 통해서 다른 생성자를 활용하여 코드를 줄 일수있다.
+        // this()를 통해서 다른 생성자를 활용할 때는 항상 첫줄에 있어야 한다.
+        this(id, pwd, name);
+        this.enrollDate = enrollDate;
+        System.out.println("User 클래스의 모든 필드를 초기화하는 생성자 호출됨...");
+    }
+
+    public String information() {
+        return "id: " + this.id + " pwd " + this.pwd + " name " + this.name + " enrollDate " + this.enrollDate;
+    }
 }

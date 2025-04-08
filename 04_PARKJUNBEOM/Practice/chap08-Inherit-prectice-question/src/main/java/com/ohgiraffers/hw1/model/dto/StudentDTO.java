@@ -31,7 +31,7 @@ public class StudentDTO extends PersonDTO {
     }
 
     public String information(){
-        return "name="  + name + ", age=" + getAge() + ", height=" + getHeight() +
-                ", weight=" + getWeight() + ", grade=" + grade+", major=" + major;
+        return "name="  + super.getName() + ", age=" + super.getAge() + ", height=" + super.getHeight() +
+                ", weight=" + super.getWeight() + ", grade=" + grade+", major=" + major;
     }
 }

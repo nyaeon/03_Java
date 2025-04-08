@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level02.normal;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
@@ -16,6 +18,23 @@ public class Application3 {
          * 숫자를 입력하세요 : 1
          * 겨울
          * */
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("숫자를 입력하세요 (1~12): ");
+        int month = sc.nextInt();
+
+        if (month < 1 || month > 12) {
+            System.out.println("잘못 입력하셨습니다.");
+        } else if (month >= 3 && month <= 5) {
+            System.out.println("봄");
+        } else if (month >= 6 && month <= 8) {
+            System.out.println("여름");
+        } else if (month >= 9 && month <= 11) {
+            System.out.println("가을");
+        } else {
+            System.out.println("겨울");
+        }
+
+        sc.close();
     }
 }

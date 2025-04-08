@@ -23,22 +23,16 @@ public class Application1 {
         System.out.print("문자열을 하나 입력하세요 : ");
         String str = sc.nextLine();
 
-        char[] cArr = new char[str.length()];
-        for (int i = 0; i < cArr.length; i++) {
-            cArr[i] = str.charAt(i);
-        }
-
         System.out.print("검색할 문자를 하나 입력하세요 : ");
         char ch = sc.next().charAt(0);
 
-        int result = 0;
-
-        for (int i = 0; i < cArr.length; i++) {
-            if (ch == cArr[i]) {
-                result++;
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (ch == str.charAt(i)) {
+                count++;
             }
         }
 
-        System.out.println("입력하신 문자열 " + str + "에서 찾으시는 문자 " + ch + "은 " + result + "개 입니다.");
+        System.out.println("입력하신 문자열 " + str + "에서 찾으시는 문자 " + ch + "은 " + count + "개 입니다.");
     }
 }

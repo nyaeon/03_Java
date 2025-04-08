@@ -33,5 +33,32 @@ public class Application2 {
          * 김정희 대조영
          * 김유신 이사부
          */
+        String[] students = {"홍길동", "이순신", "유관순", "윤봉길", "장영실", "임꺽정",
+                "장보고", "이태백", "김정희", "대조영", "김유신", "이사부" };
+        String[][] bun1 = new String[2][3];
+        String[][] bun2 = new String[2][3];
+        int index = 0;
+        System.out.println("== 1분단 ==");
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 3; j++) {
+                bun1[i][j] = students[index];
+                index++;
+                System.out.print(bun1[i][j] + " ");
+                if (index % 2 == 0) {
+                    System.out.println();
+                }
+            }
+        }
+        System.out.println("== 2분단 ==");
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 3; j++) {
+                bun1[i][j] = students[index];
+                index++;
+                System.out.print(bun1[i][j] + " ");
+                if (index % 2 == 0) {
+                    System.out.println();
+                }
+            }
+        }
     }
 }

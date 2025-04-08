@@ -33,7 +33,7 @@ public class Application {
             System.out.println(menuText);
             input = scanner.nextInt();
             switch (input){
-                case 1: carRacer.startUP();
+                case 1: carRacer.startUp();
                     break;
                 case 2: carRacer.stepAccelator();
                     break;

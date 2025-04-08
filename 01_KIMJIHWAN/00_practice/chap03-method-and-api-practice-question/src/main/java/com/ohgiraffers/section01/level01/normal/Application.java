@@ -7,6 +7,8 @@ public class Application {
 
         /* RamdomMaker 클래스의 메소드를 호출해서 실행 */
         System.out.println(RandomMaker.rockPaperScissors());
+    }
+}
 
         System.out.println(RandomMaker.tossCoin());
 
