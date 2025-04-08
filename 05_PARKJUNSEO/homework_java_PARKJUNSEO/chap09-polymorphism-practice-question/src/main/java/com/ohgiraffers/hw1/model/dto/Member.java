@@ -4,18 +4,18 @@ public class Member {
     private String name;
     private int age;
     private char gender;
-    private int couponCount;
+    private int couponCount = 0;
 
     public Member() {}
     public Member(String name, int age, char gender) {}
 
     @Override
     public String toString() {
-        return "회원{" +
-                "이름='" + name + '\'' +
-                ", 나이=" + age +
-                ", 성별=" + gender +
-                ", 요리학원쿠폰개수=" + couponCount +
+        return "Member{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", couponCount=" + couponCount +
                 '}';
     }
 
