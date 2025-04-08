@@ -64,13 +64,14 @@ public class LibraryMenu {
         // for문 이용하여 bList의 모든 도서 목록 출력
         // 단, i를 이용하여 인덱스도 같이 출력 → 대여할 때 도서번호를 알기 위해
         for (int i = 0; i < bList.length; i++) {
-            System.out.print(i + "번 도서 : " + bList[i].getTitle() + " / " + bList[i].getAuthor() + " / "
+            System.out.println(i + "번 도서 : " + bList[i]);
+            /*System.out.print(i + "번 도서 : " + bList[i].getTitle() + " / " + bList[i].getAuthor() + " / "
             + bList[i].getPublisher() + " / ");
             if(bList[i] instanceof AniBook){
                 System.out.println(((AniBook) bList[i]).getAccessAge());
             } else {
                 System.out.println(((CookBook) bList[i]).isCoupon());
-            }
+            }*/
         }
     }
 
@@ -88,12 +89,13 @@ public class LibraryMenu {
         // NullPointerException 발생 시 오류 해결하시오 ㅎㅎ
         for (Book book : searchList) {
             if(book != null){
-                System.out.print(book.getTitle() + " / " + book.getAuthor() + " / " + book.getPublisher() + " / ");
+                System.out.println(book);
+                /*System.out.print(book.getTitle() + " / " + book.getAuthor() + " / " + book.getPublisher() + " / ");
                 if(book instanceof AniBook){
                     System.out.println(((AniBook) book).getAccessAge());
                 } else {
                     System.out.println(((CookBook) book).isCoupon());
-                }
+                }*/
             }
         }
 
