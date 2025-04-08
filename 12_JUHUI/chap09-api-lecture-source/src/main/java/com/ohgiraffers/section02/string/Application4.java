@@ -19,9 +19,13 @@ public class Application4 {
         System.out.printf("%s\n%s\n","안녕하세요","저는 홍길동 입니다.");
         System.out.printf("Test");
         System.out.println("안녕하세요. \t저는 홍길동 입니다.");
-        //System.out.println('''');// 홑따옴표 문자와 문자 리터럴 기호와 중복되어서 안됨.
+
+        System.out.println("안녕하세요. 저는 '홍길동' 입니다.");
+        //System.out.println(''');// 홑따옴표 문자와 문자 리터럴 기호와 중복되어서 안됨.
         System.out.println('\'');
+
         System.out.println("안녕하세요. 저는 \"홍길동\" 입니다.");
+        System.out.println("안녕하세요. 저는 \\홍길동\\ 입니다. ");
 
         /*
          * split 시 이스케이프 문자를 사용해야 하는 특수문자도 존재한다.

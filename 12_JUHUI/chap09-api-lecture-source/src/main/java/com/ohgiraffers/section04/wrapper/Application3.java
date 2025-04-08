@@ -24,8 +24,10 @@ public class Application3 {
 
         String str2 = "" + 123; // 젤 쉬운 방법 "(쌍따옴표) 두개 붙이면 문자열로 됨.
 
-        //i[0]
-        //i[1]
+        // i[0] : 책1
+        // i[1] : 책2
+        // i[2] : 책3
+        // i[3] : 책4
 
         for(int j=0;j<5;j++) {
             System.out.println("i[" + j + "] : 책" + (j +1));

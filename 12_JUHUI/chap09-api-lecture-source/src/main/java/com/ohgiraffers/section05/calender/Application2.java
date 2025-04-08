@@ -31,6 +31,10 @@ public class Application2 {
         Calendar calendar1 = new GregorianCalendar(year, month, dayOfMonth, hour, minute, second);
         System.out.println(calendar1);
 
+        Calendar calendar2 = new GregorianCalendar(year, month, dayOfMonth, hour, minute, second);
+
+        System.out.println(calendar2);
+
         Date date = new Date(calendar1.getTimeInMillis());
         System.out.println(date);
 
