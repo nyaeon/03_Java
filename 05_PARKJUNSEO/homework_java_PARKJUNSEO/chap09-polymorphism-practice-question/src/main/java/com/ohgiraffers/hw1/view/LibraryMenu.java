@@ -24,14 +24,14 @@ public class LibraryMenu {
         mem.setGender(gender);
         lm.insertMember(mem);
 
+        label :
         while (true) {
             System.out.println("""
                     1. 마이페이지
-                    2. 도서전체조회
+                    2. 도서 전체 조회
                     3. 도서 검색
                     4. 도서 대여하기
-                    0. 프로그램 종료하기
-                    """);
+                    0. 프로그램 종료하기""");
             int menuOption = sc.nextInt();
             switch (menuOption) {
                 case 1:
@@ -48,28 +48,33 @@ public class LibraryMenu {
                     break;
                 case 0:
                     System.out.println("프로그램을 종료합니다.");
-                    break;
+                    break label;
             }
         }
     }
 
     int count = 0;
     public void selectAll() {
-        Book[] blist = lm.selectAll();
+        Book[] bList = lm.selectAll();
         for (int i = 0; i < count+1; i++) {
-            System.out.println(i + "번 도서 : " + blist[i].);
+            System.out.println(i + "번 도서 : " + bList[i].toString());
             count += 1;
         }
     }
 
     public void searchBook() {
-        System.out.println("검색할 제목 키워드 : ");
+        System.out.print("검색할 제목 키워드 : ");
         String titlesearch = sc.next();
-        Book[] blist = lm.searchBook(titlesearch);
+        lm.searchBook(titlesearch);
         //for (int num : )
     }
 
-    public void rentBook() {}
+    public void rentBook() {
+        selectAll();
+        System.out.print("대여할 도서 번호 선택 : ");
+        int result = sc.nextInt();
+        lm.rentBook(result);
+    }
 
     public LibraryManager getLm() {
         return lm;

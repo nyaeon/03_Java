@@ -6,20 +6,6 @@ public class Application2 {
 
     public static void main(String[] args) {
 
-        String[] fruit = {"딸기", "바나나", "복숭아", "키위", "사과"};
-        Scanner sc = new Scanner(System.in);
-
-        for (int i = 0; i < fruit.length; i++);
-        {
-
-            System.out.println("0부터 4까지의 정수를 입력하세요 : ");
-
-            int sum = 0;
-            for (int j = 0; j < fruit.length; j++) {
-            }
-        }
-
-
         /* 길이가 5인 String 배열을 선언하고
          * "딸기", "바나나", "복숭아", "키위", "사과" 로 초기화를 하고
          * 스캐너로 0부터 4까지의 정수를 입력 받아
@@ -39,5 +25,38 @@ public class Application2 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+
+        String[] sArr = new String[5];
+        sArr[0] = "딸기";
+        sArr[1] = "바나나";
+        sArr[2] = "복숭아";
+        sArr[3] = "키위";
+        sArr[4] = "사과";
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("0부터 4까지의 정수를 입력하세요 : ");
+
+        int num = sc.nextInt();
+
+        switch (num) {
+            case 1:
+                System.out.println(sArr[0]);
+                break;
+                case 2:
+                    System.out.println(sArr[1]);
+                    break;
+                    case 3:
+                        System.out.println(sArr[2]);
+                        break;
+                        case 4:
+                            System.out.println(sArr[3]);
+                            break;
+                            case 5:
+                                System.out.println(sArr[4]);
+                                break;
+                                default:
+                                    System.out.println("준비된 과일이 없습니다.");
+                                    break;
+        }
     }
 }
