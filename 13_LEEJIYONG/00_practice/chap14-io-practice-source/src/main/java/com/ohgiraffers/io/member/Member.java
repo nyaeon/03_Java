@@ -11,7 +11,7 @@ public class Member implements Serializable {
     private String email;
     private int age;
     private char gender;
-    private double point;
+    private double point;ㅈ
 
     public Member() {
     }
