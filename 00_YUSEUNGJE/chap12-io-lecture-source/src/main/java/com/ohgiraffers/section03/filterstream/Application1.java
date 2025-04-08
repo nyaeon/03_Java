@@ -2,7 +2,7 @@ package com.ohgiraffers.section03.filterstream;
 
 import java.io.*;
 
-public class Applicaton1 {
+public class Application1 {
 
     public static void main(String[] args) {
         /*
