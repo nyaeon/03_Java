@@ -1,4 +1,4 @@
-package com.ohgiraffers.section03.fillterstream;
+package com.ohgiraffers.section03.filterstream;
 
 import java.io.*;
 
@@ -37,7 +37,7 @@ public class Application1 {
         // 개행문자 기준으로 한 행씩 읽음 (라인 단위)
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader("src/main/java/com/ohgiraffers/section03/fillterstream/testBuffered.txt"));
+            br = new BufferedReader(new FileReader("src/main/java/com/ohgiraffers/section03/filterstream/testBuffered.txt"));
 
             String temp;
             while ((temp = br.readLine()) != null) {
