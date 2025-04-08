@@ -18,12 +18,25 @@ public class Application4 {
         ObjectOutputStream objOut = null;
 
         try {
-            objOut = new ObjectOutputStream
-                    (new BufferedOutputStream
-                            (new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt")));
+//            objOut = new ObjectOutputStream
+//                    (new BufferedOutputStream
+//                            (new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt", true)));
 
             boolean exists = new File("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt").exists();
             System.out.println("exists = " + exists);
+
+            if (exists) {
+                // 파일이 있을 경우
+                objOut = new MyOutputStream
+                        (new BufferedOutputStream
+                                (new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt", true)));
+
+            } else {
+                // 파일이 없을 경우
+                objOut = new ObjectOutputStream
+                        (new BufferedOutputStream
+                                (new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt", true)));
+            }
 
             for (int i = 0; i < outputMembers.length; i++) {
                 objOut.writeObject(outputMembers[i]);
@@ -45,5 +58,33 @@ public class Application4 {
         System.out.println("==================================");
 
         MemberDTO[] inputMembers = new MemberDTO[3];
+
+        ObjectInputStream objIn = null;
+
+        try {
+            objIn = new ObjectInputStream
+                    (new BufferedInputStream
+                            (new FileInputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjStream.txt")));
+
+            while (true) {
+                System.out.println(objIn.readObject());
+            }
+
+        } catch(EOFException e) {
+            System.out.println("문장의 끝 도달!");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        } finally {
+            if (objIn != null) {
+                try {
+                    objIn.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+
     }
 }
