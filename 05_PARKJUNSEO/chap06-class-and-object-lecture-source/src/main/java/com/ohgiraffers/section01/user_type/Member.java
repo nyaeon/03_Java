@@ -10,5 +10,4 @@ public class Member {
     String[] hobby;
     String id;
 
-
 }

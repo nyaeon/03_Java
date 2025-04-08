@@ -33,5 +33,46 @@ public class Application2 {
          * 김정희 대조영
          * 김유신 이사부
          */
+
+        String[] students = {"홍길동", "이순신", "유관순", "윤봉길", "장영실", "임꺽정", "장보고", "이태백", "김정희", "대조영", "김유신", "이사부"}; // 12개의 배열
+        String[][] first = new String[3][2];
+        String[][] second = new String[3][2];
+        int tmp = 0;
+
+        /* 1분단 */
+        for(int i = 0; i < first.length; i++) {
+            for(int j = 0; j < first[i].length; j++) {
+                first[i][j] = students[tmp];
+                tmp++;
+            }
+        }
+
+        /* 2분단 */
+        for(int i = 0; i < second.length; i++) {
+            for(int j = 0; j < second[i].length; j++) {
+                second[i][j] = students[tmp];
+                tmp++;
+            }
+        }
+
+        /* 출력 */
+        System.out.print("== 1분단 ==");
+        for(int i = 0; i < first.length; i++) {
+            System.out.println();
+            for(int j = 0; j < first[i].length; j++) {
+                System.out.print(first[i][j] + " ");
+            }
+        }
+
+        System.out.println();
+
+        System.out.println();
+        System.out.print("== 2분단 ==");
+        for(int i = 0; i < second.length; i++) {
+            System.out.println();
+            for(int j = 0; j < second[i].length; j++) {
+                System.out.print(second[i][j] + " ");
+            }
+        }
     }
 }
