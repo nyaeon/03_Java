@@ -1,7 +1,6 @@
 package com.ohgiraffers.section03.map.run;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 public class Application2 {
@@ -24,9 +23,30 @@ public class Application2 {
 
         try {
             prop.store(new FileOutputStream("src/main/java/com/ohgiraffers/section03/map/run/driver.dat"),"jdbc driver");
+            prop.store(new FileWriter("src/main/java/com/ohgiraffers/section03/map/run/driver.properties"),"jdbc driver");
+            prop.storeToXML(new FileOutputStream("src/main/java/com/ohgiraffers/section03/map/run/driver.xml"),"jdbc driver");
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        Properties prop2 = new Properties();
+        System.out.println("prop2 = " + prop2);
+
+        try {
+//            prop2.load(new FileInputStream("src/main/java/com/ohgiraffers/section03/map/run/driver.dat"));
+//            prop2.load(new FileReader("src/main/java/com/ohgiraffers/section03/map/run/driver.properties"));
+            prop2.loadFromXML(new FileInputStream("src/main/java/com/ohgiraffers/section03/map/run/driver.xml"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println("prop2 = " + prop2);
+        System.out.println("driver = " + prop2.getProperty("driver"));
+        System.out.println("url = " + prop2.getProperty("url"));
+        System.out.println("user = " + prop2.getProperty("user"));
+        System.out.println("password = " + prop2.getProperty("password"));
 
     }
 }
