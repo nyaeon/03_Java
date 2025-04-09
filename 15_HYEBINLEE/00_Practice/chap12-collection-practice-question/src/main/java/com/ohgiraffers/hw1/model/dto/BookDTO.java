@@ -3,7 +3,7 @@ package com.ohgiraffers.hw1.model.dto;
 public class BookDTO {
 
   int bNo;
-  int cateogry;
+  int category;
   String title;
   String author;
 
@@ -11,7 +11,7 @@ public class BookDTO {
   }
 
   public BookDTO(int cateogry, String title, String author) {
-    this.cateogry = cateogry;
+    this.category = cateogry;
     this.title = title;
     this.author = author;
   }
@@ -20,7 +20,7 @@ public class BookDTO {
   public String toString() {
     return "BookDTO{" +
         "bNo=" + bNo +
-        ", cateogry=" + cateogry +
+        ", cateogry=" + category +
         ", title='" + title + '\'' +
         ", author='" + author + '\'' +
         '}';
@@ -34,12 +34,12 @@ public class BookDTO {
     this.bNo = bNo;
   }
 
-  public int getCateogry() {
-    return cateogry;
+  public int getCategory() {
+    return category;
   }
 
-  public void setCateogry(int cateogry) {
-    this.cateogry = cateogry;
+  public void setCategory(int category) {
+    this.category = category;
   }
 
   public String getTitle() {
