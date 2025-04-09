@@ -22,7 +22,7 @@ public class BookManager {
     if (index >= 0 && index < bookList.size()) {
       bookList.remove(index);
     } else {
-      System.out.println("삭제할 인덱스가 존재하지 않음");
+      System.out.println("삭제할 도서가 존재하지 않음");
     }
   }
 
