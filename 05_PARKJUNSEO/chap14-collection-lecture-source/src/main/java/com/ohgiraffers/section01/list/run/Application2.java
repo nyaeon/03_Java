@@ -34,23 +34,23 @@ public class Application2 {
         // Collections.sort(bookList);      // 정렬의 기준이 없음 (오류)   // 기본적으로 Integer나 String은 comparable이라서 비교가 가능함
         // 이런 경우 정렬하는 방법 (1. 클래스를 만들어 버리기. 2. 여기서만 쓰는 방법 만들기)
 
-        bookList.sort(new AscendingPrice());
+        bookList.sort(new AscendingPrice());  // sort는 comparator 계열의 클래스를 인자로 받는 듯. 그래서 그걸 상속받은 AscendingPrice를 받을 수 있는 것
         System.out.println("가격 오름차순 정렬 ===========================");
         for (BookDTO book : bookList) {
             System.out.println(book);
         }
 
         bookList.sort(new Comparator<BookDTO>() {  // 익명 클래스
-
             @Override
             public int compare(BookDTO o1, BookDTO o2) {
-                return 0;
+                return o1.getPrice() >= o2.getPrice() ? -1 : 1;
             }
         });
 
 //        =============================================================
 
         System.out.println("가격 내림차순 정렬 ===========================");
+
         for (BookDTO book : bookList) {
             System.out.println(book);
         }
