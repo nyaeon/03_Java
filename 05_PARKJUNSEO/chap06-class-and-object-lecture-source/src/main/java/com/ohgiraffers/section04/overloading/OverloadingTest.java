@@ -32,7 +32,7 @@ public class OverloadingTest {
     // 매개변수의 타입이 달라진다면 --> 오버로딩 적용
     public void test(int num, String str) {}
 
-    // 매개변수명의 순서가 바뀌는 건 의미가 없으나, 매개변수 타입의 순서가 달라지면 오버로딩 적용
+        // 매개변수명의 순서가 바뀌는 건 의미가 없으나, 매개변수 타입의 순서가 달라지면 오버로딩 적용
     public void test(String str, int num) {}
 
 

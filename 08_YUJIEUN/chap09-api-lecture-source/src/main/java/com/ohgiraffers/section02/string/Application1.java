@@ -89,5 +89,7 @@ public class Application1 {
         // isEmpty() : 문자열의 길이가 0이면 true를 반환, 아니면 false반환
         System.out.println("isEmpty() : " + "".isEmpty());
         System.out.println("isEmpty() : " + "abc".isEmpty());
+
+
     }
 }
