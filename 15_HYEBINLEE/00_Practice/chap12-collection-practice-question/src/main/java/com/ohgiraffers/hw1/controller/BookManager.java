@@ -21,6 +21,7 @@ public class BookManager {
   public void deleteBook(int index) {
     if (index >= 0 && index < bookList.size()) {
       bookList.remove(index);
+      System.out.println(index + "번 도서 삭제 성공");
     } else {
       System.out.println("삭제할 도서가 존재하지 않음");
     }
