@@ -22,5 +22,16 @@ public class Application4 {
         System.out.println(stack);
 
         System.out.println("peek() : " + stack.peek());
+        System.out.println(stack);
+
+        System.out.println("search() : " + stack.search(2)); // 값이 어디에 있는지 확인
+
+        System.out.println("pop() : " + stack.pop());
+        System.out.println("pop() : " + stack.pop());
+        System.out.println("pop() : " + stack.pop());
+        System.out.println("pop() : " + stack.pop());
+        System.out.println("pop() : " + stack.pop());
+        //System.out.println("pop() : " + stack.pop());  // 더이상 없는값일때 pop을 하면 EmptyStackException 발생
+        System.out.println("stack : " + stack);
     }
 }
