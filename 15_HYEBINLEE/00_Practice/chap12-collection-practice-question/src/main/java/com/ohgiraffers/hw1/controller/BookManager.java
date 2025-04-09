@@ -19,7 +19,11 @@ public class BookManager {
   }
 
   public void deleteBook(int index) {
-    bookList.remove(index);
+    if (index >= 0 && index < bookList.size()) {
+      bookList.remove(index);
+    } else {
+      System.out.println("삭제할 인덱스가 존재하지 않음");
+    }
   }
 
   public int searchBook(String bTitle) {
