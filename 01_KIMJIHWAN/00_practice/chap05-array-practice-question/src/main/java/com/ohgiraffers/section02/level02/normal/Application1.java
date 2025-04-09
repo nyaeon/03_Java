@@ -31,10 +31,12 @@ public class Application1 {
         int a = sc.nextInt();
         System.out.print("세로 행의 수를 입력하세요 : " );
         int b = sc.nextInt();
+        char[][] arr = new char[a][b];
 
+        boolean flag = false;
         if (a <= 10 && a >= 1) {
             if (b <= 10 && b >= 1) {
-                int[][] arr = new int[a][b];
+                flag = true;
             } else {
                 System.out.println("반드시 1~10까지 정수를 입력해야 합니다. 다시 입력하세요");
             }
@@ -44,15 +46,17 @@ public class Application1 {
 
 //        Math.random()
 //        65 ~ 91까지 아스키코드 대문자 불러오는 과정에서 중단
-        char c = (Math.random() * 65 + 1).charAt(0);
-        for (int i = 0; i < b; i++) {
-            if (c >= 65 && c <= 91){
 
+        if (flag) {
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++) {
+                    arr[i][j] = (char) (Math.random() * 26 + 65);
+                    System.out.print(arr[i][j] + " ");
+                }
+                System.out.println();
             }
+
         }
-
-
-
 
     }
 }
