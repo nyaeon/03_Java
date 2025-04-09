@@ -1,0 +1,60 @@
+package com.ohgiraffers.hw1.controller;
+
+import com.ohgiraffers.hw1.model.comparator.AscCategory;
+import com.ohgiraffers.hw1.model.comparator.DescCategory;
+import com.ohgiraffers.hw1.model.dto.BookDTO;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class BookManager {
+
+  private ArrayList<BookDTO> bookList;
+
+  public BookManager() {
+    bookList = new ArrayList<>();
+  }
+
+  public void addBook(BookDTO book) {
+    bookList.add(book);
+  }
+
+  public void deleteBook(int index) {
+    bookList.remove(index);
+  }
+
+  public int searchBook(String bTitle) {
+    for (int i = 0; i < bookList.size(); i++) {
+      if (bookList.get(i).getTitle().equals(bTitle)) {
+        return i;
+      }
+    }
+    // 해당 제목을 갖는 객체 없으면 -1 반환
+    return -1;
+  }
+
+  public void printBook(int index) {
+    // 자동으로 toString 형변환해서 출력
+    System.out.println(bookList.get(index));
+  }
+
+  public void displayAll() {
+    for (int i = 0; i < bookList.size(); i++) {
+      System.out.println(bookList.get(i));
+    }
+  }
+
+  public ArrayList<BookDTO> sortedBookList(int select) {
+    if (select == 1) {
+      Collections.sort(bookList, new AscCategory());
+    } else if (select == 2) {
+      Collections.sort(bookList, new DescCategory());
+    }
+    return bookList;
+  }
+
+  public void printBookList(ArrayList<BookDTO> br) {
+    for (BookDTO b : br) {
+      System.out.println(b);
+    }
+  }
+}
