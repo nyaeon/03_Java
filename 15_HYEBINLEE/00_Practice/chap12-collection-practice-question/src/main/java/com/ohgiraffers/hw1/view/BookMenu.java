@@ -73,13 +73,13 @@ public class BookMenu {
     String title;
     String author;
 
-    System.out.println("도서 번호 : ");
+    System.out.print("도서 번호 : ");
     bNo = scanner.nextInt();
-    System.out.println("도서 제목 : ");
-    category = scanner.nextInt();
-    System.out.println("도서 장르 (1:인문 / 2:자연과학 / 3:의료 / 4:기타) : ");
+    System.out.print("도서 제목 : ");
     title = scanner.next();
-    System.out.println("도서 저자 :");
+    System.out.print("도서 장르 (1:인문 / 2:자연과학 / 3:의료 / 4:기타) : ");
+    category = scanner.nextInt();
+    System.out.print("도서 저자 :");
     author = scanner.next();
     BookDTO book = new BookDTO(bNo, category, title, author);
     return book;
