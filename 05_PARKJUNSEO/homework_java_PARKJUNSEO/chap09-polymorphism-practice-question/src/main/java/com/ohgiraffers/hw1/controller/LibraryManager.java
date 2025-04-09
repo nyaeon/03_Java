@@ -31,29 +31,30 @@ public class LibraryManager {
         return bList;
     }
 
-    int[] nums = {0, 1, 2, 3, 4};
     public Book[] searchBook(String keyword) {
-        Book[] blistKey = new Book[5];
+        int[] nums = {0, 1, 2, 3, 4};
+        Book[] searchBooks = new Book[5];
         for(int num : nums) {
             if (bList[num].getTitle().contains(keyword)) {
-                blistKey[num] = bList[num];
+                searchBooks[num] = bList[num];
             };
         }
-        return blistKey;
+        return searchBooks;
     }
 
     public int rentBook(int index) {
-        index = 0;
-        if (bList[index].) {
-            System.out.print("성공적으로 대여되었습니다. 요리학원 쿠폰이 발급되었습니다. 마이페이지를 통해 확인하세요.");
-        } else if (index == 1) {
-            System.out.print("나이 제한으로 대여 불가능입니다.");
-            index = 1;
-        } else {
-            System.out.print("성공적으로 대여되었습니다.");
-            coupon += 1;
+        int result = 0;
+        if (bList[index] instanceof AniBook == true) {
+            if (mem.getAge() < ((AniBook) bList[index]).getAccessAge()) {
+                result = 1;
+            } else {result = 0;}
+        } else if (((CookBook) bList[index]).isCoupon() == true) {
+            mem.setCouponCount(mem.getCouponCount()+1);
+            result = 2;
+        } else{
+            result = 0;
         }
-        return 0;
+        return result;
     }
 
 
