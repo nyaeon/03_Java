@@ -24,9 +24,10 @@ public class BookMenu {
                 6. 끝내기
                 """;
         System.out.println(str);
-        num = Integer.parseInt(sc.nextLine());
 
         do {
+            System.out.println("번호를 입력하세요 : ");// 위치 중요. 여기 안에다가 안넣으면 무한 반복임.
+            num = Integer.parseInt(sc.nextLine());
             switch (num) {
                 case 1:
                     // 새 도서 추가
