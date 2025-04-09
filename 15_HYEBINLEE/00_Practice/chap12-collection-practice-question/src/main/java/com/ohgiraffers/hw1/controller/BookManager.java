@@ -41,6 +41,9 @@ public class BookManager {
     for (int i = 0; i < bookList.size(); i++) {
       System.out.println(bookList.get(i));
     }
+    if (bookList.size() == 0) {
+      System.out.println("출력할 도서가 없습니다.");
+    }
   }
 
   public ArrayList<BookDTO> sortedBookList(int select) {
