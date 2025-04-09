@@ -79,7 +79,7 @@ public class BookMenu {
     title = scanner.next();
     System.out.print("도서 장르 (1:인문 / 2:자연과학 / 3:의료 / 4:기타) : ");
     category = scanner.nextInt();
-    System.out.print("도서 저자 :");
+    System.out.print("도서 저자 : ");
     author = scanner.next();
     BookDTO book = new BookDTO(bNo, category, title, author);
     return book;
