@@ -15,6 +15,8 @@ public class BookMenu {
     }
 
     public void menu() {
+        label :
+        while (true) {
         System.out.println("""
                 *** 도서 관리 프로그램 ***
                 1. 새 도서 추가
@@ -51,11 +53,13 @@ public class BookMenu {
                 } else {
                     bm.printBook(index);
                 }
+                break;
             case 5:
                 bm.displayAll();
                 break;
             case 6:
-                break;
+                break label;
+        }
         }
 
     }
@@ -63,12 +67,17 @@ public class BookMenu {
     public BookDTO inputBook() {
         System.out.print("도서 번호 : ");
         int bNo = sc.nextInt();
+        sc.nextLine();
+
         System.out.print("도서 제목 : ");
-        String bTitle = sc.next();
+        String bTitle = sc.nextLine();
+
         System.out.print("도서 장르 (1:인문 / 2:자연과학 / 3:의료 / 4:기타) : ");
         int bCategory = sc.nextInt();
+        sc.nextLine();
+
         System.out.print("도서 저자 : ");
-        String bAuthor = sc.next();
+        String bAuthor = sc.nextLine();
         BookDTO bDTO = new BookDTO(bNo, bCategory, bTitle, bAuthor);
         return bDTO;
     }

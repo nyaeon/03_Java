@@ -14,6 +14,7 @@ public class BookManager {
 
     public BookManager(){
         ArrayList<BookDTO> bList = new ArrayList<>();
+        this.bookList = bList;
     }
 
     public void addBook(BookDTO book) {
@@ -24,28 +25,30 @@ public class BookManager {
         bookList.remove(index);
     }
 
-    public int searchBook (String Title) {
+    public int searchBook (String title) {
         for (int i = 0; i < bookList.size(); i++) {
-            if (bookList.get(i).getTitle().equals(Title)) {
+            if (bookList.get(i).getTitle().equals(title)) {
                 return i;
             }
         } return -1;
     }
 
     public void printBook (int index) {
-        BookManager bm = new BookManager();
-        System.out.println(bookList.get(index).getTitle());
+        System.out.println(bookList.get(index).toString());
     }
 
     public void displayAll () {
-        if (bookList != null) {
-            for (int i = 0; i < bookList.size(); i++) {
-                System.out.println(bookList.get(i).toString());
-            }
-        } else {
+        if (bookList.isEmpty()) {
             System.out.println("출력할 도서가 없습니다.");
+            }
+        else {for (int i = 0; i < bookList.size(); i++) {
+        System.out.println(bookList.get(i).toString());
         }
+
+        }
+
     }
+
 
     public ArrayList<BookDTO> sortedBookList(int select) {
         if (select == 1) {
