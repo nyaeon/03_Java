@@ -11,6 +11,7 @@ public class BookDTO {
   }
 
   public BookDTO(int bNo, int cateogry, String title, String author) {
+    this.bNo = bNo;
     this.category = cateogry;
     this.title = title;
     this.author = author;
