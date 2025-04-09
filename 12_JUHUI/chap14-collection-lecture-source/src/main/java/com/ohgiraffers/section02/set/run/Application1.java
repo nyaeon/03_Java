@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.list.set.run;
+package com.ohgiraffers.section02.set.run;
 
 import java.util.HashSet;
 import java.util.Iterator;
