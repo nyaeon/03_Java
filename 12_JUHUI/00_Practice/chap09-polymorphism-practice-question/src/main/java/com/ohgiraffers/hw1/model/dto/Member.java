@@ -5,7 +5,7 @@ public class Member {
     private String name; // 회원명
     private int age; // 회원 나이
     private char gender; // 성별
-    private int couponCount; // 요리학원쿠폰개수 =- 0;
+    private int couponCount; // 요리학원쿠폰개수 = 0;
 
     public Member() {}
 

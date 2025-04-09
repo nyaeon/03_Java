@@ -12,13 +12,18 @@ public class Application {
         emp[2] = new EmployeeDTO(2, "강말순", "교육부", "강사", 20, 'F',
                 1000000, 0.01, "01011112222", "서울 마곡");
 
-        System.out.println("emp[0] : " + emp[0].information());
+        /*System.out.println("emp[0] : " + emp[0].information());
         System.out.println("emp[1] : " + emp[1].information());
-        System.out.println("emp[2] : " + emp[2].information());
+        System.out.println("emp[2] : " + emp[2].information());*/
+
+        for (int i = 0; i < emp.length; i++) {
+            System.out.println("emp[" + i + "] : " + emp[i].information());
+        }
 
         System.out.println("=================================================================");
 
         // 3개의 객체 중 값이 없는 필드에 각각 값을 넣은 뒤 출력
+        emp[0].setEmpNo(0);
         emp[0].setEmpName("김말똥");
         emp[0].setDept("영업부");
         emp[0].setJob("팀장");
@@ -44,16 +49,15 @@ public class Application {
         // 3명의 직원의 연봉 평균을 구하여 출력
 
         int sum = 0;
-        int[] empSalary = new int[3];
 
         for (int i = 0; i < emp.length; i++) {
-            empSalary[i] = (int) ((emp[i].getSalary() + (emp[i].getSalary() * emp[i].getBonusPoint())) * 12);
-            System.out.println(emp[i].getEmpName() + "의 연봉 : " + empSalary[i]  + "원");
-            sum += empSalary[i];
+            int sumSalary = (int) ((emp[i].getSalary() + (emp[i].getSalary() * emp[i].getBonusPoint())) * 12);
+            System.out.println(emp[i].getEmpName() + "의 연봉 : " + sumSalary  + "원");
+            sum += sumSalary;
         }
         System.out.println("=================================================================");
 
-        int avg = sum / 3;
+        int avg = sum / emp.length;
         System.out.println("직원들의 연봉의 평균 : " + avg + "원");
 
     }

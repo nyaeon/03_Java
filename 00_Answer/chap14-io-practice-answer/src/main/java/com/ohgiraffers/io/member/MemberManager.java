@@ -55,6 +55,7 @@ public class MemberManager {
             members[count] = member;
         }
 
+
         try(ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(target)))){
             oos.writeObject(members);
         } catch (IOException e) {

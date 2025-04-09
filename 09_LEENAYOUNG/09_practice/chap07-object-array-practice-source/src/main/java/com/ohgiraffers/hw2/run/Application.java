@@ -49,11 +49,20 @@ public class Application {
         // 현재 기록된 학생들의 각각의 점수 평균을 구함
         // 학생들의 정보를 모두 출력 (평균 포함)
 
-        int[] gradeAvg = new int[10];
+        /*int[] gradeAvg = new int[10];
 
         for(int i = 0; i < count; i++) {
             gradeAvg[i] = (students[i].getKor() + students[i].getEng() + students[i].getMath()) / 3;
             System.out.println(students[i].information() + ", 점수 평균 : " + gradeAvg[i]);
+        }*/
+
+        for (StudentDTO student : students) {
+            if(student == null) {
+                break;
+            }
+
+            int sum = student.getKor() + student.getEng() + student.getMath();
+            System.out.println(student.information() + ", 평균=" + sum / 3);
         }
     }
 }
