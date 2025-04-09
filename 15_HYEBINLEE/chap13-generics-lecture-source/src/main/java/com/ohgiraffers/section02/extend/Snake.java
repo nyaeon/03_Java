@@ -1,4 +1,7 @@
 package com.ohgiraffers.section02.extend;
 
-public class Snake {
+import org.w3c.dom.ls.LSOutput;
+
+public class Snake extends Reptile {
+
 }
