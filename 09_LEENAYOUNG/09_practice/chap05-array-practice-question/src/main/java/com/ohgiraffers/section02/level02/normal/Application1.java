@@ -34,7 +34,7 @@ public class Application1 {
         while (!flag){
             System.out.print("가로 행의 수를 입력하세요 : ");
             row = sc.nextInt();
-            System.out.print("세로 행의 수를 입력하세요 : ");
+            System.out.print("세로 열의 수를 입력하세요 : ");
             col = sc.nextInt();
 
             if (row > 0 && col > 0 && row < 10 && col < 10) {
