@@ -22,8 +22,7 @@ public class BookDTO {
     return "bNo=" + bNo +
         ", cateogry=" + category +
         ", title='" + title + '\'' +
-        ", author='" + author + '\'' +
-        '}';
+        ", author='" + author + '\'';
   }
 
   public int getbNo() {
