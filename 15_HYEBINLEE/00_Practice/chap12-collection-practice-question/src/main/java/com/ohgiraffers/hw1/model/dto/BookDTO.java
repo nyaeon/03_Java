@@ -1,12 +1,15 @@
 package com.ohgiraffers.hw1.model.dto;
 
 public class BookDTO {
+
   int bNo;
   int cateogry;
   String title;
   String author;
 
-  public BookDTO() {}
+  public BookDTO() {
+  }
+
   public BookDTO(int cateogry, String title, String author) {
     this.cateogry = cateogry;
     this.title = title;
