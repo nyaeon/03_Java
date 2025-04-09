@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.list;
+package com.ohgiraffers.section01.list.run;
 
 import java.util.*;
 
