@@ -90,7 +90,7 @@ public class LibraryMenu {
         if (result == 0) {
             System.out.println("성공적으로 대여되었습니다.");
         } else if (result == 1) {
-            System.out.print("나이 제한으로 대여 불가능입니다.");
+            System.out.print("나이 제한으로 대여 불가능합니다.");
         } else {
             System.out.println("성공적으로 대여되었습니다. 요리학원 쿠폰이 발급되었습니다. 마이페이지를 통해 확인하세요.");
         }
