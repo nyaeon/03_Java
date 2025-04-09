@@ -45,7 +45,7 @@ public class BookMenu {
           bookManager.printBookList(list);
           break;
         case 3:
-          System.out.print("삭제할 도서 번호를 입력하세요");
+          System.out.print("삭제할 도서 번호를 입력하세요: ");
           int num = scanner.nextInt();
           bookManager.deleteBook(num);
           break;
