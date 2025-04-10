@@ -111,6 +111,11 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/chap12-collection-practice-question" />
         <option name="gradleHome" value="" />
         <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap12-collection-practice-question" />
+          </set>
+        </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chap14-io-practice-source" />

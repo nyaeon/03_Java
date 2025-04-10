@@ -13,7 +13,6 @@ public class InputBoard {
         // 게시글 등록
         // 글제목,작성자,글 내용(exit입력시 종료)는 각각 입력받기
         // 날짜는 따로 입력받지않고 현재날짜로 등록
-
         System.out.print("글 제목 : ");
         sc.nextLine();
         String boardTitle = sc.nextLine();
