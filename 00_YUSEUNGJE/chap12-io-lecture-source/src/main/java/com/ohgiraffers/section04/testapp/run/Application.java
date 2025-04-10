@@ -35,7 +35,7 @@ public class Application {
                     if(selected == null) continue;
                     ms.modifyMember(reform(selected));
                     break;
-                case 5 : break;
+                case 5 : ms.removeMember(chooseMemNo()); break;
                 case 9 : return;
                 default:
                     System.out.println("번호를 잘못 입력하셨습니다.");
@@ -45,7 +45,80 @@ public class Application {
 
     private static Member reform(Member selected) {
 
-        
+        Member modifiedMember = selected;
+        Scanner sc = new Scanner(System.in);
+
+        while(true) {
+            System.out.println("==== 수정 서브 메뉴 ====");
+            System.out.println("1. 패스워드");
+            System.out.println("2. 나이");
+            System.out.println("3. 취미");
+            System.out.println("4. 혈액형");
+            System.out.println("5. 메인 메뉴로 돌아가기");
+            System.out.print("내용을 선택하세요: ");
+            int chooseNo = sc.nextInt();
+            sc.nextLine();
+            switch (chooseNo) {
+                case 1:
+                    System.out.print("수정 할 아이디를 입력하세요: ");
+                    modifiedMember.setId(sc.nextLine());
+                    break;
+                case 2:
+                    System.out.print("수정 할 나이를 입력하세요: ");
+                    modifiedMember.setAge(sc.nextInt());
+                    break;
+                case 3:
+                    System.out.print("수정 할 취미를 입력하세요: ");
+                    modifiedMember.setHobbies(resetHobbies());
+                    break;
+                case 4:
+                    System.out.print("수정 할 혈액형을 입력하세요: ");
+                    modifiedMember.setBloodType(resetBloodType());
+                    break;
+                case 5:
+                    System.out.println("메인 메뉴로 돌아갑니다.");
+                    return selected;
+                default:
+                    System.out.println("번호를 다시 제대로 입력해 주세요: ");
+            }
+
+            return modifiedMember;
+
+        }
+    }
+
+    private static BloodType resetBloodType() {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("수정 할 혈액형을 입력하세요(A, AB, B, O): ");
+        String bloodType = sc.nextLine().toUpperCase();
+        BloodType bt = null;
+        switch(bloodType) {
+            case "A": bt = BloodType.A; break;
+            case "AB": bt = BloodType.AB; break;
+            case "B": bt = BloodType.B; break;
+            case "O": bt = BloodType.O;
+        }
+
+        return bt;
+    }
+
+    private static String[] resetHobbies() {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("수정할 취미 개수를 입력하세요(숫자로 1 이상): ");
+        int length = sc.nextInt();
+        sc.nextLine();
+
+        String[] hobbies = new String[length];
+        for (int i = 0; i < length; i++) {
+            System.out.print((i + 1) + "번째 취미를 입력하세요: ");
+            String input = sc.nextLine();
+            hobbies[i] = input;
+        }
+
+        return hobbies;
     }
 
     private static Member signUp() {

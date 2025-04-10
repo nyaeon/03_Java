@@ -155,4 +155,83 @@ public class MemberRepository {
 //        return memberList.size();
     }
 
+    public int updateMember(Member reform) {
+
+        for(int i = 0; i < memberList.size(); i++) {
+            Member iMember = memberList.get(i);
+            if(iMember.getMembNo() == reform.getMembNo()) {
+                System.out.println("===== 수정 전 기존 회원 정보와 비교 ======");
+                System.out.println("reform = " + reform);
+                System.out.println("iMember = " + iMember);
+                System.out.println("===========================================");
+
+                memberList.set(i, reform);
+
+                File file = new File("src/main/java/com/ohgiraffers/section04/testapp/db/memberDB.dat");
+                saveMembers(file, memberList);
+
+                if(!iMember.equals(reform)) return 1;
+
+            }
+        }
+        return 0;
+    }
+
+    public int deleteMember(int removeMember) {
+
+
+        /*
+        * 현재는 우리가 마지막 회원 번호 추출을 위해 컬렉션의 size()를 활용하고 있다.
+        * (그래서 hard delete(실제회원객체를 제거)를 할 수 없고
+        * soft delete(회원 중에 탈퇴와 관련된 속성 수정)를 진행해야 한다.
+        *
+        * hard delete를 하게 된다면 memberList에서 회원 한명을 remove()메소드를 활용하여 삭제하고
+        * 파일 객체 출력을 통해 파일에 컬렉션에 있는 회원들을 다시 덮어씌워야 한다.(ObjectOutputStream을 활용해서)
+        * */
+        // soft delete 시
+//        int result = -1;
+//
+//        for(Member mem : memberList) {
+//            if(mem.getMembNo() == removeMember) {
+//                mem.setId(null);
+//                result = 1;
+//            }
+//        }
+//
+//        return result;
+
+        // hard delete 시
+        for(int i = 0; i < memberList.size(); i++) {
+
+            if(memberList.get(i).getMembNo() == removeMember) {
+                memberList.remove(i);
+
+                File file = new File("src/main/java/com/ohgiraffers/section04/testapp/db/memberDB.dat");
+                saveMembers(file, memberList);
+
+                return 1;
+            }
+        }
+
+        return 0;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

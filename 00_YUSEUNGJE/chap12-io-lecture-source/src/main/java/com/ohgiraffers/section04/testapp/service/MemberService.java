@@ -77,4 +77,27 @@ public class MemberService {
 
 
     }
+
+    public void modifyMember(Member reform) {
+
+        int result = mr.updateMember(reform);
+
+        if(result == 1) {
+            System.out.println("수정 성공!");
+            return;
+        }
+
+        System.out.println("수정 내역 없음");
+    }
+
+    public void removeMember(int removeMemberNo) {
+        int result = mr.deleteMember(removeMemberNo);
+
+        if(result == 1) {
+            System.out.println("다시 돌아오세요~~~!!");
+            return;
+        }
+
+        System.out.println("회원 번호 틀렸나 본데요?");
+    }
 }
