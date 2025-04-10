@@ -107,6 +107,16 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chap14-io-practice-source" />
+        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chap14-io-practice-source" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
