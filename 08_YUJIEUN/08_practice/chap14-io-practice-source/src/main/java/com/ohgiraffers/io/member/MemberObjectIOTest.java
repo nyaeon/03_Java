@@ -9,9 +9,9 @@ public class MemberObjectIOTest {
 
         Member newMember = new Member("user04", "1234", "신사임당", "sinsa@sh.org",
                 300, '여', 9000.0);
-//        manager.addMember(newMember);
+        manager.addMember(newMember);
 
-        System.out.println("\n✅ 추가 후 회원 목록:");
+        System.out.println("\n 추가 후 회원 목록:");
         manager.readMembers();
 
 
