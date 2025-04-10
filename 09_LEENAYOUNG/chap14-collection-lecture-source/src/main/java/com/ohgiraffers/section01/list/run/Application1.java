@@ -97,9 +97,6 @@ public class Application1 {
 //            System.out.println(dIter.next());
 //        }
 //
-//        while (dIter.hasNext()) {
-//            System.out.println(dIter.next());
-//        }
 
         List<String> descList = new ArrayList<>();
         while (dIter.hasNext()) {

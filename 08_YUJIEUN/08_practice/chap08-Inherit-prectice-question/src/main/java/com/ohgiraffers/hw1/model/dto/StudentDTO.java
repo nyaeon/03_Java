@@ -14,13 +14,6 @@ public class StudentDTO extends PersonDTO {
         this.major = major;
     }
 
-    @Override
-    public String information() {
-        return "StudentDTO{" +
-                "grade=" + grade +
-                ", major='" + major + '\'' +
-                '}';
-    }
 
     public int getGrade() {
         return grade;
@@ -36,5 +29,16 @@ public class StudentDTO extends PersonDTO {
 
     public void setMajor(String major) {
         this.major = major;
+    }
+
+
+    @Override
+    public String information() {
+        return "StudentDTO [name=" + name
+                + ", age=" + getAge()
+                + ", height=" + getHeight()
+                + ", weight=" + getWeight()
+                + ", grade=" + grade
+                + ", major=" + major + "]";
     }
 }
