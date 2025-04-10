@@ -11,9 +11,7 @@ public class MyObjectOutput extends ObjectOutputStream {
     }
 
     @Override
-    protected void writeStreamHeader() throws IOException {
-
-    }
-
+    protected void writeStreamHeader() throws IOException {}
+    // super있었던 거 지움으로써 해결
 
 }

@@ -46,6 +46,8 @@ public class Application {
 
     }
 
+
+    // 수정 고르면 띄어야하는 메소드, 선택해서 고르면 repository의 메소드로 연결되어서 넘어감.
     private static Member reform(Member selected) {
         Member modifiedMember = selected;
         Scanner sc = new Scanner(System.in);
@@ -88,6 +90,7 @@ public class Application {
         }
     }
 
+    // 혈액형 수정
     private static BloodType resetBloodType() {
         Scanner sc = new Scanner(System.in);
         System.out.print("수정 할 혈액형을 입력하세요(A, AB, B, O): ");
@@ -102,6 +105,7 @@ public class Application {
         return bt;
     }
 
+    // 취미 수정
     private static String[] resetHobbies() {
         Scanner sc = new Scanner(System.in);
 
@@ -118,6 +122,7 @@ public class Application {
         return hobbies;
     }
 
+    // 회원 가입, 여기서 return 값 repository로 넘어가서 연결됨.
     private static Member signup() {
         Member newMember = null;
 

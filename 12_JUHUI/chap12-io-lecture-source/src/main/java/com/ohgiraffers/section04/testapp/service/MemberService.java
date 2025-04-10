@@ -53,6 +53,7 @@ public class MemberService {
         }
     }
 
+    // 회원정보수정
     public Member findMemberForMod(int memNo) {
         Member selectedMember = mr.selectMemberBy(memNo);
         if (selectedMember != null) { // 조회된 내용을 넘겨주는 작업
@@ -62,7 +63,7 @@ public class MemberService {
             newInstance.setPwd(selectedMember.getPwd());
             newInstance.setAge(selectedMember.getAge());
 
-            String[] copiedHobbies = selectedMember.getHobbies().clone();
+            String[] copiedHobbies = selectedMember.getHobbies().clone(); //.clone() 얕은 복사
             newInstance.setHobbies(copiedHobbies);
             newInstance.setBloodType(selectedMember.getBloodType());
 
@@ -74,6 +75,7 @@ public class MemberService {
         return null;
     }
 
+    // 회원 수정 성공여부
     public void modifyMember(Member reform) {
         int result = mr.updateMember(reform);
 
@@ -84,6 +86,7 @@ public class MemberService {
         System.out.println("수정 내역 없음");
     }
 
+    // 회원 탈퇴(hard delete)
     public void removeMember(int removeMemberNo) {
         int result = mr.deleteMember(removeMemberNo);
 

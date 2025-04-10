@@ -23,8 +23,8 @@ public class MemberRepository {
 
         File file = new File("src/main/java/com/ohgiraffers/section04/testapp/db/memberDB.dat");
 
-        // main을 실행할 때마다 덮어씌우는 문제를 방지하고자 파일이 없을 때만 초키 세팅이 되도록 조건문을 작성
-        // .exists() : 불릴 값을 주는 거 있으면 true,없으면 false 반환함.
+        // main을 실행할 때마다 덮어씌우는 문제를 방지하고자 파일이 없을 때만 초기 세팅이 되도록 조건문을 작성
+        // .exists() : file의 메소드로, 파일이 있는지 없는지 확인함. 불릴 값을 주는 거 있으면 true,없으면 false 반환함.
         if(! file.exists()) { //.exists()의 동작 >> true : 파일이 있을 때, false : 파일이 없을 때
             // 파일이 해당 경로에 없을 경우이면 새롭게 만들고 추가를 위해 논리 부정함
             ArrayList<Member> members = new ArrayList<>();
