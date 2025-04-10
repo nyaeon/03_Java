@@ -60,8 +60,8 @@ public class Application {
             sc.nextLine();
             switch (chooseNo) {
                 case 1:
-                    System.out.print("수정 할 아이디를 입력하세요: ");
-                    modifiedMember.setId(sc.nextLine());
+                    System.out.print("수정 할 패스워드를 입력하세요: ");
+                    modifiedMember.setPwd(sc.nextLine());
                     break;
                 case 2:
                     System.out.print("수정 할 나이를 입력하세요: ");
