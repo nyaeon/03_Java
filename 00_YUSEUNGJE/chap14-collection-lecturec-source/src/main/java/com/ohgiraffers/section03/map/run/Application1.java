@@ -88,6 +88,7 @@ public class Application1 {
         System.out.println(hMap3.get("book"));
 
         ArrayList<BookDTO> bList = new ArrayList<>();
+        bList.add(new BookDTO());
         hMap3.put("bList", bList);
         ArrayList<PersonDTO> pList = new ArrayList<>();
         hMap3.put("pList", pList);
