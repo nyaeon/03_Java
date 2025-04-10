@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.enumtype;
 
+import org.w3c.dom.ls.LSOutput;
+
 public enum Subjects {
     JAVA,
     MYSQL,
@@ -11,4 +13,11 @@ public enum Subjects {
     Subjects() {
         System.out.println("기본 생성자 호출됨....");
     }
+
+    public String toString() {
+        return "@@@@" + this.name() + "@@@@";
+    }
+
+    public enum BackEnd {JAVA,MYSQL,JDBC,JAVASCRIPT};
+    public enum FrontEnd {HTML,CSS,JAVASCRIPT};
 }

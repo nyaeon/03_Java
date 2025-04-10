@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.enumtype;
 
+import java.sql.SQLOutput;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -21,8 +23,45 @@ public class Application {
         } else {
             System.out.println("서로 다른 과목이다.");
         }
+
+        // 단일 인스턴스임을 보장하기에 == 비교가 가능하다,(동일 객체 비교가 가능하다)
         if(subject1 == subject3) {
             System.out.println("싱글톤이다");// 생성된 하나의 주소값을 공유
         }
+
+        // 오버라이딩 되지않은 toString() 또는 name() 메소드를 활용하여 필드명을 문자열로 변경하기 쉽다.
+        System.out.println(Subjects.JAVA.toString());
+        System.out.println(Subjects.JAVA.name());
+
+        // 이름 충돌 방지를 위해 접두사를 쓰지않아도 Enum 타입별로 네임스페이스를 가진다.
+        Subjects.BackEnd javascript = Subjects.BackEnd.JAVASCRIPT;
+        System.out.println("javascript = " + javascript);
+        Subjects.FrontEnd javascript2 = Subjects.FrontEnd.JAVASCRIPT;
+        System.out.println("javascript2 = " + javascript2);
+
+        System.out.println("==================================================");
+
+        // values()를 이용하여 상수값 배열을 반환받고 이를 활용하여 연속처리를 해줄 수 있다.
+        Subjects[] subjects = Subjects.values();
+        for (Subjects subject : subjects) {
+            System.out.println(subject.toString());
+            System.out.println(subject.name());
+            System.out.println(subject.ordinal());//순번
+        }
+
+
+        System.out.println("==================================================");
+        Subjects.BackEnd[] subjects2 = Subjects.BackEnd.values();
+        for(Subjects.BackEnd subject : subjects2) {
+            System.out.println(subject.toString());
+        }
+
+        printSubjects(Subjects.CSS);
+        //printSubjects(4);//subject타입으로만 가능함
+        //printSubjects("CSS");//얘도 안됨.
+    }
+
+    public static void printSubjects(Subjects subject) {
+        System.out.println(subject.toString());
     }
 }
