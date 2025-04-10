@@ -15,8 +15,7 @@ public class Member implements Serializable {
     public Member() {
     }
 
-    public Member(int membNo, String id, String pwd, int age, String[] hobbies) {
-        this.membNo = membNo;
+    public Member(String id, String pwd, int age, String[] hobbies) {
         this.id = id;
         this.pwd = pwd;
         this.age = age;
