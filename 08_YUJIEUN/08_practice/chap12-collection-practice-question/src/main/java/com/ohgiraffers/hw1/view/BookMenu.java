@@ -62,8 +62,13 @@ public class BookMenu {
                         break;
                     case 4:
 
-                        index = bm.searchBook(title);
-                        System.out.println(inputBookTitle(index));
+                        index = bm.searchBook(inputBookTitle());
+                        if(index==-1){
+                            System.out.println("조회한 도서가 존재하지 않음");
+                        } else {
+                            BookManager.printBook(index);
+                        }
+                        System.out.println(inputBookTitle());
                         break;
 //                    // searchBook (inputBookTitle()이 리턴한 도서 제목) 실행
 //                    => index 리턴 받아 -1일 경우 “조회한 도서가 존재하지 않음”
@@ -71,7 +76,6 @@ public class BookMenu {
                     case 5:
                         bm.displayAll();
 
-                        if(bm.)
                         break;
                         // displayAll() 실행
 //                            => 결과 리스트 리턴 받아 비어있을 경우 “출력할 도서가 없습니다.”
