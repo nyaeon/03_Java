@@ -3,6 +3,8 @@ package com.ohgiraffers.hw1.view;
 import com.ohgiraffers.hw1.controller.BookManager;
 import com.ohgiraffers.hw1.model.dto.BookDTO;
 
+import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BookMenu {
@@ -39,6 +41,18 @@ public class BookMenu {
                         // addBook (inputBook()이 리턴한 객체) 실행
 
                     case 2:
+                        System.out.println("정렬 방식을 선택해주세요 (1. 오름차순, 2. 내림차순): ");
+                        int sortOption = sc.nextInt();
+                        sc.nextLine();
+
+                        ArrayList<BookDTO> sortedList = bm.sortedBookList(sortOption);
+
+                        if (sortedList == null) {
+                            System.out.println("번호를 잘못입력하였습니다.");
+                        } else {
+                            bm.printBookList(sortedList);
+                        }
+
                         break;
                     // sortedBookList(정렬종류번호) 실행
             //            =>입력받은 매개변수를 이용하여 정렬방식에 따라 출력
@@ -62,19 +76,21 @@ public class BookMenu {
                         break;
                     case 4:
 
-                        index = bm.searchBook(inputBookTitle());
-                        if(index==-1){
-                            System.out.println("조회한 도서가 존재하지 않음");
-                        } else {
-                            BookManager.printBook(index);
-                        }
-                        System.out.println(inputBookTitle());
+                       title = inputBookTitle();
+                       index = bm.searchBook(title);
+
+                       if(index==-1){
+                           System.out.println("조회한 도서가 존재하지 않음");
+                       }else{
+                           bm.printBook(index);
+                       }
                         break;
 //                    // searchBook (inputBookTitle()이 리턴한 도서 제목) 실행
 //                    => index 리턴 받아 -1일 경우 “조회한 도서가 존재하지 않음”
 //                    -1이 아닐 경우 printBook(index) 출력
                     case 5:
-                        bm.displayAll();
+
+                       bm.displayAll();
 
                         break;
                         // displayAll() 실행

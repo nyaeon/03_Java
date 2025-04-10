@@ -30,7 +30,7 @@ public class BookManager {
     public int searchBook(String bTitle){
 
         for(int i = 0; i < bookList.size(); i++){
-            if(bookList.get(i).getTitle().equals(bTitle)){
+            if(bookList.get(i).getTitle().equalsIgnoreCase(bTitle)){
                 return i;
             }
         }
@@ -46,9 +46,15 @@ public class BookManager {
     }
 
     public  void displayAll(){
-        for (BookDTO book : bookList) {
-            System.out.println(book);
+
+        if(bookList.isEmpty()){
+            System.out.println("출력할 도서가 없습니다.");
+        }else{
+            for (BookDTO book : bookList) {
+                System.out.println(book);
+            }
         }
+
         // 도서 전체 리스트를 출력
     }
 
