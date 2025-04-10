@@ -1,0 +1,6 @@
+# driver properties
+#Wed Apr 09 15:26:33 KST 2025
+password=student
+driver=com.mysql.jdbc.Driver
+user=student
+url=jdbc\:mysql\://localhost\:3306/student

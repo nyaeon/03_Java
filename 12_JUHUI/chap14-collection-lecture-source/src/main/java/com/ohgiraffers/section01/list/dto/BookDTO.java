@@ -1,0 +1,76 @@
+package com.ohgiraffers.section01.list.dto;
+
+import java.util.Objects;
+
+public class BookDTO {
+
+    private int number;
+    private String title;
+    private String author;
+    private int price;
+
+    public BookDTO() {}
+
+    public BookDTO(int number, String title, String author, int price) {
+        this.number = number;
+        this.title = title;
+        this.author = author;
+        this.price = price;
+    }
+
+    //getter
+    public int getNumber() {
+        return number;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    //setter
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        BookDTO bookDTO = (BookDTO) o;
+        return number == bookDTO.number && price == bookDTO.price && Objects.equals(title, bookDTO.title) && Objects.equals(author, bookDTO.author);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(number, title, author, price);
+    }
+
+    @Override
+    public String toString() {
+        return "BookDTO{" +
+                "number=" + number +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                '}';
+    }
+}
