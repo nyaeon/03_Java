@@ -164,7 +164,6 @@ public class Application {
         newMember.setBloodType(bt);
 
         return newMember;
-
     }
 
     // 회원 ID를 입력받아 반환하는 메소드
