@@ -101,8 +101,8 @@ public class Application1 {
          * next() : 다음 요소를 반환
          * */
 
+        stringList = new LinkedList<>(stringList);
         Iterator<String> dIter = ((LinkedList<String>) stringList).descendingIterator();
-
 //        while (dIter.hasNext()){
 //            System.out.println(dIter.next());
 //        }
