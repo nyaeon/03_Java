@@ -2,6 +2,7 @@ package com.ohgiraffers.section04.testapp.aggregate;
 
 import java.io.Serializable;
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Member implements Serializable {
 
@@ -15,8 +16,7 @@ public class Member implements Serializable {
     public Member() {
     }
 
-    public Member(int membNo, String id, String pwd, int age, String[] hobbies) {
-        this.membNo = membNo;
+    public Member(String id, String pwd, int age, String[] hobbies) {
         this.id = id;
         this.pwd = pwd;
         this.age = age;
@@ -90,5 +90,17 @@ public class Member implements Serializable {
                 ", hobbies=" + Arrays.toString(hobbies) +
                 ", bloodType=" + bloodType +
                 ']';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Member member = (Member) o;
+        return membNo == member.membNo && age == member.age && Objects.equals(id, member.id) && Objects.equals(pwd, member.pwd) && Objects.deepEquals(hobbies, member.hobbies) && bloodType == member.bloodType;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(membNo, id, pwd, age, Arrays.hashCode(hobbies), bloodType);
     }
 }
