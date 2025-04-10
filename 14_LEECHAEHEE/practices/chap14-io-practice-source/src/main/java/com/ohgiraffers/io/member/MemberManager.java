@@ -1,7 +1,6 @@
 package com.ohgiraffers.io.member;
 
 import java.io.*;
-import java.util.List;
 
 public class MemberManager {
 
