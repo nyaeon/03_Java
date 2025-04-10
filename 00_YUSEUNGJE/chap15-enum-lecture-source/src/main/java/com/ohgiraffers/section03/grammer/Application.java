@@ -1,5 +1,8 @@
 package com.ohgiraffers.section03.grammer;
 
+import java.util.EnumSet;
+import java.util.Iterator;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -13,6 +16,28 @@ public class Application {
         System.out.println(admin.name());
         System.out.println(admin.getNameToLowerCase());
 
+        UserRole2 consumer = UserRole2.CONSUMER;
+        System.out.println("consumer = " + consumer);
+        System.out.println(consumer.ordinal() + " " + consumer.name() + " " + consumer.getDescription());
 
+        // 최초 사용시에만 열거 타입의 인스턴스를 생성하고 이후에는 생성자를 호출하지 않는다.
+        UserRole2 consumer2 = UserRole2.CONSUMER;
+        System.out.println("consumer == consumer2 = " + (consumer == consumer2));
+
+        System.out.println("Set으로 바꿔 반복자를 활용해 보자.");
+        EnumSet<UserRole2> roles = EnumSet.allOf(UserRole2.class);
+        Iterator<UserRole2> userInterator = roles.iterator();
+        while (userInterator.hasNext()) {
+            UserRole2 role = userInterator.next();
+            System.out.println(role.ordinal() + " " + role.name() + " " + role.getDescription());
+        }
+
+        System.out.println("=====================================================");
+        EnumSet<UserRole2> users = EnumSet.of(UserRole2.CONSUMER, UserRole2.PRODUCER);
+        Iterator<UserRole2> userInterator2 = users.iterator();
+        while (userInterator2.hasNext()) {
+            UserRole2 role = userInterator2.next();
+            System.out.println(role.ordinal() + " " + role.name() + " " + role.getDescription());
+        }
     }
 }
