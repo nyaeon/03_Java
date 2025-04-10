@@ -16,12 +16,14 @@ public class EmployeeDTO extends PersonDTO{
 
     }
 
-    @Override
+
     public String information() {
-        return "EmployeeDTO{" +
-                "salary=" + salary +
-                ", dept='" + dept + '\'' +
-                '}';
+        return "EmployeeDTO [name=" + name
+                + ", age=" + getAge()
+                + ", height=" + getHeight()
+                + ", weight=" + getWeight()
+                + ", salary=" + salary
+                + ", dept=" + dept + "]";
     }
 
     public int getSalary() {
