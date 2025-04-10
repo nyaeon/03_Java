@@ -51,4 +51,30 @@ public class MemberService {
             System.out.println(newMember.getId() + "님 회원가입 해 주셔서 감사합니다.!👌");
         }
     }
+
+    public Member findMemberForMod(int memNo) {
+
+        Member selectedMember = mr.selectMemberBy(memNo);
+
+        if(selectedMember != null) {
+            Member newInstance = new Member();
+            newInstance.setMembNo(selectedMember.getMembNo());
+            newInstance.setId(selectedMember.getId());
+            newInstance.setPwd(selectedMember.getPwd());
+            newInstance.setAge(selectedMember.getAge());
+
+            String[] copiedHobbies = selectedMember.getHobbies().clone();
+            newInstance.setHobbies(copiedHobbies);
+            newInstance.setBloodType(selectedMember.getBloodType());
+
+            System.out.println("조회된 회원은 : " + newInstance.getId() + " 아이디 회원");
+            return newInstance;
+        } else {
+            System.out.println("그런 회원은 없네요!");
+        }
+
+        return null;
+
+
+    }
 }

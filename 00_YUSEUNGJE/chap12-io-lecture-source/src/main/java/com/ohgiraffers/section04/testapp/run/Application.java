@@ -30,13 +30,22 @@ public class Application {
                 case 1 : ms.findAllMembers(); break;
                 case 2 : ms.findMemberBy(chooseMemNo()); break;
                 case 3 : ms.registMember(signUp()); break;
-                case 4 : break;
+                case 4 :
+                    Member selected = ms.findMemberForMod(chooseMemNo());
+                    if(selected == null) continue;
+                    ms.modifyMember(reform(selected));
+                    break;
                 case 5 : break;
                 case 9 : return;
                 default:
                     System.out.println("번호를 잘못 입력하셨습니다.");
             }
         }
+    }
+
+    private static Member reform(Member selected) {
+
+        
     }
 
     private static Member signUp() {
