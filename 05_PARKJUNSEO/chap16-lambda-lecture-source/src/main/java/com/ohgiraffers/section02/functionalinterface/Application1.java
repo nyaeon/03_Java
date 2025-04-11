@@ -1,6 +1,7 @@
 package com.ohgiraffers.section02.functionalinterface;
 
 import java.time.LocalTime;
+import java.util.Random;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.IntConsumer;
@@ -33,10 +34,10 @@ public class Application1 {
         IntConsumer intConsumer = num1 -> System.out.println("입력하신 숫자는" + num1 + "입니다.");
         intConsumer.accept(1);
 
-        ObjIntConsumer objIntConsumer =
-                (random, bound) -> System.out.println("0부터" + bound + "전 까지의 난수 발생" + random.nextInt(bound));
-        objIntConsumer.accept(1, 2);
-
+        /* ObjIntConsumer<T>#accept<T t, int value) : void > 객체 T와 int값을 받아 소비한다.*/
+        ObjIntConsumer<Random> objIntConsumer =
+                (random, bound) -> System.out.println("0부터 " + bound + "전 까지의 난수 발생: " + random.nextInt(bound));
+        objIntConsumer.accept(new Random(), 10);
 
     }
 }

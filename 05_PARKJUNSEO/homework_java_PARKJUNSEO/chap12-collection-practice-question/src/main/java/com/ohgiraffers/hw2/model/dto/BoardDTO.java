@@ -14,8 +14,7 @@ public class BoardDTO {
     public BoardDTO() {
     }
 
-    public BoardDTO(int boardNo, String boardTitle, String boardWriter, Date boardDate, String boardContent, int readCount) {
-        this.boardNo = boardNo;
+    public BoardDTO(String boardTitle, String boardWriter, Date boardDate, String boardContent, int readCount) {
         this.boardTitle = boardTitle;
         this.boardWriter = boardWriter;
         this.boardDate = boardDate;
