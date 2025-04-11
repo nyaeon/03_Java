@@ -19,12 +19,12 @@ public class PersonDTO {
 
 
     public String information() {
-        return "PersonDTO{" +
+        return "[" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", height=" + height +
                 ", weight=" + weight +
-                '}';
+                ']';
     }
 
     public String getName() {
