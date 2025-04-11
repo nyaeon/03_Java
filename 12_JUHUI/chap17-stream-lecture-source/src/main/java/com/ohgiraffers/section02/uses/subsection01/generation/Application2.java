@@ -42,13 +42,13 @@ public class Application2 {
 
         Stream<String> stringStream = Stream.of("hello", "world");
         Stream<String> stringStream2 = Stream.of("welcom", "to", "java");
-        stringStream.forEach(System.out::println);
-        stringStream2.forEach(System.out::println);
+//        stringStream.forEach(System.out::println);
+//        stringStream2.forEach(System.out::println);
 
         // concat()을 이용해 두 개의 스트림을 동일 타입 스트림으로 합칠 수 있다.
         // 스트림은 1회성으로 사용 가능하며 이미 열린 스트림은 재사용이 불가능하다.
-//        Stream<String> concatStream = Stream.concat(stringStream, stringStream2);
-//        concatStream.forEach(val -> System.out.print(val + " "));
+        Stream<String> concatStream = Stream.concat(stringStream, stringStream2);
+        concatStream.forEach(val -> System.out.print(val + " "));
         //그래서 위에꺼 주석을 안하면 IllegalStateException이 발생한다.
         // 스트림은 한 번만 사용가능해서 위와 같이 다시 사용할 수 없어서 오류뜸.
 
