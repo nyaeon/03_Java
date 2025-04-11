@@ -1,9 +1,16 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // 스캐너로 입력받아
+        System.out.println("주민번호를 입력 해주세요 : ");
+        String[] sArr = new String[]{sc.next()}; // 문자배열로 저장
+        System.out.println("주민번호 : " +
 
+        }
         /* 주민등록번호를 스캐너로 입력 받고 문자 배열로 저장한 뒤,
          * 성별 자리 이후부터 *로 가려서 출력하세요
          *
@@ -14,5 +21,4 @@ public class Application2 {
          * 990101-1******
          */
 
-    }
 }
