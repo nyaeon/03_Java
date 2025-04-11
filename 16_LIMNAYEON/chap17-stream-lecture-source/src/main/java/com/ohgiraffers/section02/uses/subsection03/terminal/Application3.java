@@ -32,10 +32,15 @@ public class Application3 {
 
         System.out.println("collectorCollection = " + collectorCollection);
 
-        String str = memberList.stream().map(Member::getName).collect(Collectors.joining());
+        String str = memberList.stream()
+                .map(Member::getName)
+                .collect(Collectors.joining());
         System.out.println("str = " + str);
 
-        String str2 = memberList.stream().map(Member::getName).collect(Collectors.joining("," , "🍀", "☁️"));
+        String str2 = memberList.stream()
+                .map(Member::getName)
+                .collect(Collectors
+                    .joining("," , "🍀", "☁️"));
         System.out.println("str2 = " + str2);
 
     }
