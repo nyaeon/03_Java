@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784d4991-5528-43ef-b8dc-9c5e622da2d8" name="Changes" comment="" />
+    <list default="true" id="784d4991-5528-43ef-b8dc-9c5e622da2d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section02/enumtype/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section02/enumtype/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/UserRole1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/UserRole2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section04/aggregate/BloodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section04/aggregate/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section04/repsitory/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section04/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section04/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/controller/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/controller/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/run/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/view/BookMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/view/BookMenu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FerryLa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FerryLa/03_Java.git",
+    "accountId": "a9928801-d60d-4285-b2ee-0d55ea62bcbb"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -77,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743399743862</updated>
       <workItem from="1743399745702" duration="1737000" />
+      <workItem from="1744260316339" duration="842000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a313089-4317-4a4a-9750-2a90e642a0d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/lambda/test/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/lamba/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/lamba/friend/FriendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/aggregate/BloodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/aggregate/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/aggregate/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap12-io-lecture-source/src/main/java/com/ohgiraffers/section04/testapp/stream/MyObjectOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section02/enumtype/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section02/enumtype/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/UserRole1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section03/grammer/UserRole2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/OuterCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section02/functinalinterface/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section02/functinalinterface/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section02/functinalinterface/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section02/functinalinterface/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section02/functinalinterface/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section03/references/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section03/references/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section03/references/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap16-lamda-lecture-source/src/main/java/com/ohgiraffers/section03/references/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection01/generation/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection01/generation/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection02/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection02/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection02/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection02/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01_KIMJIHWAN/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/controller/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/controller/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/run/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/view/BookMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw1/view/BookMenu.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FerryLa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FerryLa/03_Java.git",
+    "accountId": "a9928801-d60d-4285-b2ee-0d55ea62bcbb"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2va35bBORR6yUtECFslsfTjA08E" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a313089-4317-4a4a-9750-2a90e642a0d9" name="Changes" comment="" />
+      <created>1744369176650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744369176650</updated>
+      <workItem from="1744369177716" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
