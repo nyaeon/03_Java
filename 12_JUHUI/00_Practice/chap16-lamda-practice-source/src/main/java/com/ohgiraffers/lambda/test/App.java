@@ -17,7 +17,7 @@ public class App {
             System.out.println("현재 시각 :" + sdf.format(new Date()));
         };
     }
-    
+
     // 로또를 생성하는 람다식을 작성하세요.
     public void test2() {
         /* 구현 */
