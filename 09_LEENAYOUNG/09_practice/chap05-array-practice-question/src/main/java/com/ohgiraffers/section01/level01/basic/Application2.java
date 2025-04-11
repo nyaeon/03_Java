@@ -26,15 +26,17 @@ public class Application2 {
          * 준비된 과일이 없습니다.
          * */
 
-        String[] sArr = new String[5];
+        /*String[] sArr = new String[5];
         sArr[0] = "딸기"; sArr[1] = "바나나"; sArr[2] = "복숭아";
-        sArr[3] = "키위"; sArr[4] = "사과";
+        sArr[3] = "키위"; sArr[4] = "사과";*/
+
+        String[] sArr = new String[]{"딸기", "바나나","복숭아", "키위", "사과"};
 
         Scanner sc = new Scanner(System.in);
         System.out.print("0부터 4까지의 정수를 입력하세요 : ");
         int num = sc.nextInt();
 
-        switch (num) {
+        /*switch (num) {
             case 0:
                 System.out.println(sArr[0]);
                 break;
@@ -53,6 +55,12 @@ public class Application2 {
             default:
                 System.out.println("준비된 과일이 없습니다.");
                 break;
+        }*/
+
+        if (num >= 0 && num <= 4) {
+            System.out.println(sArr[num]);
+        } else {
+            System.out.println("준비된 과일이 없습니다.");
         }
     }
 }

@@ -18,7 +18,7 @@ public class Application4 {
 
         int[] lotto = new int[6];
 
-        for (int i = 0; i < 6; i++) {
+        /*for (int i = 0; i < 6; i++) {
             int rand;
             boolean isDuplicate;
 
@@ -36,6 +36,17 @@ public class Application4 {
             } while (isDuplicate);
 
             lotto[i] = rand;
+        }*/
+
+        label:
+        for (int i = 0; i < lotto.length; i++) {
+            lotto[i] = (int) (Math.random() * 45) + 1;
+            for (int j = 0; j < i; j++) {
+                if (lotto[i] == lotto[j]) {
+                    i--;
+                    continue label;
+                }
+            }
         }
 
         // 배열 오름차순으로 정렬

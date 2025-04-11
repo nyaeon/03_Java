@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -23,5 +25,32 @@ public class Application1 {
          * W H J X
          * W S S J
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int row = 0;
+        int col = 0;
+
+        while (true) {
+            System.out.println("가로 행의 수를 입력하세요 : ");
+            row = sc.nextInt();
+            System.out.println("세로 열의 수를 입력하세요 : ");
+            col = sc.nextInt();
+            if ((1 <= row && row <= 10) && (1 <= col && col <= 10)) {
+                break;
+            } else {
+                System.out.println("반드시 1~10까지의 정수를 입력해야 합니다. 다시 입력하세요.");
+            }
+        }
+
+        int[][] iArr = new int[row][col];
+        char ch = ' ';
+        for (int i = 0; i < iArr.length; i++) {
+            for(int j = 0; j < iArr[i].length; j++) {
+                ch = (char)((int) (Math.random() * 26) + 'A');
+                iArr[i][j] = (char)ch;
+                System.out.print((char)iArr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
