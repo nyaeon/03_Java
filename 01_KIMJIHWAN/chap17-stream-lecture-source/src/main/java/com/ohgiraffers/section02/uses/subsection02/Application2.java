@@ -16,7 +16,7 @@ public class Application2 {
         intStream
                 .filter(i -> (i % 2) == 0)
                 .map(i -> i * 5)
-                .forEach(i -> System.out.print((i + " ")));
+                .forEach( i -> System.out.print((i + " ")));
 
     }
 }
