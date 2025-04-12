@@ -33,5 +33,7 @@ public class FriendApp {
                 System.out.println(key + " = " + value);
             }
         });
+
+        // 객체를 Map 테이블의 value값에 초기화하여 넣어줌
     }
 }

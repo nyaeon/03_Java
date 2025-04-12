@@ -1,13 +1,14 @@
 package com.ohgiraffers.lambda.test;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.IntSupplier;
-import java.util.function.Supplier;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.function.*;
 
 public class Application {
         public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class Application {
             app.test2();
             app.test3();
             app.test4();
-//            app.test5();
+            app.test5();
         }
         /**
          * <pre>
@@ -25,8 +26,9 @@ public class Application {
          * </pre>
          */
         private void test1() {
-            Runnable runnable = () -> System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss.SSS")));
-            runnable.run();
+            Runnable dateTime = () ->
+                System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss.SSS")));
+            dateTime.run();
 
 //            Supplier<DateTimeFormatter> a = () -> DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
 //            System.out.println(a.get().LocalDateTime.now().format());
@@ -40,9 +42,18 @@ public class Application {
          * </pre>
          */
         private void test2() {
-            IntSupplier lotto = () -> (int) (Math.random() * 45 + 1);
-            System.out.println(lotto.getAsInt());
+            Supplier<Set<Integer>> lotto = () -> {
+                Set<Integer> set = new TreeSet<>();
+                while (set.size() < 6) {
+                    set.add((int) (Math.random() * 45 + 1));
+                }
+                return set;
+            };
+            System.out.println(lotto.get());
         }
+            // 중복 제네릭을
+            // Set은 컬렉션(Collection) 이라서 .size() 메서드 사용
+            // TreeSet을 사용하는 이유 : set은 중복 제거 / treeset은 자동 정렬
 
         /**
          * <pre>
@@ -58,8 +69,8 @@ public class Application {
                 System.out.println(num2);
             };
             dolor.accept(3000);
-
         }
+
         /**
          * <pre>
          * @실습문제4
@@ -73,6 +84,8 @@ public class Application {
             };
             System.out.println(tr2.apply(1350));
         }
+
+
         /**
          * <pre>
          * @실습문제5
@@ -80,8 +93,15 @@ public class Application {
          * 문자열리스트 {"abc","","대한민국"," "}를 체크하세요.
          * </pre>
          */
-//        private void test5() {
-//            List<String> strList = Arrays.asList("abc", "", "대한민국", " ");
-//            str
-//        }
+        private void test5() {
+            List<String> strList = Arrays.asList("abc", "", "대한민국", " ");
+            Predicate<String> isLen0 = str -> str.trim().length() == 0;
+            for (String str : strList) {
+                System.out.println("[" + str + "]의 길이는 0입니까? " + isLen0.test(str));
+            }
+        }
+
+        // trim() : String 양쪽 공백 제거
+        // forEach는 List, Set 등 스트림에만 사용 가능
+
 }
