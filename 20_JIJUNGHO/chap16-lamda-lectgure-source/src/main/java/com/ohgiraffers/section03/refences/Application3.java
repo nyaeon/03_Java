@@ -72,7 +72,7 @@ public class Application3 {
 
         // key 기반으로 값을 계산해서 map에 넣을 수 있게 해주는 업데이트
         map.compute(3, (k,v) -> (v ==null) ? "Ted" : "!!!");
-        map.compute(33, (k,v) -> (v ==null) ? "Ted" : "!!!");
+        map.compute(33, (k,v) -> (v ==null) ? "Ted" : "!!!");   
         System.out.println(map);
 
         // map의 모든 값을 대문자로 변환

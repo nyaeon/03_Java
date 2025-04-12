@@ -92,6 +92,8 @@ public class Application {
      * 문자열리스트 {"abc","","대한민국"," "}를 체크하세요.
      * </pre>
      */
+
+    // 뭔소리인지 이해가 안된다 젠장......
     private void test5() {
         List<String> strList = Arrays.asList("abc", "", "대한민국", " ");
         Predicate<String> isLen0 = str -> str.trim().length() == 0;

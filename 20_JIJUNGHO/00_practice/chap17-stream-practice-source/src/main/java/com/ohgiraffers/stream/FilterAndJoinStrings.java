@@ -12,9 +12,9 @@ public class FilterAndJoinStrings {
         // 출력값
         // hello, world, java
 
-    String str =words.stream()
-            .filter(word -> word.length() >= 3)
-            .collect(Collectors.joining(", "));
+        String str = words.stream()
+                .filter(word -> word.length() >= 3)
+                .collect(Collectors.joining(", "));
         System.out.println("str = " + str);
 
     }
