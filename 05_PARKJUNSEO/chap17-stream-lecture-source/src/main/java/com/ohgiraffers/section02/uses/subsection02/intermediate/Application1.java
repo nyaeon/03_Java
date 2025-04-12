@@ -3,6 +3,7 @@ package com.ohgiraffers.section02.uses.subsection02.intermediate;
 import java.util.stream.IntStream;
 
 public class Application1 {
+
     public static void main(String[] args) {
 
         /*
@@ -11,8 +12,7 @@ public class Application1 {
          * 매개변수로 받는 Predicate는 boolean을 리턴하는 함수형
          * 인터페이스이다.
          * */
-//        IntStream intStream = IntStream.range(0, 10);
-//        intStream.filter(i -> i%%2==0, )
-
+        IntStream intStream = IntStream.range(0, 10);
+        intStream.filter(i -> (i % 2) == 0).forEach(i -> System.out.print(i + " "));
     }
 }
