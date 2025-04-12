@@ -98,7 +98,8 @@ public class MemberRepository {
 
     public Member selectMemberBy(int memberNo) {
         for (Member member : memberList) {
-            if(member.getMnmbNo() == memberNo){ return member;
+            if(member.getMnmbNo() == memberNo) {
+                return member;
             }
         } return null;
     }
@@ -130,7 +131,7 @@ public class MemberRepository {
                 }
             }
         }
-        return memberList.size();
+        return result;
     }
 
 
@@ -190,7 +191,7 @@ public class MemberRepository {
                 File file = new File ("src/main/java/com/ohgiraffers/section04/testapp/db/membersDB.dat");
                 saveMembers(file,memberList);
 
-                return i;
+                return 1;
             }
         }
 

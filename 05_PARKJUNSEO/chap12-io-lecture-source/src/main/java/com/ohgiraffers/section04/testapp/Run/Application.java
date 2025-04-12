@@ -115,7 +115,7 @@ public class Application {
     }
 
     private static Member signUp() {
-        Member newMember = null;
+        Member newMember;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("아이디를 입력하세요: ");
