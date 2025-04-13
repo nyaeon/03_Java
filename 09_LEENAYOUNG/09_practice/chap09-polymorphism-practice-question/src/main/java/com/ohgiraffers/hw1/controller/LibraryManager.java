@@ -26,12 +26,12 @@ public class LibraryManager {
 
     public Member myInfo() {
         // 회원 레퍼런스(mem) 주소 값 리턴
-        return mem;
+        return this.mem;
     }
 
     public Book[] selectAll() {
         // 도서 목록 레퍼런스(bList) 주소 값 리턴
-        return bList;
+        return this.bList;
     }
 
     public Book[] searchBook(String keyword) {

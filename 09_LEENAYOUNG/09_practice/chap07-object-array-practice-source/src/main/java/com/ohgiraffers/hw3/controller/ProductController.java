@@ -8,7 +8,7 @@ public class ProductController {
 
     // 위의 클래스 다이어그램을 보고 필드 작성
     // 초기화 블럭을 이용하여 10개의 Product 배열 크기 할당
-    private ProductDTO[] pro;   // null
+    private ProductDTO[] pro = null;   // null
     {
         pro = new ProductDTO[10];
     }
