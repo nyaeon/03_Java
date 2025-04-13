@@ -27,6 +27,7 @@ public class Friend {
     public void setAge(int age) {
         this.age = age;
     }
+
     @Override
     public String toString() {
         return "Friend [name=" + name + ", age=" + age + "]";

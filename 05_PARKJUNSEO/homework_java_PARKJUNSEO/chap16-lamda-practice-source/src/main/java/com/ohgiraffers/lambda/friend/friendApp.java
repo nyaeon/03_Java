@@ -15,6 +15,11 @@ public class friendApp {
                 new Friend("세종대왕", 54),
                 new Friend("간달프", 105)
         );
+
+        list.forEach(friend -> {if (friend.getAge() >= 40) {
+            System.out.println(friend);
+        }});
+
 // 2. 다음 map에서 key값이 홀수인 value만 출력하세요. (map의 forEach메소드 사용
 //        할 것.)
         Map<Integer, Friend> map = Map.of(
@@ -24,6 +29,9 @@ public class friendApp {
                 4, new Friend("세종대왕", 54),
                 5, new Friend("간달프", 105)
         );
+        map.forEach((key, value) -> {if (key%2 == 1) {
+            System.out.println(value);
+        }});
     }
 }
 

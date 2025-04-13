@@ -1,20 +1,19 @@
 package com.ohgiraffers.lambda.test;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.IntSupplier;
-import java.util.function.Supplier;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+import java.util.function.*;
 
 public class Application {
 
     public static void main(String[] args) {
         Application app = new Application();
-        //app.test1();
+        app.test1();
         app.test2();
-        //app.test3();
-        //app.test4();
-       // app.test5();
+        app.test3();
+        app.test4();
+        app.test5();
     }
     /**
      * <pre>
@@ -23,10 +22,12 @@ public class Application {
      * </pre>
      */
     private void test1() {
-        Supplier<LocalDateTime> supplier = () -> LocalDateTime.now();
-        System.out.println(supplier.get());
-
-    }
+        Supplier<String> currentTimeSupplier = () -> {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        return LocalDateTime.now().format(formatter);
+        };
+        System.out.println("현재 시각 : " + currentTimeSupplier.get());
+    };
 /**
  * <pre>
  * @실습문제2
@@ -35,14 +36,13 @@ public class Application {
  * </pre>
  */
 
-
     private void test2() {
         IntSupplier intSupplier = () -> (int) (Math.random() * 45 + 1);
-        List<Integer> list = Arrays.asList();
+        Set<Integer> setLotto = new HashSet<>();
         for (int i = 0; i < 6; i++) {
-            list.add(intSupplier.getAsInt());
+            setLotto.add(intSupplier.getAsInt());
         }
-        System.out.println("로또 : " + intSupplier);
+        System.out.println("lotto : " + setLotto);
  }
 
  /**
@@ -53,7 +53,14 @@ public class Application {
   * </pre>
   */
  private void test3() {
- }
+     Consumer<Integer> exchanging = won -> {
+         int exchangeRate = 1350;
+         double dollar = won / exchangeRate;
+         System.out.println("현재 " + won + "원은 " + dollar + "달러입니다.");
+     };
+     exchanging.accept(13500);
+     };
+
     /**
      * <pre>
      * @실습문제4
@@ -61,7 +68,14 @@ public class Application {
      * </pre>
      */
     private void test4() {
-}
+        Function<Integer, Double> exchangeFn = won -> {
+            double exchangeRate = 1350.0;
+            return won / exchangeRate;
+        };
+        int wonSc = 13500;
+        double dollar = exchangeFn.apply(wonSc);
+        System.out.println("현재 " + wonSc + "원은 " + dollar + "달러입니다.");
+    };
 
     /**
      * <pre>
@@ -72,8 +86,16 @@ public class Application {
      */
     private void test5() {
         List<String> strList = Arrays.asList("abc", "", "대한민국", " ");
-    }
+        Predicate<String> isLengthZero = s -> s.trim().length() == 0;
+        for (String str : strList) {
+            System.out.println("\"" + str + "\"" + "길이는 0입니까?" + isLengthZero.test(str));
+        }
+        }
+
+
+
 }
+
 
 //[수행결과]
 //        22:32:51
