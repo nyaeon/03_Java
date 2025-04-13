@@ -7,13 +7,20 @@ import java.util.ArrayList;
 public class ResultPrinter {
 
     public void printAllList(ArrayList<BoardDTO> list) {
-        // list에 출력할 내용이 있으면 출력
         // list에 출력할 내용이 없으면 “게시물이 없습니다” 출력
+        if (list.isEmpty()) {
+            System.out.println("게시물이 없습니다.");
+            return;
+        }
+        // list에 출력할 내용이 있으면 출력
+        for (BoardDTO b : list) {
+            System.out.println(b);
+        }
     }
 
-    public void printBoard(ArrayList<BoardDTO> list) {
-
+    public void printBoard(BoardDTO list) {
         // 전달받은 내용 출력
+        System.out.println(list);
     }
 
     public void errorPage(String msg) {
@@ -23,6 +30,7 @@ public class ResultPrinter {
         //        updateTitle : ”게시물 제목 수정 실패 !”
         //        updateContent : ”게시글 내용 수정 실패 !”
         //        deleteBoard : ”게시글 삭제 실패 !”
+
     }
 
     public void successPage(String msg){

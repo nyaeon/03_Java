@@ -2,8 +2,11 @@ package com.ohgiraffers.hw2.model.comparator;
 
 import com.ohgiraffers.hw2.model.dto.BoardDTO;
 
-public class DescBoardTitle {
-    public int compare(BoardDTO b1, BoardDTO b2) {
-        // 제목 내림차순
+import java.util.Comparator;
+
+public class DescBoardTitle implements Comparator<BoardDTO> {
+    @Override
+    public int compare(BoardDTO o1, BoardDTO o2) {
+        return o2.getBoardTitle().compareTo(o1.getBoardTitle());
     }
 }
