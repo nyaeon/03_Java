@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class BookMenu {
 
     Scanner sc = new Scanner(System.in);
-    BookManager bm;
+    BookManager bm = new BookManager();
 
     public BookMenu() {
     }
