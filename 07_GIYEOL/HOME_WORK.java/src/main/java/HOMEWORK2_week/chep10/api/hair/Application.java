@@ -1,10 +1,12 @@
 package HOMEWORK2_week.chep10.api.hair;
 
 
+import javax.xml.crypto.Data;
 
 public class Application {
         public static void main(String[] args) {
-            String cvsData = """
+          App app = new App();
+            String App = """
         id,first_name,last_name,email,gender,birthday,reservation_date,reservation_time,created_at
         1,Devin,Rossey,drossey0@state.tx.us,Male,,2024-09-04,20:22,2012-10-10T07:55:50
         2,Alice,Krause,akrause1@about.com,Female,1983/04/04,2024-06-01,16:16,2011-09-08T17:09:39
@@ -107,8 +109,8 @@ public class Application {
         99,Robin,Biernacki,rbiernacki2q@jalbum.net,Male,,2024-07-25,9:35,2016-08-09T04:25:59
         100,Aurie,Goodoune,agoodoune2r@bbb.org,Genderfluid,2000/11/19,2024-04-12,12:11,2010-07-13T02:29:19
         """;
-          App app = new App();
-       System.out.println(cvsData);
+    //        String[] App = App.split("\\|");
+       System.out.println(App.toString().split("\\|"));
 
         }
     }
