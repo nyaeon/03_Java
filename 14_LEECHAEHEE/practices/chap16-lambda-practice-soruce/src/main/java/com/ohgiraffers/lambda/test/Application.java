@@ -5,9 +5,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.chrono.ChronoLocalDate;
 import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.IntSupplier;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 public class Application {
     public static void main(String[] args) {
@@ -15,8 +13,8 @@ public class Application {
        app.test1();
        app.test2();
        app.test3();
-//       app.test4();
-//       app.test5();
+       app.test4();
+       app.test5();
     }
     /**
      * <pre>
@@ -51,13 +49,25 @@ public class Application {
  * * </pre>
  * */
 private void test3() {
-    Consumer<Integer> calc = won -> {
+    Consumer<Double> calc = won -> {
         double dollar = won / 1350;
-        System.out.println(won + "원 => " + dollar + "달러");
+        System.out.println("\\" + won + " => $ " + dollar + "달러");
     };
-    calc.accept(3000);
+    calc.accept(3000.0);
 }
+    /**
+     * <pre>
+     * @실습문제4
+     * 위 문제를 jdk가 제공하는 Function 함수형인터페이스 형식에 맞게 변형하세요.
+     * </pre>
+     */
+
     private void test4() {
+        Function<Integer, Double> calc = won -> {
+             double rate = 1350;
+             return won / rate;
+        };
+        System.out.println(calc.apply(3000));
     }
     /**
      * <pre>
@@ -68,6 +78,10 @@ private void test3() {
      */
     private void test5() {
         List<String> strList = Arrays.asList("abc", "", "대한민국", " ");
+        Predicate<String> isLen = str -> str.trim().length() == 0;
+        for (String str : strList) {
+            System.out.println("[" + str + "]" + "의 길이는 0입니까?" + isLen.test(str));
+        }
     }
 }
 /*[수행결과]
