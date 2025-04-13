@@ -7,17 +7,19 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class InputBoard {
+    BoardDTO board = new BoardDTO();
     Scanner sc = new Scanner(System.in);
     public BoardDTO inputBoard() {
         System.out.print("글 제목을 입력하세요 : ");
-        String title = sc.next();
+        board.setBoardTitle(sc.nextLine());
         System.out.print("글 작성자를 입력하세요 : ");
-        String author = sc.next();
+        board.setBoardWriter(sc.nextLine());
         System.out.print("글 내용을 입력하세요 : ");
         String content = sc.nextLine();
-        int boardNo = 0;
-        Date boardDate = new Date();
-        BoardDTO board = new BoardDTO(boardNo, title, author, boardDate, content, 0);
+        if (content.contains("exit")) {
+            return null;
+        }
+        board.setBoardDate(new Date());
         return board;
     }
 

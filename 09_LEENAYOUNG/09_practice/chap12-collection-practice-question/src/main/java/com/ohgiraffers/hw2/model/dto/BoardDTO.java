@@ -78,8 +78,8 @@ public class BoardDTO {
                 ", boardTitle='" + boardTitle + '\'' +
                 ", boardWriter='" + boardWriter + '\'' +
                 ", boardDate=" + boardDate +
-                ", boardContent='" + boardContent + '\'' +
-                ", readCount=" + readCount +
+                "," + "\n" + "boardContent=" + boardContent +
+                "readCount=" + readCount +
                 ']';
     }
 
