@@ -7,7 +7,11 @@ public class Printname {
 // 문제: 이름 리스트에서 길이가 5글자 이상인 이름만 골라 대문자로 바꾸고 출력하세요.
         List<String> names = List.of("Alice", "Bob", "Charlie", "David", "Eve",
             "Franklin");
-        names.stream().;
+        names.stream()
+                .filter(name -> name.length() >= 5)
+                .map(name -> name.toUpperCase())
+                .forEach(System.out::println);
+        ;
 
 // 출력값
 // ALICE
