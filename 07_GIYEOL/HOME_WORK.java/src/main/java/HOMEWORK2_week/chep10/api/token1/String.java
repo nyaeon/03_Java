@@ -1,4 +1,4 @@
-package HOMEWORK2_week.chep10.api.practicequestion;
+package HOMEWORK2_week.chep10.api.token1;
 
 public class String {
 public static void main(String[] args) {
@@ -12,12 +12,8 @@ public static void main(String[] args) {
     sb.append("application car cable");
     System.out.println(sb.hashCode());
 
+
 }
 
 }
-//StringProcess sp = new StringProcess();
-//String result = sp.preChar("hello world");
-//System.out.println(result);
-//
-//int num = sp.charSu("application car cable", 'c');
-//System.out.println(num);
+
