@@ -34,98 +34,53 @@ public class Application2 {
          * 김유신 이사부
          */
 
+        String[] sarr = {"홍길동", "이순신", "유관순", "윤봉길", "장영실", "임꺽정", "장보고", "이태백", "김정희", "대조영", "김유신", "이시부"};
 
-//        String[] sArr1 = new String[12];
-        String[] sArr = {"홍길동", "이순신", "유관순", "윤봉길", "장영실", "임꺽정", "장보고", "이태백", "김정희", "대조영", "김유신", "이시부"};
-//        for (int i = 1; i < sArr1.length; i++) {
-//            sArr1[i] = sArr2[i - 1];
-//            System.out.println(i + ". "+ sArr1[i]);
-//        }
+        String[][] sarr1 = new String[3][2];    // 1분단
+        String[][] sarr2 = new String[3][2];    // 2분단
 
-        String[][] sArr1 = new String[3][2];    // 1분단
-        String[][] sArr2 = new String[3][2];    // 2분단
+        // 0~5까지 sarr1 인덱스에 대입 후 출력
+        // 6~12까지 sarr2 인덱스에 대입 후 출력
 
-
-
-
-        int a = 0;
         boolean flag = true;
-
-        while(true) {
-
-            if (a < 6) {
-                for (int i = 0; i < sArr1.length; i++) {
-                    for (int j = 0; j < sArr1[i].length; j++) {
-                        System.out.println(sArr1[i][j]);
-                        a++;
-                    }
-                }
-            } else {
-                for (int i = 0; i < sArr2.length; i++) {
-                    for (int j = 0; j < sArr2[i].length; j++) {
-                        System.out.println(sArr2[i][j]);
-                        a++;
-                    }
-                }
-            }
-            if (a >= 6) {
+        int count = 0;
+        while (count < sarr.length) {
+            if (count >= sarr.length / 2 ) { // 1, 2분단 반으로 나누기 boolean 값
                 flag = false;
             }
+
+            if (flag) { // 1분단
+                for (int j = 0; j < sarr1.length; j++) {
+                    for (int k = 0; k < sarr1[j].length ; k++) {
+                        sarr1[j][k] = sarr[count];
+                        count++;
+                    }
+                }
+            } else {    // 2분단
+                for (int j = 0; j < sarr2.length; j++) {
+                    for (int k = 0; k < sarr2[j].length ; k++) {
+                        sarr2[j][k] = sarr[count];
+                        count++;
+                    }
+                }
+            }
         }
 
-        for (int i = 0; i < sArr1.length; i++) {
-            for (int j = 0; j < sArr1[i].length; j++) {
-                System.out.print(sArr1[i][j] + " ");
+        System.out.println("== 1분단 ==");
+        for (int i = 0; sarr1.length > i; i++) {
+            for (int j = 0; sarr1[i].length > j; j++) {
+                System.out.print(sarr1[i][j] + " ");
             }
             System.out.println();
         }
 
-        for (int i = 0; i < sArr2.length; i++) {
-            for (int j = 0; j < sArr2[i].length; j++) {
-                System.out.print(sArr2[i][j] + " ");
+        System.out.println("\n== 2분단 ==");
+        for (int i = 0; sarr2.length > i; i++) {
+            for (int j = 0; sarr2[i].length > j; j++) {
+                System.out.print(sarr2[i][j] + " ");
             }
             System.out.println();
         }
-
-//        System.out.println("== 1분단 ==");
-//        for (int i = 0; i < sArr3.length; i++) {
-//            for (int j = 0; j < sArr3[i].length; j++) {
-//                System.out.print(sArr3[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//        System.out.println("\n");
-//        System.out.println("== 2분단 ==");
-//        for (int i = 0; i < sArr4.length; i++) {
-//            for (int j = 0; j < sArr4[i].length; j++) {
-//                System.out.print(sArr4[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-
-
-//        for (int i = 0; i < sArr2.length; i++) {
-//            if (sArr3.length <= i + 1) {
-//                for (int j = 0; j < sArr3.length; j++) {
-//                    sArr3[j][i] = sArr2[i];
-//                }
-//            } else {
-//                for (int j = 0; j < sArr4.length; j++) {
-//                    sArr4[j][i] = sArr2[i];
-//                }
-//            }
-//        }
-//
-//        for (int i = 0; i < sArr3.length; i++) {
-//            for (int j = 0; j < sArr3.length; j++) {}
-//        }
-
-//            for (int j = 0; j < sArr3[i].length; j++) {
-//                sArr3[i][j] = sArr2[j];
-//            }
-//            for (int j = 0; j < sArr4[i].length; j++) {
-//                sArr4[i][j] =
-//            }
 
 
     }
