@@ -2,24 +2,24 @@ package com.ohgiraffers.section02.assertj;
 
 public class Member {
 
-    private int swquence;
+    private int sequence;
     private String id;
     private String name;
     private int age;
 
     public Member(int swquence, String id, String name, int age) {
-        this.swquence = swquence;
+        this.sequence = swquence;
         this.id = id;
         this.name = name;
         this.age = age;
     }
 
-    public int getSwquence() {
-        return swquence;
+    public int getSequence() {
+        return sequence;
     }
 
-    public void setSwquence(int swquence) {
-        this.swquence = swquence;
+    public void setSequence(int swquence) {
+        this.sequence = swquence;
     }
 
     public String getId() {
@@ -49,7 +49,7 @@ public class Member {
     @Override
     public String toString() {
         return "Member{" +
-                "swquence=" + swquence +
+                "swquence=" + sequence +
                 ", id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", age=" + age +

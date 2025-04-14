@@ -84,11 +84,15 @@ class AssertJTests {
     @DisplayName("filtering assertions 테스트")
     void testFilteringAssertions() {
         List<Member> members = Arrays.asList(
-                new Member(1, "user01", "용택신", 33),
-                new Member(2, "user02", "노송", 41),
-                new Member(3, "user03", "야생마", 47),
-                new Member(4, "user04", "악마", 51),
-                new Member(5, "user05", "적토마", 9)
+                Member member1 = new Member(1, "user01", "용택신", 33);
+                Member member2 = new Member(2, "user02", "노송", 41);
+                Member member3 = new Member(3, "user03", "야생마", 47);
+                Member member4 = new Member(4, "user04", "악마", 51);
+                Member member5 = new Member(5, "user05", "적토마", 9);
+                List<Member> members = Arrays.asList(member1, member2, member3, member4, member5);
+
+                Assertions.assertThat(members);
+
         );
 
         Assertions.assertThat(members)
