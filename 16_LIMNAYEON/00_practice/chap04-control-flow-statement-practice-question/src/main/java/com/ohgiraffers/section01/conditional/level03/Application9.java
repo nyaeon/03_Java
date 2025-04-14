@@ -15,5 +15,36 @@ public class Application9 {
             두 번째 숫자 : 4 	두 번째 숫자 : 8 	두 번째 숫자 : 0
             4 5 6 7 8 		4 5 6 7 8 		1 이상의 숫자를 입력해주세요.
        */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("첫 번째 숫자 : ");
+        int num1 = sc.nextInt();
+
+        System.out.print("두 번째 숫자 : ");
+        int num2 = sc.nextInt();
+
+
+        int max = 0;
+        int min = 0;
+
+        if(num1 > 1 && num2 > 1){
+
+            if (num1 > num2) {
+                max += num1;
+                min += num2;
+            } else {
+                max += num2;
+                min += num1;
+            }
+
+            for(int i = min; i <= max; i++){
+                System.out.print(i + " ");
+            }
+
+        } else {
+            System.out.println("1 이상의 숫자를 입력해 주세요");
+        }
+
+
     }
 }

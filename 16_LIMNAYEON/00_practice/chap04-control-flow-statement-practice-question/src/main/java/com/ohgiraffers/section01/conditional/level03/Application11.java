@@ -15,5 +15,25 @@ public class Application11 {
             정답인 경우 “정답입니다, n회 만에 정답을 맞추셨습니다.”처럼 몇 번째에 정답을 맞췄는지 출력하세요.
        */
 
+        Scanner sc = new Scanner(System.in);
+        int random = (int)(Math.random()*10) + 1;
+
+        int count = 0;
+
+        while(true){
+            System.out.print("1~10 사이의 난수를 맞춰보세요: ");
+
+            count++;
+            int num = sc.nextInt();
+            if(num == random){
+                System.out.println("정답입니다." + count + "회 만에 정답을 맞추셨습니다.");
+                break;
+            } else if (num < random) {
+                System.out.println("입력하신 정수보다 큽니다.");
+            } else {
+                System.out.println("입력하신 정수보다 작습니다.");
+            }
+
+        }
     }
 }
