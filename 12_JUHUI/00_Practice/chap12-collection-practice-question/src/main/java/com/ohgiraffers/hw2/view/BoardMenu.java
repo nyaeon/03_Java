@@ -1,9 +1,8 @@
 package com.ohgiraffers.hw2.view;
 
 import com.ohgiraffers.hw2.controllor.BoardManager;
-import com.ohgiraffers.hw2.model.dto.BoardDTO;
+import com.ohgiraffers.hw2.model.comparator.*;
 
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class BoardMenu {
@@ -29,7 +28,7 @@ public class BoardMenu {
             System.out.println("9. 종료");
             System.out.print("메뉴를 선택하세요: ");
             choice = sc.nextInt();
-            sc.nextLine(); // Consume newline
+            sc.nextLine(); // 버퍼 비우기
 
             switch (choice) {
                 case 1:
@@ -84,26 +83,26 @@ public class BoardMenu {
             System.out.println("7. 이전 메뉴로 돌아가기");
             System.out.print("정렬 방식을 선택하세요: ");
             choice = sc.nextInt();
-            sc.nextLine(); // Consume newline
+            sc.nextLine(); // 버퍼 비우기
 
             switch (choice) {
                 case 1:
-                    boardManager.sortList(Comparator.comparingInt(BoardDTO::getBoardNo));
+                    boardManager.sortList(new AscBoardNo());
                     break;
                 case 2:
-                    boardManager.sortList(Comparator.comparingInt(BoardDTO::getBoardNo).reversed());
+                    boardManager.sortList(new DescBoardNo());
                     break;
                 case 3:
-                    boardManager.sortList(Comparator.comparing(BoardDTO::getBoardDate));
+                    boardManager.sortList(new AscBoardDate());
                     break;
                 case 4:
-                    boardManager.sortList(Comparator.comparing(BoardDTO::getBoardDate).reversed());
+                    boardManager.sortList(new DescBoardDate());
                     break;
                 case 5:
-                    boardManager.sortList(Comparator.comparing(BoardDTO::getBoardTitle));
+                    boardManager.sortList(new AscBoardTitle());
                     break;
                 case 6:
-                    boardManager.sortList(Comparator.comparing(BoardDTO::getBoardTitle).reversed());
+                    boardManager.sortList(new DescBoardTitle());
                     break;
                 case 7:
                     System.out.println("이전 메뉴로 돌아갑니다.");
@@ -112,6 +111,5 @@ public class BoardMenu {
                     System.out.println("잘못된 메뉴 선택입니다. 다시 선택해주세요.");
             }
         } while (true);
-    }
     }
 }

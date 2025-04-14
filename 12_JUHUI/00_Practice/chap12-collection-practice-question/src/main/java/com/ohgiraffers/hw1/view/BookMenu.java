@@ -77,7 +77,7 @@ public class BookMenu {
     public BookDTO inputBook() {
         //BookManager의 addBook으로 가야함. 여기의 리턴한 객체 실행되어야함.
 
-        // 도서 번호 : >> 임의 값 입
+        // 도서 번호 : >> 임의 값 입력
         System.out.println("도서 번호를 입력하세요 : ");
         int bNo = Integer.parseInt(sc.nextLine());
 

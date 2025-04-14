@@ -8,3 +8,4 @@ public class NotEnoungMoneyException extends Exception {
         super(message);
     }
 }
+
