@@ -4,6 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="ca15394c-2ddf-4ee8-a956-bdc40a2c162e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="02265a7f-5fee-48fc-abf4-baa5e6c76cf2" name="변경" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
@@ -27,6 +31,7 @@
       <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap14-collection-lecture-source/src/main/java/com/ohgiraffers/section02/set/run/Application3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap14-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../16_LIMNAYEON/chap14-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application2.java" afterDir="false" />
+>>>>>>> 1e7810d2ec61289dedae38684cedae6f0da552e6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,27 @@
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "macacolabs"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/backend20250319/03_Java.git",
+    "accountId": "8210473c-4357-49a8-b571-d03ec8da42e9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2vZl7cLL97iD6ZoqTyksveChWJp" />
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,12 +81,17 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+>>>>>>> 1e7810d2ec61289dedae38684cedae6f0da552e6
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+=======
     "Gradle.chap12-collection-practice-question [:com.ohgiraffers.hw1.run.Application.main()].executor": "Run",
+>>>>>>> 1e7810d2ec61289dedae38684cedae6f0da552e6
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -72,6 +103,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+<<<<<<< HEAD
+=======
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.hw1.run.Application" />
@@ -92,6 +125,7 @@
       </list>
     </recent_temporary>
   </component>
+>>>>>>> 1e7810d2ec61289dedae38684cedae6f0da552e6
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -100,6 +134,17 @@
       </set>
     </attachedChunks>
   </component>
+<<<<<<< HEAD
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca15394c-2ddf-4ee8-a956-bdc40a2c162e" name="Changes" comment="" />
+      <created>1744360311048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744360311048</updated>
+      <workItem from="1744360312458" duration="1175000" />
+=======
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -109,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744180915434</updated>
       <workItem from="1744180916536" duration="11020000" />
+>>>>>>> 1e7810d2ec61289dedae38684cedae6f0da552e6
     </task>
     <servers />
   </component>
