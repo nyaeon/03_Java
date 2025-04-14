@@ -51,4 +51,32 @@ class JupiterAssertionsTests {
                 () -> Assertions.assertEquals(lastName, person.getLastName())
         );
     }
+
+    @Test
+    @DisplayName("exception 발생 테스트")
+    void testAssertThrow() {
+
+        // give
+        int firstNum = 10;
+        int secondNum = 0;
+        // when
+        // then
+        NumberValidation validator = new NumberValidation();
+
+        Exception exception = Assertions.assertThrows(
+                IllegalArgumentException.class,
+                () -> validator.checkDividableNumbers(firstNum, secondNum)
+        );
+
+        Assertions.assertAll(
+                () -> Assertions.assertInstanceOf(
+                        IllegalArgumentException.class, exception
+                ),
+                () -> Assertions.assertEquals(
+                        "0으로 나눌 수 없습니다.",
+                        exception.getMessage()
+                )
+        );
+
+    }
 }
