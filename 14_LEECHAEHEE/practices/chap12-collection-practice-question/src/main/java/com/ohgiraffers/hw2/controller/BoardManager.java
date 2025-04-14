@@ -12,13 +12,22 @@ public class BoardManager {
     ResultPrinter rp = new ResultPrinter();
 
     public void insertBoard(BoardDTO b) {
+        if (b == null) {
+            rp.errorPage("insertboard");
+            return;
+        }
 
-        if (board
-        boardList.add(b);
+        if (!boardList.isEmpty()) {
+          boardList.add(b);
+          b.setBoardNo(1);
+        } else {
+
+        }
+
     }
 
     public void selectAllList() {
-
+        rp.printAllList(boardList);
     }
 
     public void selectOneBoard(int boardNo) {
