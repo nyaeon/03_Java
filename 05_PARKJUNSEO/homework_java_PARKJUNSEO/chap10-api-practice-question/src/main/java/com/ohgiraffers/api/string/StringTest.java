@@ -2,7 +2,8 @@ package com.ohgiraffers.api.string;
 
 public class StringTest {
     public static void main(String[] args) {
-        StringProcess sp = new StringProcess();
+        StringProcess sp = new StringProcess();  // 객체 생성
+
         String result = sp.preChar("hello world");
         System.out.println(result);
 

@@ -11,11 +11,12 @@ public class Application2 {
         ExceptionTest et = new ExceptionTest();
 
         try {
-            et.checkEnougMoney(20000, 30000);
+            et.checkEnougMoney(-20000, 30000);
         } catch (PriceNegativeException e) {
             System.out.println("PriceNegativeException 발생");
             System.out.println(e.getMessage());
         } catch (MoneyNegativeException e) {
+            e.getMessage();
 //            System.out.println("MoneyNegativeException 발생");
 //            System.out.println(e.getMessage());
 //            System.out.println("---->" + e.getClass());

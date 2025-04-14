@@ -12,7 +12,9 @@ public class Member implements Serializable {
     private int age;
     private char gender;
     private double point;
+
     public Member(){}
+
     public Member(String userId, String userPwd, String userName){
         this.userId = userId;
         this.userPwd= userPwd;
