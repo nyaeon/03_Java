@@ -55,15 +55,8 @@ public class MemberManager {
 
         try (ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("src/main/java/com/ohgiraffers/io/member/members.ser")))) {
             oos.writeObject(mem);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
-            throw new RuntimeException(e);
-        } finally{
-            if ( != null);{
-                mem.close();
-            }
-
+            e.printStackTrace();
         }
     }
 

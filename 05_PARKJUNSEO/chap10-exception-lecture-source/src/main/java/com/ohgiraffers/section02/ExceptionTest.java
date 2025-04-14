@@ -12,7 +12,7 @@ public class ExceptionTest {
 
         if(price < 0) {
             // throw를 이용해서 이부분에서 강제로 예외를 발생시킴
-            throw new PriceNegativeException("상품 가격은 음수 일 수 없습니다.");
+            throw new PriceNegativeException("상품 가격은 음수일 수 없습니다.");
         }
 
         if(money < 0) {
@@ -26,3 +26,4 @@ public class ExceptionTest {
         System.out.println("가진 돈이 충분합니다. 즐거운 쇼핑 하세요~");
     }
 }
+

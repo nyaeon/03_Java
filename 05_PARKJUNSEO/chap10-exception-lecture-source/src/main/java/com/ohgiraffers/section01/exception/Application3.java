@@ -7,7 +7,7 @@ public class Application3 {
         ExceptionTest et = new ExceptionTest();
 
         try {
-            et.checkEnougMoney(50000, 10000);
+            et.checkEnoughMoney(50000, 10000);
             System.out.println("============ 상품 구입 가능 ===============");
         } catch (Exception e) {
             System.out.println("============ 상품 구입 불가 ===============");
