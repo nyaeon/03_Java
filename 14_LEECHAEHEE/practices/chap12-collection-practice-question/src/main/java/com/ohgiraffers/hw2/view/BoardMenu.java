@@ -22,23 +22,23 @@ public class BoardMenu {
                 8, 정렬하기
                 9. 끝내기
                 메뉴 번호 선택 : """;
-       while (true) {
-           System.out.print(menu);
-           int choice = sc.nextInt();
-           switch (choice) {
-               case 1: bm.insertBoard(ib.inputBoard()); break;
-               case 2: break;
-               case 3: break;
-               case 4: break;
-               case 5: break;
-               case 6: break;
-               case 7: break;
-               case 8: break;
-               case 9: break;
-               default:
-                   System.out.println("잘못된 번호를 입력하셨습니다.");
-           }
-       }
+        while (true) {
+            System.out.print(menu);
+            int choice = sc.nextInt();
+            switch (choice) {
+                case 1: bm.insertBoard(ib.inputBoard()); break;
+                case 2: bm.selectAllList(); break;
+                case 3: bm.selectOneBoard(ib.inputBoardNo());break;
+                case 4: break;
+                case 5: break;
+                case 6: break;
+                case 7: break;
+                case 8: break;
+                case 9: break;
+                default:
+                    System.out.println("잘못된 번호를 입력하셨습니다.");
+            }
+        }
 
     }
 
