@@ -1,69 +1,75 @@
 package com.ohgiraffers.hw1.controller;
 
+import com.ohgiraffers.hw1.model.comparator.AscCategory;
+import com.ohgiraffers.hw1.model.comparator.DescCategory;
 import com.ohgiraffers.hw1.model.dto.BookDTO;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
-public class BookManager implements Comparable<BookManager> {
+public class BookManager {
+
     private ArrayList<BookDTO> bookList;
 
     public BookManager() {
+        bookList = new ArrayList<>();
+
     }
 
-    ArrayList<BookDTO> bookList = new ArrayList<BookDTO>();
-
-    public void addBook (BookDTO book){
+    public void addBook(BookDTO book) {
         bookList.add(book);
     }
 
-    public void deleteBook(int index){
-        bookList.remove(index);
+    public void deleteBook(int index) {
+
+        for(int i = 0; i < bookList.size(); i++){
+            if(bookList.get(i).getbNo() == index){
+                bookList.remove(i);
+                System.out.println("해당 도서가 삭제되었습니다.");
+                return;
+            }
+        }
+        System.out.println("해당 도서번호는 없습니다.");
     }
 
-    public int searchBook(String bTitle) {
+    public int searchBook(String Title) {
 
-        // 도서명이 일치하는 객체를 찾아 해당 인덱스를 리턴
-        // 도서명이 일치하는 객체가 리스트에 없으면 -1을 리턴
+        for(int i = 0; i < bookList.size(); i++){
+            if(bookList.get(i).getTitle().equals(Title)){
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void printBook(int index){
-        // index에 해당하는 객체 출력
+        if(index == -1){
+            System.out.println("조회한 도서가 존재하지 않음.");
+        } else {
+            System.out.println(bookList.get(index));
+        }
     }
 
     public void displayAll(){
-        // 도서 전체 리스트를 출력
+        for(BookDTO book : bookList){
+            System.out.println(book);
+        }
     }
 
-    public ArrayList<BookDTO> sortedBookList(int select){
+    public ArrayList<BookDTO> sortBookList(int select){
 
-        while(true) {
-            System.out.println("""
-                    정렬방식을 선택해주세요
-                    1. 오름차순
-                    2. 내림차순
-                    0. 나가기
-                    입력:""");
-
-            switch(select){
-                case 1:
-                    Collections.sort(bookList);
-                break;
-                case 2:
-                case 0:
-                default:
-                    break;
-            }
-
-            }
-
+        if(select==1) {
+            bookList.sort(new AscCategory());
+        } else if (select==2) {
+            bookList.sort(new DescCategory());
         }
 
-
+        return bookList;
     }
 
-    public void publicBookList(ArrayList<BookDTO> br){
+    public void printBookList(ArrayList<BookDTO> br){
+        for (BookDTO b : br) {
+            System.out.println(b);
+        }
     }
-
 
 }

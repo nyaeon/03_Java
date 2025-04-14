@@ -23,7 +23,6 @@ public class Application1 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-
             try {
                 if(in != null) {
                 in.close();

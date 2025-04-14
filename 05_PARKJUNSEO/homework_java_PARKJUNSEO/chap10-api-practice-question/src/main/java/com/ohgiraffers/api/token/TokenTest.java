@@ -1,7 +1,6 @@
 package com.ohgiraffers.api.token;
 
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 public class TokenTest {
     public static void main(String[] args) {
@@ -12,7 +11,6 @@ public class TokenTest {
             cst[i] = st[i].charAt(0);
         }
 
-        System.out.println(" ");
         System.out.println("토큰 처리전 글자 개수 : " + s.length());
         System.out.println("토큰 처리 후 문자배열 개수 : " + cst.length);
         System.out.println("char[] 값 : " + Arrays.toString(cst));

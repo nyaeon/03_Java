@@ -116,8 +116,6 @@ public class App {
         String[] uses = data.split("\n");
         User[] users = new User[uses.length-1];
 
-
-
         for (int i = 1; i < uses.length; i++) {
             String[] userObject = uses[i].split(",");
             int id = Integer.parseInt(userObject[0]);

@@ -1,17 +1,18 @@
 package com.ohgiraffers.hw1.model.dto;
 
 public class BookDTO {
-    private int bNo;        // 도서 번호
-    private int category;   // 도서분류코드
-    private String title;   // 도서 제목
-    private String author;  // 도서 저자
+
+    private int bNo;
+    private int cateory;
+    private String title;
+    private String author;
 
     public BookDTO() {
     }
 
-    public BookDTO(int bNo, int category, String title, String author) {
+    public BookDTO(int bNo, int cateory, String title, String author) {
         this.bNo = bNo;
-        this.category = category;
+        this.cateory = cateory;
         this.title = title;
         this.author = author;
     }
@@ -24,12 +25,12 @@ public class BookDTO {
         this.bNo = bNo;
     }
 
-    public int getCategory() {
-        return category;
+    public int getCateory() {
+        return cateory;
     }
 
-    public void setCategory(int category) {
-        this.category = category;
+    public void setCateory(int cateory) {
+        this.cateory = cateory;
     }
 
     public String getTitle() {
@@ -50,11 +51,11 @@ public class BookDTO {
 
     @Override
     public String toString() {
-        return "BookDTO{" +
-                "bNo=" + bNo +
-                ", category=" + category +
-                ", title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                '}';
+        return "[" +
+                "도서번호 =" + bNo +
+                ", 카테고리 =" + cateory +
+                ", 제목 ='" + title + '\'' +
+                ", 저자 ='" + author + '\'' +
+                ']';
     }
 }
