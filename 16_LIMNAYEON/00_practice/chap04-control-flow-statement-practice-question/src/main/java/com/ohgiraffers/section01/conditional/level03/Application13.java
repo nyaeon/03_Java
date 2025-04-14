@@ -30,5 +30,30 @@ public class Application13 {
         *
         * */
 
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("정수 하나를 입력하세요 : ");
+        int num = sc.nextInt();
+        printNumberCoolness(num);
+
+    }
+
+    public static void printSpaces(int nSpaces) {
+        for (int i = 0; i < nSpaces; i++) {
+            System.out.print(" ");
+        }
+    }
+
+    public static void printNumberCoolness(int num) {
+        int sum = 0;
+        int result = 0;
+        int space = num;
+        for (int count = 1; count <= num; count++) {
+            printSpaces(space--);
+            sum = sum * 10 + 1;
+            result = result + sum;
+            System.out.println(result + " x 8 + " + count + " = " + (result * 8 + count));
+        }
+
     }
 }
