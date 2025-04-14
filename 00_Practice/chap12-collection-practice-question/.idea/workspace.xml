@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="863b429f-8c96-44d6-874f-3f48011d1763" name="Changes" comment="" />
+    <list default="true" id="ca15394c-2ddf-4ee8-a956-bdc40a2c162e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,42 +17,25 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chap16-lamda-practice-source" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;macacolabs&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "macacolabs"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/backend20250319/03_Java.git&quot;,
-    &quot;accountId&quot;: &quot;8210473c-4357-49a8-b571-d03ec8da42e9&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/backend20250319/03_Java.git",
+    "accountId": "8210473c-4357-49a8-b571-d03ec8da42e9"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2vZh4BFnK33NZwTfNsiS3c34CoZ" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2vZl7cLL97iD6ZoqTyksveChWJp" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -65,7 +50,6 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,14 +64,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="863b429f-8c96-44d6-874f-3f48011d1763" name="Changes" comment="" />
-      <created>1744358309667</created>
+      <changelist id="ca15394c-2ddf-4ee8-a956-bdc40a2c162e" name="Changes" comment="" />
+      <created>1744360311048</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744358309667</updated>
-      <workItem from="1744358311091" duration="163000" />
-      <workItem from="1744358494804" duration="236000" />
-      <workItem from="1744360899435" duration="700000" />
+      <updated>1744360311048</updated>
+      <workItem from="1744360312458" duration="1175000" />
     </task>
     <servers />
   </component>
