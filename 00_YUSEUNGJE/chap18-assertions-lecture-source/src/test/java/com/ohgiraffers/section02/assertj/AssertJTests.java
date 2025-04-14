@@ -81,15 +81,15 @@ class AssertJTests {
     @Test
     @DisplayName("filtering assertions 테스트")
     void testFilteringAssertions() {
-        List<Member> members = Arrays.asList(
-                new Member(1, "user01", "홍길동", 16),
-                new Member(2, "user02", "이순신", 20),
-                new Member(3, "user03", "신사임당", 40)
-        );
+        Member member1 = new Member(1, "user01", "홍길동", 16);
+        Member member2 = new Member(2, "user02", "이순신", 20);
+        Member member3 = new Member(3, "user03", "신사임당", 40);
+        List<Member> members = Arrays.asList(member1, member2, member3);
 
         Assertions.assertThat(members)
-                .filteredOn(member -> member.getAge() > 18)
-        ;
+                .filteredOn(member -> member.getAge() > 19)
+                .containsOnly(member2, member3)
+                .filteredOn("age", 20);
 
     }
 
