@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74f0339a-06bf-487f-835e-69d352a060bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/controller/BoardManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/AscBoardDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/AscBoardNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/AscBoardTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/DescBoardDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/DescBoardNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/comparator/DescBoardTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/model/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/view/BoardMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/view/InputBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/src/main/java/com/ohgiraffers/hw2/view/ResultPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/00_practice/chap12-collection-practice-question/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ji-Jung-Ho&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ji-Jung-Ho/03_Java.git&quot;,
+    &quot;accountId&quot;: &quot;ee6b560f-ba3f-41c0-b665-ab224df4276f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vNTk6gfiF7i5OzgOeoznXxjQiB" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74f0339a-06bf-487f-835e-69d352a060bc" name="Changes" comment="" />
+      <created>1743984672215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743984672215</updated>
+      <workItem from="1743984673423" duration="33000" />
+      <workItem from="1743985103892" duration="32000" />
+      <workItem from="1744181077994" duration="1498000" />
+      <workItem from="1744242978526" duration="448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
