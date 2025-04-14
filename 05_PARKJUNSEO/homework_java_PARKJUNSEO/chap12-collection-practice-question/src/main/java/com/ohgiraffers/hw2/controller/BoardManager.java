@@ -27,7 +27,6 @@ public class BoardManager {
 
     public void selectAllList() {
 
-        pringAll
     };
 
     public void selectOneBoard(int boardNo){};
@@ -38,7 +37,7 @@ public class BoardManager {
 
     public void deleteBoard(int boardNo){};
 
-    public void selectBoard(String title){};
+    public void searchBoard(String title){};
 
     public void sortList (Comparator<BoardDTO> c) {};
 
