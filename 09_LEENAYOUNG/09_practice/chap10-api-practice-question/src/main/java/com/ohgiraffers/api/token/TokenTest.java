@@ -9,12 +9,19 @@ public class TokenTest {
 
         // 1. "J a v a P r o g r a m" 문자열 값을 공백 단위로 Token 처리하여 char[]에 저장하여 출력
         String str = "J a v a P r o g r a m";
-        StringTokenizer st = new StringTokenizer(str, " ");
+        /*StringTokenizer st = new StringTokenizer(str, " ");
         char[] cArr = new char[st.countTokens()];
 
         int count = 0;
         while (st.hasMoreTokens()) {
             cArr[count++] = st.nextToken().charAt(0);
+        }*/
+
+        String[] sarr = str.split(" ");
+        char[] cArr = new char[sarr.length];
+
+        for (int i = 0; i < sarr.length; i++) {
+            cArr[i] = sarr[i].charAt(0);
         }
 
         // 2. 토근 처리 전 글자 및 개수 출력
