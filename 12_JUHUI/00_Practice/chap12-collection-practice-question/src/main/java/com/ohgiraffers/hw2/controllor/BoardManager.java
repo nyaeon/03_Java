@@ -11,7 +11,7 @@ public class BoardManager {
 
     private ArrayList<BoardDTO> boardList = new ArrayList<>();
     private ResultPrinter resultPrinter = new ResultPrinter();
-    private int boardNocCount = 1; // 게시글 번호 자동 생성을 위한 카운터
+    private int boardNoCount = 1; // 게시글 번호 자동 생성을 위한 카운터
 
 
     /* 새 게시글 등록용 메소드 */
@@ -23,7 +23,7 @@ public class BoardManager {
         // 조회내역이 없는 경우 -
         //        조회 내역이 있는 경우 기존 리스트의 마지막 인덱스의 글번호 조회
         // 출력값 결정(successPage)
-        b.setBoardNo(boardNocCount++); // 글 번호 자동 부여 및 카운터 증가
+        b.setBoardNo(boardNoCount++); // 글 번호 자동 부여 및 카운터 증가
         b.setBoardDate(new Date()); // 현재 날짜 설정
         boardList.add(b);
         resultPrinter.successPage("insertBoard");//왜 이러는지 모르겠음
