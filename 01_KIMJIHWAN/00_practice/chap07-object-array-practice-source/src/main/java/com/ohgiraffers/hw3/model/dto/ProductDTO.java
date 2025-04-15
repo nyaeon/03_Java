@@ -56,7 +56,7 @@ public class ProductDTO {
     }
 
     public String information() {
-        return "제품 번호 : " + pld + "제품 이름 : " + pName + "제품 가격 : " + price + "제품 세금 : " + tax;
+        return "제품 번호 : " + pld + ", 제품 이름 : " + pName + ", 제품 가격 : " + price + ", 제품 세금 : " + tax;
 
     }
 }

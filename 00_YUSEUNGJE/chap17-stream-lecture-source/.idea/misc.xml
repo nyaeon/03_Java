@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<<< HEAD:01_KIMJIHWAN/00_practice/.idea/misc.xml
+  <component name="ProjectRootManager">
+========
   <component name="ProjectRootManager" version="2" default="true">
+>>>>>>>> e906c1905e86b268e602796c007039ebb9ab7f60:00_YUSEUNGJE/chap17-stream-lecture-source/.idea/misc.xml
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

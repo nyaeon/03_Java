@@ -25,19 +25,20 @@ public class Application2 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+        String[] arr = new String[10];
         Scanner sc = new Scanner(System.in);
-        String[] array = {"딸기", "바나나", "복숭아", "키위", "사과"};
+        arr[0] = "딸기";
+        arr[1] = "바나나";
+        arr[2] = "복숭아";
+        arr[3] = "키위";
+        arr[4] = "사과";
+
         System.out.print("0부터 4까지의 정수를 입력하세요 : ");
         int a = sc.nextInt();
         if (a >= 0 && a <= 4) {
-            System.out.println(array[a]);
+            System.out.println(arr[a]);
         } else {
             System.out.println("준비된 과일이 없습니다.");
         }
-
-
-
-
-
     }
 }

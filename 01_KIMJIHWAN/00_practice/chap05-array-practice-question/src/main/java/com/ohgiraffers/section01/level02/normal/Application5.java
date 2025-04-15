@@ -1,5 +1,8 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.sql.PseudoColumnUsage;
+import java.util.Scanner;
+
 public class Application5 {
 
     public static void main(String[] args) {
@@ -15,5 +18,31 @@ public class Application5 {
          *	application에 i가 존재하는 위치(인덱스) : 4 8
          *	i 개수 : 2
          * */
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("문자열 입력: ");
+        String a = sc.nextLine();
+        char[] b = new char[a.length()];
+
+        for (int i = 0; i < a.length(); i++) {
+            b[i] = a.charAt(i);
+        }
+
+        System.out.print("검색 문자 입력: ");
+        char c = sc.next().charAt(0);
+
+        int count = 0;
+        System.out.print("application에 " + c + "가 존재하는 위치(인덱스) : ");
+        for (int i = 0; i < a.length(); i++) {
+            if (b[i] == c) {
+                System.out.print(i + " ");
+                count++;
+            }
+        }
+        System.out.println();
+        System.out.println("i의 개수 : " + count);
+
+
+
     }
 }

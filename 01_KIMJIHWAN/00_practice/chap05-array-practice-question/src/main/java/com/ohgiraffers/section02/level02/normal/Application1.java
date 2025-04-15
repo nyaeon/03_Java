@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -23,5 +25,38 @@ public class Application1 {
          * W H J X
          * W S S J
          * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("가로 행의 수를 입력하세요 : " );
+        int a = sc.nextInt();
+        System.out.print("세로 행의 수를 입력하세요 : " );
+        int b = sc.nextInt();
+        char[][] arr = new char[a][b];
+
+        boolean flag = false;
+        if (a <= 10 && a >= 1) {
+            if (b <= 10 && b >= 1) {
+                flag = true;
+            } else {
+                System.out.println("반드시 1~10까지 정수를 입력해야 합니다. 다시 입력하세요");
+            }
+        } else {
+            System.out.println("반드시 1~10까지 정수를 입력해야 합니다. 다시 입력하세요");
+        }
+
+//        Math.random()
+//        65 ~ 91까지 아스키코드 대문자 불러오는 과정에서 중단
+
+        if (flag) {
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++) {
+                    arr[i][j] = (char) (Math.random() * 26 + 65);
+                    System.out.print(arr[i][j] + " ");
+                }
+                System.out.println();
+            }
+
+        }
+
     }
 }
