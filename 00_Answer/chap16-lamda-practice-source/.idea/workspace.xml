@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="863b429f-8c96-44d6-874f-3f48011d1763" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/lamda/friend/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/lamda/friend/FriendApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/lamda/test/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/src/main/java/com/ohgiraffers/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/src/main/java/com/ohgiraffers/stream/CheckAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/src/main/java/com/ohgiraffers/stream/FilterAndJoinStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/src/main/java/com/ohgiraffers/stream/PeekCharactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap17-stream-practice-source/src/main/java/com/ohgiraffers/stream/PrintName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap17-stream-lecture-source/src/main/java/com/ohgiraffers/section02/uses/subsection03/terminal/Application4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap16-lamda-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap16-lamda-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap17-stream-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_YUSEUNGJE/chap17-stream-lecture-source/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="863b429f-8c96-44d6-874f-3f48011d1763" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +14,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap16-lamda-practice-source" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -64,17 +54,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,6 +87,7 @@
       <updated>1744358309667</updated>
       <workItem from="1744358311091" duration="163000" />
       <workItem from="1744358494804" duration="236000" />
+      <workItem from="1744360899435" duration="700000" />
     </task>
     <servers />
   </component>

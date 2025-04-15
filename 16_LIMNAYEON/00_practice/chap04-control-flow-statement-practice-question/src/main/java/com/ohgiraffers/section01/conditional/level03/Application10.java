@@ -32,5 +32,53 @@ public class Application10 {
                 없는 연산자입니다. 다시 입력해주세요.
 	   */
 
+        Scanner sc = new Scanner(System.in);
+
+
+        while (true){
+
+            System.out.print("연산자(+, -, *, /, %) : ");
+            String type = sc.nextLine();
+
+            if(type.equals("exit")){
+                System.out.println("프로그램을 종료합니다.");
+                break;
+            }
+
+            System.out.print("정수1: ");
+            int num1 = sc.nextInt();
+
+            System.out.print("정수2: ");
+            int num2 = sc.nextInt();
+
+            if(type.equals("/") && num2 == 0){
+                System.out.println("0으로 나눌 수 없습니다.");
+                break;
+            }
+
+            switch (type){
+                case "+":
+                    System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+                    break;
+                case "-":
+                    System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+                    break;
+                case "*":
+                    System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+                    break;
+                case "/":
+                    System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+                    break;
+                case "%":
+                    System.out.println(num1 + " % " + num2 + " = " + (num1 % num2));
+                    break;
+                default:
+                    System.out.println("없는 연산자 입니다. 다시 입력해 주세요");
+                    continue;
+            }
+            System.out.println();
+
+        }
+
     }
 }

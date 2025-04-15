@@ -1,5 +1,8 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Application6 {
 
     public static void main(String[] args) {
@@ -14,6 +17,27 @@ public class Application6 {
          * 치킨 이름을 입력하세요 : 양념     치킨 이름을 입력하세요 : 불닭
          * 양념치킨 배달 가능              불닭치킨은 없는 메뉴입니다.
          * */
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("치킨 이름을 입력하세요 : ");
+        String a = sc.nextLine();
+        String ch = "간장,불갈비,양념";
+        String[] arrCh = ch.split(","); // split활용
+
+        boolean dup = false;
+        int b = 0;
+        for (int i = 0; i < arrCh.length; i++) {
+            if (arrCh[i].equals(a)) {
+                dup = true;
+                b = i;
+            }
+        }
+
+        if (dup) {
+            System.out.println(arrCh[b] + "치킨 배달 가능");
+        } else {
+            System.out.println(a + "치킨은 없는 메뉴입니다.");
+        }
 
     }
 }

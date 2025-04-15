@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b42a950f-10aa-42a1-9eae-16445bd6a3d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap12-collection-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap12-collection-practice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap12-collection-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap12-collection-practice-question/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_Answer/chap16-lamda-practice-source/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;macacolabs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/backend20250319/03_Java.git&quot;,
+    &quot;accountId&quot;: &quot;8210473c-4357-49a8-b571-d03ec8da42e9&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vZAP4p327aCKDuS8UlzaSot8cH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section01.intro.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section01.intro.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection01.generation.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection01.generation.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection02.intermediate.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection02.intermediate.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection02.intermediate.Application3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection02.intermediate.Application4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection03.terminal.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection03.terminal.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection03.terminal.Application3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap17-stream-lecture-source [:com.ohgiraffers.section02.uses.subsection03.terminal.Application4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.com.ohgiraffers.section02.uses.subsection03.terminal.Application4">
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.uses.subsection03.terminal.Application1" />
+      <module name="chap17-stream-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.uses.subsection03.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.uses.subsection03.terminal.Application2" />
+      <module name="chap17-stream-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.uses.subsection03.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.uses.subsection02.intermediate.Application4" />
+      <module name="chap17-stream-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.uses.subsection02.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section02.uses.subsection03.terminal.Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.uses.subsection03.terminal.Application3" />
+      <module name="chap17-stream-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.uses.subsection03.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section02.uses.subsection03.terminal.Application4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.uses.subsection03.terminal.Application4" />
+      <module name="chap17-stream-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.uses.subsection03.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.ohgiraffers.section02.uses.subsection03.terminal.Application4" />
+        <item itemvalue="Application.com.ohgiraffers.section02.uses.subsection03.terminal.Application3" />
+        <item itemvalue="Application.Application2" />
+        <item itemvalue="Application.Application1" />
+        <item itemvalue="Application.Application4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b42a950f-10aa-42a1-9eae-16445bd6a3d7" name="Changes" comment="" />
+      <created>1744342198083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744342198083</updated>
+      <workItem from="1744342199207" duration="11524000" />
+      <workItem from="1744358498265" duration="797000" />
+      <workItem from="1744588458036" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

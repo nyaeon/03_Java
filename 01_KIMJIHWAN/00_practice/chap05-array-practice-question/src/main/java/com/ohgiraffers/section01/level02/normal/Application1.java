@@ -19,23 +19,28 @@ public class Application1 {
 
         /* 문자열 클래스에서 제공하는 length(), charAt() */
         Scanner sc = new Scanner(System.in);
-        System.out.print("문자열을 하나 입력 해주세요 : ");
-        String a = sc.nextLine();
 
-        System.out.print("검색할 문자를 하나 입력 해주세요 : ");
+        // 문자열을 받아서 문자열 크기만큼 배열을 생성해주고 for문을 통해 문자열 하나하나를 charAt[i]로 대입해줌
+        System.out.print("문자열을 하나 입력하세요 : ");
+        String a = sc.nextLine();
+        char[] arrA = new char[a.length()];  // 입력받은 문자열을 문자 자료형 배열로 초기화
+        for (int i = 0; i < a.length(); i++) {
+            arrA[i] = a.charAt(i);
+        }
+        // 이렇게도 가능
+        // char[] b = a.toCharArray();
+        // System.out.println(Arrays.toString(b));
+
+        System.out.print("검색할 문자를 하나 입력하세요 : ");
         char b = sc.next().charAt(0);
 
-        char[] array = new char[a.length()];
-
         int count = 0;
-
-        for (int i = 0; i < a.length(); i++ ) {
-            if(a.charAt(i) == b){
+        for (int i = 0; i < a.length(); i++) {
+            if (arrA[i] == b){
                 count++;
             }
         }
-
-        System.out.println("입력하신 문자열" + a + "해서 찾으시는 문자" + b + "은 " + count + "개 입니다.");
+        System.out.println("입력하신 문자열 " + a + "에서 찾으시는 문자 " + b + "는 " + count + "개 입니다.");
 
     }
 }

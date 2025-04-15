@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/chap12-collection-practice-question" />
     <file type="web" url="file://$PROJECT_DIR$/chap14-io-practice-source" />
     <file type="web" url="file://$PROJECT_DIR$/chap16-lamda-practice-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap17-stream-practice-source" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

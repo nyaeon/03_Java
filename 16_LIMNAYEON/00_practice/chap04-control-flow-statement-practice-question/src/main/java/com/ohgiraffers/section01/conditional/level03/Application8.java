@@ -14,5 +14,20 @@ public class Application8 {
             1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
 	    */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("정수를 하나 입력하세요 : ");
+        int num = sc.nextInt();
+
+        int sum = 0;
+        for(int i = 1; i <= num; i++ ){
+            sum += i;
+
+            if(i < num){
+                System.out.print(i + " + ");
+            } else {
+                System.out.println(i + " = " + sum);
+            }
+        }
+
     }
 }

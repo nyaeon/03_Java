@@ -34,18 +34,12 @@ public class Application {
         System.out.println(e.getNumber());
         System.out.println(e.getName());
         System.out.println(e.getDept());
-        System.out.println(e.getClass());
+        System.out.println(e.getJob());
         System.out.println(e.getAge());
         System.out.println(e.getGender());
         System.out.println(e.getSalary());
         System.out.println(e.getBonuspoint());
         System.out.println(e.getPhone());
         System.out.println(e.getAddress());
-
-
-
-
-
-
     }
 }

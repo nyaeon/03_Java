@@ -19,8 +19,8 @@ public class ProductController {
                     1. 제품 정보 추가
                     2. 제품 전체 조회
                     9. 프로그램 종료
-                    """;
-            System.out.println(menu);
+                    입력 숫자 : """;
+            System.out.print(menu);
             a = sc.nextInt();
             switch (a) {
                 case 1: productInput();
