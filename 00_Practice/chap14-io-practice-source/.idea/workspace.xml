@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4555f1a6-62ea-430f-9725-490589c788b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/FriendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/NumberValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section02/assertj/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section01/jupiter/JupiterAssertionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section02/assertj/AssertTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section01/lifecycle/LifeCycleAnnotationsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section02/additonal/AdditionalAnntationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap11-exception-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap11-exception-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_JUNGSEONGWON/chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dkrio"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dkrio/03_Java.git",
+    "accountId": "8b651885-134b-41ed-81ae-9d8795e67538"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2vlCNtnZsvHkZWa5cyO7FXVB87S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.chap14-io-practice-source [:com.ohgiraffers.member.MemberObjectIOTest.main()].executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/03_Java/18_JUNGSEONGWON/00_practice/chap14-io-practice-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ohgiraffers.member" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MemberObjectIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.member.MemberObjectIOTest" />
+      <module name="chap14-io-practice-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemberObjectIOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4555f1a6-62ea-430f-9725-490589c788b7" name="Changes" comment="" />
+      <created>1744710240896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744710240896</updated>
+      <workItem from="1744710242186" duration="2096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
