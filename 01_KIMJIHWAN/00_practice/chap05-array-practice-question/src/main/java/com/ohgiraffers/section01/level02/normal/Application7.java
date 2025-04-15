@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Arrays;
+
 public class Application7 {
 
     public static void main(String[] args) {
@@ -14,5 +16,25 @@ public class Application7 {
          * 최대값 : 10
          * 최소값 : 2
          * */
+
+        int[] arr = new int[10];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * 10 + 1);
+        }
+
+        int max = 0;
+        int min = 11;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max){
+                max = arr[i];
+            }
+            if (arr[i] < min){
+                min = arr[i];
+            }
+        }
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println("최대값 : " + max);
+        System.out.println("최소값 : " + min);
     }
 }

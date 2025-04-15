@@ -92,7 +92,7 @@ public class Book {
             return false;
         }
 
-        if(this.author == null) {
+        if (this.author == null) {
 
             if (other.author != null) {
                 return false;

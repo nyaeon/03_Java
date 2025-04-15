@@ -32,6 +32,10 @@ public class Application1 {
         System.out.println("book1 = " + book1);
         System.out.println("book2 = " + book2);
         System.out.println("book3 = " + book3);
+        System.out.println("=========================================================");
+        String str = "java";
+        String str2 = "java";
+        System.out.println(str == str2);
 
 
     }

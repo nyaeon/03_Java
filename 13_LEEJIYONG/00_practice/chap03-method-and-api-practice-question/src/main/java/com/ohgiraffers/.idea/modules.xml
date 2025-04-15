@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<<< HEAD:01_KIMJIHWAN/00_practice/.idea/modules.xml
+      <module fileurl="file://$PROJECT_DIR$/.idea/00_practice.iml" filepath="$PROJECT_DIR$/.idea/00_practice.iml" />
+========
       <module fileurl="file://$PROJECT_DIR$/ohgiraffers.iml" filepath="$PROJECT_DIR$/ohgiraffers.iml" />
+>>>>>>>> e906c1905e86b268e602796c007039ebb9ab7f60:13_LEEJIYONG/00_practice/chap03-method-and-api-practice-question/src/main/java/com/ohgiraffers/.idea/modules.xml
     </modules>
   </component>
 </project>
