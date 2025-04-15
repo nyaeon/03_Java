@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b52bd85-677a-48e6-87f7-fa1037926c50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/stream/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/stream/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/FriendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/NumberValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section02/assertj/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section01/jupiter/JupiterAssertionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section02/assertj/AssertTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section01/lifecycle/LifeCycleAnnotationsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section02/additonal/AdditionalAnntationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap11-exception-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-exception-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +187,7 @@
       <workItem from="1744329414370" duration="298000" />
       <workItem from="1744329758049" duration="678000" />
       <workItem from="1744467317756" duration="2874000" />
+      <workItem from="1744710916109" duration="2985000" />
     </task>
     <servers />
   </component>

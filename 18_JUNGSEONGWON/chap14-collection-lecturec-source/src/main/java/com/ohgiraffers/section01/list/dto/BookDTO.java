@@ -55,7 +55,9 @@ public class BookDTO {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         BookDTO bookDTO = (BookDTO) o;
-        return number == bookDTO.number && price == bookDTO.price && Objects.equals(title, bookDTO.title) && Objects.equals(author, bookDTO.author);
+        return number == bookDTO.number && price
+                == bookDTO.price && Objects.equals(title, bookDTO.title)
+                && Objects.equals(author, bookDTO.author);
     }
 
     @Override

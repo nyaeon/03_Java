@@ -1,4 +1,4 @@
-package com.ohgiraffers.lambda.test;
+package com.ohgiraffers.lamda.test;
 
 
 import java.time.LocalDateTime;
