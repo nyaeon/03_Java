@@ -5,12 +5,26 @@ import java.util.Scanner;
 public class Application3 {
 
     public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int kor = sc.nextInt();
-            int eng = sc.nextInt();
-            int math = sc.nextInt();
-            int avg = (kor + eng + math)/3;
-            
+        Scanner sc = new Scanner(System.in);
+        System.out.println("국어 점수를 입력해주세요 : ");
+        int kor = sc.nextInt();
+        System.out.println("영어 점수를 입력해주세요 : ");
+        int eng = sc.nextInt();
+        System.out.println("수학 점수를 입력해주세요 : ");
+        int math = sc.nextInt();
+        int avg = (kor + eng + math)/3;
+
+            if (avg >= 60 && kor >= 40 && eng >= 40 && math >= 40){
+                System.out.println("합격입니다.");
+            }else if (math < 40 ){
+                System.out.println("수학 점수 미달로 불합격입니다.");
+            }else if (kor < 40){
+                System.out.println("국어 점수 미달로 불합격입니다.");
+            }else if (eng< 40) {
+                System.out.println("영어 점수 미달로 불합격입니다.");
+            }else {
+                System.out.println("평균 점수 미달로 불합격 입니다.");
+            }
         /* 국어, 영어, 수학 점수를 입력받아
          * 평균 점수가 60점 이상이면서 각 과목이 40점 이상인 조건이 만족하면 "합격입니다!" 를 출력하세요,
          * 단, 합격이 아닌 경우 불합격 사유가 무엇인지를 모두 출력해주어야 합니다.

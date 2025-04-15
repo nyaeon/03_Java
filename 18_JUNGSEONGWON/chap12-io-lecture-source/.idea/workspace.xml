@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b52bd85-677a-48e6-87f7-fa1037926c50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../00_Practice/chap14-io-practice-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/friend/FriendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/NumberValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section01/jupiter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/main/java/com/ohgiraffers/section02/assertj/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section01/jupiter/JupiterAssertionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap18-assertions-lecture-source/src/test/java/com/ohgiraffers/section02/assertj/AssertTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section01/lifecycle/LifeCycleAnnotationsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap19-junit-lecture-source/src/test/java/com/ohgiraffers/section02/additonal/AdditionalAnntationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lambda/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../00_practice/chap16-lamda-practice-source/src/main/java/com/ohgiraffers/lamda/test/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap11-exception-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-exception-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-collection-lecturec-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dkrio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dkrio/03_Java.git&quot;,
+    &quot;accountId&quot;: &quot;8b651885-134b-41ed-81ae-9d8795e67538&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vOAUekzcApR3dFMgk9qmIC4W9a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section01.file.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section02.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section02.stream.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section02.stream.Application3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section02.stream.Application4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section03.Application2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-io-lecture-source [:com.ohgiraffers.section03.filterstream.Application1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application" />
+      <module name="chap12-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.filterstream.Application1" />
+      <module name="chap12-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.filterstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application3" />
+      <module name="chap12-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application4" />
+      <module name="chap12-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section03.Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.Application2" />
+      <module name="chap12-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.com.ohgiraffers.section03.Application2" />
+        <item itemvalue="Application.Application1" />
+        <item itemvalue="Application.Application4" />
+        <item itemvalue="Application.Application3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b52bd85-677a-48e6-87f7-fa1037926c50" name="Changes" comment="" />
+      <created>1744005767561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744005767561</updated>
+      <workItem from="1744005768718" duration="9162000" />
+      <workItem from="1744329414370" duration="298000" />
+      <workItem from="1744329758049" duration="678000" />
+      <workItem from="1744467317756" duration="2874000" />
+      <workItem from="1744710916109" duration="2985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
