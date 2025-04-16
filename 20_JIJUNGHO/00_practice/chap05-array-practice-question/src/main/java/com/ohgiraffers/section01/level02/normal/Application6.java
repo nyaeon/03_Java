@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application6 {
 
     public static void main(String[] args) {
@@ -14,6 +16,24 @@ public class Application6 {
          * 치킨 이름을 입력하세요 : 양념     치킨 이름을 입력하세요 : 불닭
          * 양념치킨 배달 가능              불닭치킨은 없는 메뉴입니다.
          * */
+        Scanner sc = new Scanner(System.in);
+        String[] strArr = {"후라이드", "양념", "바베큐", "불닭"};
+        System.out.print("치킨 입력 : ");
+        String str = sc.nextLine();
+
+        boolean check = false;
+
+        for (int i = 0; i < strArr.length; i++) {
+            if (strArr[i].equals(str)) {
+                check = true;
+            }
+        }
+
+        if (check) {
+            System.out.println(str + "치킨 배달 가능");
+        } else {
+            System.out.println(str + "치킨은 없는 메뉴입니다.");
+        }
 
     }
 }

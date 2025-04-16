@@ -26,27 +26,32 @@ public class Application2 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
-
-
-        String[] str = new String[]{"딸기", "바나나", "복숭아", "키위", "사과"};
-
+        String[] arr = new String[]{"딸기", "바나나", "복숭아", "키위", "사과"};
         Scanner sc = new Scanner(System.in);
-        System.out.print("0 ~ 4까지의 정수를 입력하세요 : ");
-        int choice = sc.nextInt();
+        System.out.print("0부터 4까지의 정수를 입력하세요 : ");
+        int input = sc.nextInt();
+        switch (input) {
+            case 0:
+                System.out.println(arr[0].toString());
+                break;
+            case 1:
+                System.out.println(arr[1].toString());
+                break;
+            case 2:
+                System.out.println(arr[2].toString());
+                break;
+            case 3:
+                System.out.println(arr[3].toString());
+                break;
+            case 4:
+                System.out.println(arr[4].toString());
+                break;
+            default:
+                System.out.println("준비된 과일이 없습니다.");
+                return;
 
-        if (choice == 0) {
-            System.out.println(str[0]);
-        } else if (choice == 1) {
-            System.out.println(str[1]);
-        } else if (choice == 2) {
-            System.out.println(str[2]);
-        } else if (choice == 3) {
-            System.out.println(str[3]);
-        } else if (choice == 4) {
-            System.out.println(str[4]);
-        } else {
-            System.out.println("준비된 과일이 없습니다.");
         }
+
 
     }
 }

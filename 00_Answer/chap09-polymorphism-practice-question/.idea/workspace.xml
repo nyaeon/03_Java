@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f0339a-06bf-487f-835e-69d352a060bc" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20_JIJUNGHO/chap19-junit-lecture-source/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="74f0339a-06bf-487f-835e-69d352a060bc" name="Changes" comment="다형성 문제 풀기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/controller/LibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/controller/LibraryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/AniBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/AniBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/CookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/CookBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/model/dto/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/run/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/run/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/view/LibraryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/hw1/view/LibraryMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +61,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.chap09-polymorphism-practice-question [:Application.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap09-polymorphism-practice-question [:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.hw1.run.Application" />
@@ -129,11 +117,25 @@
       <workItem from="1744242978526" duration="448000" />
       <workItem from="1744625922351" duration="748000" />
       <workItem from="1744674439863" duration="880000" />
-      <workItem from="1744707776620" duration="2323000" />
+      <workItem from="1744707776620" duration="2452000" />
+      <workItem from="1744763008068" duration="4000" />
     </task>
+    <task id="LOCAL-00001" summary="다형성 문제 풀기">
+      <option name="closed" value="true" />
+      <created>1744710169794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744710169794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="다형성 문제 풀기" />
+    <option name="LAST_COMMIT_MESSAGE" value="다형성 문제 풀기" />
   </component>
 </project>
