@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
@@ -26,5 +28,31 @@ public class Application3 {
         // 5을 입력 받으면 1 2 3 2 1     -> 3
         // 7을 입력 받으면 1 2 3 4 3 2 1   -> 4
         // 9을 입력 받으면 1 2 3 4 5 4 3 2 1  -> 5
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("홀수인 양의 정수를 입력하세요 : ");
+        int num = sc.nextInt();
+
+        if(num % 2 == 1) {
+            int iarr[] = new int[num];
+            int mid = (int)(num / 2 + 1);
+            int cnt = 0;
+
+            for(int i = 0; i < mid; i++) {
+                iarr[i] = ++cnt;
+            }
+
+            for(int i = mid; i < iarr.length; i++) {
+                iarr[i] = --cnt;
+            }
+
+            for(int i = 0; i < iarr.length; i++) {
+                System.out.print(iarr[i] + " ");
+            }
+
+        } else {
+            System.out.println("양수 혹은 홀수만 입력해야 합니다.");
+        }
     }
+
 }

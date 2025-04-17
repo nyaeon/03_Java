@@ -1,10 +1,7 @@
 package com.ohgiraffers.section01.level02.normal;
 
-<<<<<<< HEAD
-=======
 import java.util.Scanner;
 
->>>>>>> a05cf710a3cd630516ec01ad7f300a5cd3f67d11
 public class Application2 {
 
     public static void main(String[] args) {
@@ -18,6 +15,21 @@ public class Application2 {
          * -- 출력 예시 --
          * 990101-1******
          */
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("주민등록번호를 입력하세요(- 포함) : ");
+        String str = sc.nextLine();
+
+        char[] chars = str.toCharArray();
+
+        for(int i = 0; i < chars.length; i++){
+
+            if(i >= 8){
+                chars[i] = '*';
+            }
+            System.out.print(chars[i]);
+        }
 
     }
 }
